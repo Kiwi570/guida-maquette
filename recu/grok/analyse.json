@@ -1,0 +1,698 @@
+{
+  "dossier": "/home/claude/guida-maquette/recu/grok",
+  "date": "2026-11-26T10:05:32.046Z",
+  "detection": "mesures sharp seulement",
+  "planches": [
+    "planche.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [],
+  "images": [
+    {
+      "fichier": "bureau-matin-mobile.jpg",
+      "nom": "bureau-matin-mobile",
+      "drapeau": null,
+      "largeur": 1320,
+      "hauteur": 2347,
+      "ratio": "9:16",
+      "ratio_valeur": 0.562,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 474667,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 53.1,
+        "l": 100,
+        "h": 46.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        75
+      ],
+      "cadrage_css": "53% 75%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.76,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.43,
+          "ton": "clair",
+          "recouvre_sujet": 0.47
+        },
+        {
+          "cote": "droite",
+          "score": 0.35,
+          "ton": "clair",
+          "recouvre_sujet": 0.47
+        },
+        {
+          "cote": "bas",
+          "score": 0.02,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 24,
+        "bruit": 0.58,
+        "compression": 0.98,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "97979d179c1af26c",
+      "drapeaux": [
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "bureau-matin.jpg",
+      "nom": "bureau-matin",
+      "drapeau": null,
+      "largeur": 1792,
+      "hauteur": 1008,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 318984,
+      "transparence": false,
+      "sujet": {
+        "x": 37.5,
+        "y": 5.6,
+        "l": 62.5,
+        "h": 94.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        72,
+        59
+      ],
+      "cadrage_css": "72% 59%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.82,
+          "ton": "clair",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "haut",
+          "score": 0.53,
+          "ton": "clair",
+          "recouvre_sujet": 0.53
+        },
+        {
+          "cote": "bas",
+          "score": 0.24,
+          "ton": "clair",
+          "recouvre_sujet": 0.63
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.94
+        }
+      ],
+      "qualite": {
+        "nettete": 20.4,
+        "bruit": 0.72,
+        "compression": 1.26,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "dbdfd2d0989ad8d3",
+      "drapeaux": [
+        "calme gauche"
+      ]
+    },
+    {
+      "fichier": "bureau-range.jpg",
+      "nom": "bureau-range",
+      "drapeau": null,
+      "largeur": 1728,
+      "hauteur": 1152,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 331279,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 0,
+        "l": 96.9,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        56,
+        52
+      ],
+      "cadrage_css": "56% 52%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.12,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0.1,
+          "ton": "moyen",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "haut",
+          "score": 0.09,
+          "ton": "clair",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "gauche",
+          "score": 0.02,
+          "ton": "moyen",
+          "recouvre_sujet": 0.88
+        }
+      ],
+      "qualite": {
+        "nettete": 21.6,
+        "bruit": 0.63,
+        "compression": 1.31,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "ee8eaead545e678f",
+      "drapeaux": []
+    },
+    {
+      "fichier": "carrefour-404.jpg",
+      "nom": "carrefour-404",
+      "drapeau": null,
+      "largeur": 1792,
+      "hauteur": 1008,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 498996,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 5.6,
+        "l": 96.9,
+        "h": 94.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        55,
+        58
+      ],
+      "cadrage_css": "55% 58%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.62,
+          "ton": "clair",
+          "recouvre_sujet": 0.81
+        },
+        {
+          "cote": "gauche",
+          "score": 0.2,
+          "ton": "clair",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.94
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        }
+      ],
+      "qualite": {
+        "nettete": 59.2,
+        "bruit": 1.37,
+        "compression": 1.02,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "c084e0c0c2a0b096",
+      "drapeaux": []
+    },
+    {
+      "fichier": "constellation-figurines.jpg",
+      "nom": "constellation-figurines",
+      "drapeau": null,
+      "largeur": 1728,
+      "hauteur": 1152,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 342561,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 4.5,
+        "l": 100,
+        "h": 81.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        42
+      ],
+      "cadrage_css": "48% 42%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.31,
+          "ton": "clair",
+          "recouvre_sujet": 0.61
+        },
+        {
+          "cote": "droite",
+          "score": 0.13,
+          "ton": "clair",
+          "recouvre_sujet": 0.82
+        },
+        {
+          "cote": "haut",
+          "score": 0.07,
+          "ton": "clair",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "gauche",
+          "score": 0.06,
+          "ton": "moyen",
+          "recouvre_sujet": 0.82
+        }
+      ],
+      "qualite": {
+        "nettete": 19,
+        "bruit": 0.65,
+        "compression": 1.16,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "f66b6362e4949c3c",
+      "drapeaux": []
+    },
+    {
+      "fichier": "pro-bureau.jpg",
+      "nom": "pro-bureau",
+      "drapeau": null,
+      "largeur": 1320,
+      "hauteur": 1980,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 422194,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 3.1,
+        "l": 95.5,
+        "h": 81.3,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        45
+      ],
+      "cadrage_css": "46% 45%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.3,
+          "ton": "moyen",
+          "recouvre_sujet": 0.53
+        },
+        {
+          "cote": "haut",
+          "score": 0.21,
+          "ton": "clair",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "droite",
+          "score": 0.15,
+          "ton": "moyen",
+          "recouvre_sujet": 0.72
+        },
+        {
+          "cote": "gauche",
+          "score": 0.12,
+          "ton": "clair",
+          "recouvre_sujet": 0.81
+        }
+      ],
+      "qualite": {
+        "nettete": 26.1,
+        "bruit": 0.77,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "c8b088889c2c4cdc",
+      "drapeaux": []
+    },
+    {
+      "fichier": "pro-equipe.jpg",
+      "nom": "pro-equipe",
+      "drapeau": null,
+      "largeur": 1728,
+      "hauteur": 1152,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 391493,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        49
+      ],
+      "cadrage_css": "51% 49%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.13,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.06,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0.06,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 27.1,
+        "bruit": 0.79,
+        "compression": 1.16,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "3b3a70b5f1f1fcf8",
+      "drapeaux": []
+    },
+    {
+      "fichier": "scolaire-devoirs.jpg",
+      "nom": "scolaire-devoirs",
+      "drapeau": null,
+      "largeur": 1320,
+      "hauteur": 1980,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 408343,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 3.1,
+        "l": 95.5,
+        "h": 90.6,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        45
+      ],
+      "cadrage_css": "51% 45%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.16,
+          "ton": "moyen",
+          "recouvre_sujet": 0.78
+        },
+        {
+          "cote": "droite",
+          "score": 0.06,
+          "ton": "clair",
+          "recouvre_sujet": 0.8
+        },
+        {
+          "cote": "gauche",
+          "score": 0.02,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "haut",
+          "score": 0.01,
+          "ton": "clair",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 19.6,
+        "bruit": 0.6,
+        "compression": 0.94,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "3898d8786c6616f0",
+      "drapeaux": []
+    },
+    {
+      "fichier": "scolaire-methode.jpg",
+      "nom": "scolaire-methode",
+      "drapeau": null,
+      "largeur": 1728,
+      "hauteur": 1152,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 445371,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 4.5,
+        "l": 96.9,
+        "h": 90.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        62
+      ],
+      "cadrage_css": "46% 62%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.09,
+          "ton": "clair",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "bas",
+          "score": 0.01,
+          "ton": "clair",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.84
+        }
+      ],
+      "qualite": {
+        "nettete": 30.2,
+        "bruit": 0.9,
+        "compression": 1.14,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "d0e264c2e9b9f1f9",
+      "drapeaux": []
+    },
+    {
+      "fichier": "vie-bottes.jpg",
+      "nom": "vie-bottes",
+      "drapeau": null,
+      "largeur": 1728,
+      "hauteur": 1152,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 596158,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 96.9,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        44
+      ],
+      "cadrage_css": "43% 44%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.1,
+          "ton": "clair",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.84
+        }
+      ],
+      "qualite": {
+        "nettete": 44.3,
+        "bruit": 1.51,
+        "compression": 0.99,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "434383c3cb87e29c",
+      "drapeaux": []
+    },
+    {
+      "fichier": "vie-chemin.jpg",
+      "nom": "vie-chemin",
+      "drapeau": null,
+      "largeur": 1320,
+      "hauteur": 1980,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 802648,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 3.1,
+        "l": 95.5,
+        "h": 96.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        53
+      ],
+      "cadrage_css": "50% 53%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.62,
+          "ton": "clair",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "gauche",
+          "score": 0.14,
+          "ton": "clair",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "droite",
+          "score": 0.08,
+          "ton": "moyen",
+          "recouvre_sujet": 0.86
+        },
+        {
+          "cote": "bas",
+          "score": 0.03,
+          "ton": "sombre",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 67.1,
+        "bruit": 1.59,
+        "compression": 0.97,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "303b34c089347253",
+      "drapeaux": []
+    }
+  ]
+}

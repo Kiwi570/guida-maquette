@@ -1,0 +1,9 @@
+{
+  "situations": ["Des difficultés relationnelles, des conflits familiaux ou de couple", "Des situations qui se répètent, l'impression de tourner en rond", "Du mal à trouver votre place, un manque de confiance", "Un sentiment de solitude ou un mal-être qui dure", "L'impression de porter un poids qui ne vous appartient pas", "Des questions sur votre famille ou vos relations"],
+  "etapes": [
+    { "titre": "Poser la situation", "texte": "Vous présentez votre situation et ce que vous souhaitez explorer." },
+    { "titre": "Lui donner une place", "texte": "La situation est mise en lumière à l'aide de supports et de représentations, posés dans l'espace." },
+    { "titre": "Observer autrement", "texte": "Les dynamiques à l'œuvre apparaissent, sous un angle différent." },
+    { "titre": "Ouvrir des possibilités", "texte": "De nouvelles pistes se dessinent : un autre regard, plus de clarté pour avancer." }
+  ]
+}

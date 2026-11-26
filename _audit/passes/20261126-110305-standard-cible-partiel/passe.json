@@ -1,0 +1,16 @@
+{
+ "id": "20261126-110305-standard-cible-partiel",
+ "date": "2026-11-26T11:03:52.927Z",
+ "niveau": "standard",
+ "pages": "/,/constellations",
+ "etapes": [
+  "fichiers",
+  "mesures"
+ ],
+ "version": "1",
+ "echecs": 1,
+ "aRegarder": 3,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "échecs"
+}

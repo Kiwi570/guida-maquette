@@ -1,0 +1,15 @@
+{
+  "nom": "Coaching Guida",
+  "adresse": "https://guida-maquette.vercel.app",
+  "siteActuel": "www.guida.be",
+  "version": 1,
+  "langues": ["fr"],
+  "navigation": ["accueil", "coaching", "constellations", "formations", "rendez-vous"],
+  "actionEntete": { "page": "rendez-vous" },
+  "couleurs": { "fond": "#F5F7F9", "texte": "#15233A", "voile": "#163A63", "ouverture": "#163A63", "menu": "#F5F7F9", "theme": "#F5F7F9" },
+  "formeVoile": "iris",
+  "contact": { "telephone": "0479 21 53 83", "telephoneLien": "+32479215383", "email": "info@guida.be", "adresse": "Rue de Hérédia 5, 4217 Héron (Belgique)" },
+  "polices": ["/assets/fonts/young-serif-400.woff2", "/assets/fonts/albert-sans-400.woff2"],
+  "imagePartage": "marieve-cercle-1200.webp",
+  "curseur": false
+}

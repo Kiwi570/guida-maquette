@@ -1,0 +1,13 @@
+[
+  { "titre": "Tutorat en entreprise", "public": "entreprises" },
+  { "titre": "Mieux manager et motiver son équipe", "public": "entreprises" },
+  { "titre": "Posture de coach", "public": "entreprises" },
+  { "titre": "Gestion de conflits", "public": "entreprises" },
+  { "titre": "Job coaching", "public": "entreprises" },
+  { "titre": "Assertivité", "public": "entreprises" },
+  { "titre": "Gestion de réunions", "public": "entreprises" },
+  { "titre": "Bilan d'orientation", "public": "ecoles" },
+  { "titre": "Aménagements raisonnables", "public": "ecoles" },
+  { "titre": "Coach de vie", "public": "accompagnants" },
+  { "titre": "Coach scolaire, à l'IFAPME", "public": "accompagnants" }
+]

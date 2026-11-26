@@ -1,0 +1,14 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Coaching Guida",
+  "url": "https://guida-maquette.vercel.app/",
+  "telephone": "+32479215383",
+  "email": "info@guida.be",
+  "vatID": "BE0830350385",
+  "founder": { "@type": "Person", "name": "Mariève Gérard", "jobTitle": "Coach" },
+  "address": { "@type": "PostalAddress", "streetAddress": "Rue de Hérédia 5", "postalCode": "4217", "addressLocality": "Héron", "addressCountry": "BE" },
+  "areaServed": "Belgique",
+  "sameAs": ["https://www.facebook.com/coaching.guida/", "https://www.instagram.com/marievegerard/", "https://www.tiktok.com/@marievegerardcoaching"],
+  "description": "Coaching professionnel, coaching de vie, coaching scolaire, constellations familiales et systémiques, formations et ateliers, par Mariève Gérard à Héron."
+}

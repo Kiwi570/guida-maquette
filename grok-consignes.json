@@ -1,0 +1,165 @@
+{
+  "client": "Coaching Guida",
+  "activite": "bien-être",
+  "direction": "Le cercle",
+  "date": "2026-11-26T09:55:23.455Z",
+  "images": [
+    {
+      "nom": "pro-bureau",
+      "fichier": "pro-bureau.jpg",
+      "page": "coaching",
+      "emplacement": "Accueil, carte Coaching professionnel ; page Coaching, cercle « Professionnel »",
+      "role": "carte-service",
+      "format": "3:4",
+      "grok": "784×1168",
+      "priorite": "indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [
+        "texte parasite",
+        "visages"
+      ],
+      "consigne": "A person in a light blue shirt seen from behind, sitting at a light oak desk in front of a large window that looks out over green rolling countryside with hedgerows, an open notebook and a cup of coffee on the desk, calm and focused, plenty of daylight. Vertical composition, aspect ratio 3:4, main subject well inside the central area with generous margins on every side, so the image can be cropped. Soft natural documentary photography, bright, airy, reassuring and warm mood, palette of soft sky blue, white, pale blue-grey, light oak wood and a small touch of warm apricot, soft natural morning daylight, tactile light oak wood, linen, paper and a few green plants, set in the rolling countryside of Wallonia in Belgium (open fields, hedgerows, small brick farmhouses, low hills) on a mild clear morning in early autumn, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. Pages completely blank, blank book spines, abstract unreadable marks, plain unmarked surfaces, dials with tick marks only and no numbers. Seen strictly from behind, face never visible, head turned away, or cropped at the shoulders. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "vie-chemin",
+      "fichier": "vie-chemin.jpg",
+      "page": "coaching",
+      "emplacement": "Accueil, carte Coaching de vie ; page Coaching, cercle « De vie »",
+      "role": "carte-service",
+      "format": "3:4",
+      "grok": "784×1168",
+      "priorite": "indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [
+        "visages"
+      ],
+      "consigne": "A woman in a mustard wool coat seen from behind, walking alone on a grass path between open fields and hedgerows, light morning mist, two small brick farmhouses far away, the path rising gently toward a bright sky. Vertical composition, aspect ratio 3:4, main subject well inside the central area with generous margins on every side, so the image can be cropped. Soft natural documentary photography, bright, airy, reassuring and warm mood, palette of soft sky blue, white, pale blue-grey, light oak wood and a small touch of warm apricot, soft natural morning daylight, tactile light oak wood, linen, paper and a few green plants, set in the rolling countryside of Wallonia in Belgium (open fields, hedgerows, small brick farmhouses, low hills) on a mild clear morning in early autumn, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. Seen strictly from behind, face never visible, head turned away, or cropped at the shoulders. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "scolaire-devoirs",
+      "fichier": "scolaire-devoirs.jpg",
+      "page": "coaching",
+      "emplacement": "Accueil, carte Coaching scolaire ; page Coaching, cercle « Scolaire »",
+      "role": "carte-service",
+      "format": "3:4",
+      "grok": "784×1168",
+      "priorite": "indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [
+        "mains en trop",
+        "texte parasite"
+      ],
+      "consigne": "Close-up of a teenager's two hands writing in an open school notebook with colorful highlighters, a weekly planner with colored blocks beside it, on a light wooden kitchen table near a window, face not visible, no readable text. Vertical composition, aspect ratio 3:4, main subject well inside the central area with generous margins on every side, so the image can be cropped. Soft natural documentary photography, bright, airy, reassuring and warm mood, palette of soft sky blue, white, pale blue-grey, light oak wood and a small touch of warm apricot, soft natural morning daylight, tactile light oak wood, linen, paper and a few green plants, set in the rolling countryside of Wallonia in Belgium (open fields, hedgerows, small brick farmhouses, low hills) on a mild clear morning in early autumn, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. Only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame. Pages completely blank, blank book spines, abstract unreadable marks, plain unmarked surfaces, dials with tick marks only and no numbers. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "pro-equipe",
+      "fichier": "pro-equipe.jpg",
+      "page": "coaching",
+      "emplacement": "Page Coaching, volet Professionnel (chefs d'entreprise et équipes)",
+      "role": "galerie",
+      "format": "4:3",
+      "grok": "1168×784",
+      "priorite": "indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "A light wooden meeting table seen from slightly above just after a workshop, covered with colorful sticky notes and a large paper sheet with a simple hand-drawn diagram of circles and arrows, a few coffee cups, chairs pushed back, bright room with a large window, nobody in the frame, no readable text. Horizontal composition, aspect ratio 4:3, main subject well inside the central area with generous margins on every side, so the image can be cropped. Soft natural documentary photography, bright, airy, reassuring and warm mood, palette of soft sky blue, white, pale blue-grey, light oak wood and a small touch of warm apricot, soft natural morning daylight, tactile light oak wood, linen, paper and a few green plants, set in the rolling countryside of Wallonia in Belgium (open fields, hedgerows, small brick farmhouses, low hills) on a mild clear morning in early autumn, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "vie-bottes",
+      "fichier": "vie-bottes.jpg",
+      "page": "coaching",
+      "emplacement": "Page Coaching, volet De vie (guidance parentale)",
+      "role": "galerie",
+      "format": "4:3",
+      "grok": "1168×784",
+      "priorite": "indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "Two pairs of rubber boots standing side by side on the stone doorstep of a brick country house, one pair adult size and one small pair, a few fallen autumn leaves around them, warm late afternoon light, the door slightly open, nobody in the frame. Horizontal composition, aspect ratio 4:3, main subject well inside the central area with generous margins on every side, so the image can be cropped. Soft natural documentary photography, bright, airy, reassuring and warm mood, palette of soft sky blue, white, pale blue-grey, light oak wood and a small touch of warm apricot, soft natural morning daylight, tactile light oak wood, linen, paper and a few green plants, set in the rolling countryside of Wallonia in Belgium (open fields, hedgerows, small brick farmhouses, low hills) on a mild clear morning in early autumn, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "scolaire-methode",
+      "fichier": "scolaire-methode.jpg",
+      "page": "coaching",
+      "emplacement": "Page Coaching, volet Scolaire (méthodes de travail)",
+      "role": "galerie",
+      "format": "4:3",
+      "grok": "1168×784",
+      "priorite": "conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [
+        "texte parasite"
+      ],
+      "consigne": "A tidy study desk seen from directly above: a planner with colored time blocks, a mind map drawn with colored pens on a large sheet, a small stack of flash cards, a ruler, a pencil case and a small green plant, no readable text. Horizontal composition, aspect ratio 4:3, main subject well inside the central area with generous margins on every side, so the image can be cropped. Soft natural documentary photography, bright, airy, reassuring and warm mood, palette of soft sky blue, white, pale blue-grey, light oak wood and a small touch of warm apricot, soft natural morning daylight, tactile light oak wood, linen, paper and a few green plants, set in the rolling countryside of Wallonia in Belgium (open fields, hedgerows, small brick farmhouses, low hills) on a mild clear morning in early autumn, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. Pages completely blank, blank book spines, abstract unreadable marks, plain unmarked surfaces, dials with tick marks only and no numbers. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "bureau-matin",
+      "fichier": "bureau-matin.jpg",
+      "page": "accueil",
+      "emplacement": "Accueil, image qui s'ouvre en plein écran derrière la citation (ordinateur)",
+      "role": "section-fond",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [
+        "texte parasite"
+      ],
+      "consigne": "A quiet desk by a large window at sunrise: an open notebook with a pencil, a cup of tea with a thin line of steam, a small plant; outside, misty fields and a soft pale blue and apricot sky; the left half of the image is calm and simple (wall and soft light). Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Soft natural documentary photography, bright, airy, reassuring and warm mood, palette of soft sky blue, white, pale blue-grey, light oak wood and a small touch of warm apricot, soft natural morning daylight, tactile light oak wood, linen, paper and a few green plants, set in the rolling countryside of Wallonia in Belgium (open fields, hedgerows, small brick farmhouses, low hills) on a mild clear morning in early autumn, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. Pages completely blank, blank book spines, abstract unreadable marks, plain unmarked surfaces, dials with tick marks only and no numbers. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "bureau-matin",
+      "fichier": "bureau-matin-mobile.jpg",
+      "page": "accueil",
+      "emplacement": "Accueil, image qui s'ouvre en plein écran derrière la citation (téléphone)",
+      "role": "section-fond",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [
+        "texte parasite"
+      ],
+      "consigne": "A quiet desk by a large window at sunrise: an open notebook with a pencil, a cup of tea with a thin line of steam, a small plant; outside, misty fields and a soft pale blue and apricot sky; the left half of the image is calm and simple (wall and soft light). Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, bright, airy, reassuring and warm mood, palette of soft sky blue, white, pale blue-grey, light oak wood and a small touch of warm apricot, soft natural morning daylight, tactile light oak wood, linen, paper and a few green plants, set in the rolling countryside of Wallonia in Belgium (open fields, hedgerows, small brick farmhouses, low hills) on a mild clear morning in early autumn, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. Pages completely blank, blank book spines, abstract unreadable marks, plain unmarked surfaces, dials with tick marks only and no numbers. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "constellation-figurines",
+      "fichier": "constellation-figurines.jpg",
+      "page": "constellations",
+      "emplacement": "Page Constellations, « De quoi s'agit-il ? »",
+      "role": "galerie",
+      "format": "4:3",
+      "grok": "1168×784",
+      "priorite": "indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "Small plain unpainted wooden peg figurines of different heights standing in a loose circle on a pale oak floor, some facing each other, soft daylight from a window, a sheet of white paper and a pencil at the edge, minimal and calm. Horizontal composition, aspect ratio 4:3, main subject well inside the central area with generous margins on every side, so the image can be cropped. Soft natural documentary photography, bright, airy, reassuring and warm mood, palette of soft sky blue, white, pale blue-grey, light oak wood and a small touch of warm apricot, soft natural morning daylight, tactile light oak wood, linen, paper and a few green plants, set in the rolling countryside of Wallonia in Belgium (open fields, hedgerows, small brick farmhouses, low hills) on a mild clear morning in early autumn, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "bureau-range",
+      "fichier": "bureau-range.jpg",
+      "page": "coaching",
+      "emplacement": "Page Coaching, volet Professionnel, encadré Office organising",
+      "role": "vignette",
+      "format": "4:3",
+      "grok": "1168×784",
+      "priorite": "conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "A bright small home office after decluttering: open white shelves with plain kraft storage boxes, folders standing upright, a clear light oak desk with only a lamp and a plant, calm and orderly, no readable text. Horizontal composition, aspect ratio 4:3, main subject well inside the central area with generous margins on every side, so the image can be cropped. Soft natural documentary photography, bright, airy, reassuring and warm mood, palette of soft sky blue, white, pale blue-grey, light oak wood and a small touch of warm apricot, soft natural morning daylight, tactile light oak wood, linen, paper and a few green plants, set in the rolling countryside of Wallonia in Belgium (open fields, hedgerows, small brick farmhouses, low hills) on a mild clear morning in early autumn, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "carrefour-404",
+      "fichier": "carrefour-404.jpg",
+      "page": "404",
+      "emplacement": "Page 404, image en tête",
+      "role": "404",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "conseillée",
+      "gabarit": "404",
+      "pieges": [],
+      "consigne": "A simple wooden signpost with two blank arrow boards at a fork of two grass paths in the countryside, light morning mist, hedgerows, soft daylight, calm area on the left. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Soft natural documentary photography, bright, airy, reassuring and warm mood, palette of soft sky blue, white, pale blue-grey, light oak wood and a small touch of warm apricot, soft natural morning daylight, tactile light oak wood, linen, paper and a few green plants, set in the rolling countryside of Wallonia in Belgium (open fields, hedgerows, small brick farmhouses, low hills) on a mild clear morning in early autumn, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    }
+  ]
+}

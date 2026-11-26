@@ -1,0 +1,6 @@
+{
+  "siteActuel": "www.guida.be",
+  "pagesTypes": ["/", "/coaching", "/constellations", "/formations", "/rendez-vous"],
+  "effets": ["cercle-portrait", "rond-qui-se-pose", "frise-parcours", "trois-cercles", "arche", "points-en-cercle", "bandeau-grange", "cercle-rdv"],
+  "grille": { "dispenses": {} }
+}

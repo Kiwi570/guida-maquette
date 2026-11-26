@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><title>Guida : trois directions</title>
+<style>
+@font-face{font-family:"Young Serif";src:url(/home/claude/polices/young-serif/files/young-serif-latin-400-normal.woff2)}
+@font-face{font-family:"Albert Sans";font-weight:400;src:url(/home/claude/polices/albert-sans/files/albert-sans-latin-400-normal.woff2)}
+@font-face{font-family:"Albert Sans";font-weight:600;src:url(/home/claude/polices/albert-sans/files/albert-sans-latin-600-normal.woff2)}
+@font-face{font-family:"Gabarito";font-weight:800;src:url(/home/claude/polices/gabarito/files/gabarito-latin-800-normal.woff2)}
+@font-face{font-family:"Gabarito";font-weight:600;src:url(/home/claude/polices/gabarito/files/gabarito-latin-600-normal.woff2)}
+@font-face{font-family:"Public Sans";font-weight:400;src:url(/home/claude/polices/public-sans/files/public-sans-latin-400-normal.woff2)}
+@font-face{font-family:"Public Sans";font-weight:600;src:url(/home/claude/polices/public-sans/files/public-sans-latin-600-normal.woff2)}
+@font-face{font-family:"Caveat";font-weight:600;src:url(/home/claude/polices/caveat/files/caveat-latin-600-normal.woff2)}
+@font-face{font-family:"Spectral";font-weight:300;src:url(/home/claude/polices/spectral/files/spectral-latin-300-normal.woff2)}
+@font-face{font-family:"Spectral";font-weight:300;font-style:italic;src:url(/home/claude/polices/spectral/files/spectral-latin-300-italic.woff2)}
+@font-face{font-family:"Karla";font-weight:400;src:url(/home/claude/polices/karla/files/karla-latin-400-normal.woff2)}
+@font-face{font-family:"Karla";font-weight:600;src:url(/home/claude/polices/karla/files/karla-latin-600-normal.woff2)}
+*{box-sizing:border-box;margin:0}
+body{font-family:"Albert Sans",sans-serif;background:#e9e9e6;color:#1c1c1c;width:1920px;padding:28px}
+h1{font:600 26px "Albert Sans";margin-bottom:4px}
+.sous{color:#555;font-size:15px;margin-bottom:20px}
+.grille{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.col{background:#fff;border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+.tete{padding:18px 22px 14px}
+.tete b{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#777}
+.tete h2{font:600 24px "Albert Sans";margin:4px 0 6px}
+.tete p{font-size:14.5px;line-height:1.45;color:#333}
+.reco{display:inline-block;background:#1f5fa6;color:#fff;font-size:12px;padding:3px 9px;border-radius:99px;margin-left:8px;vertical-align:middle}
+.mock{height:360px;position:relative;overflow:hidden}
+.bloc{padding:14px 22px;border-top:1px solid #eee;font-size:14px;line-height:1.45}
+.bloc h3{font:600 12px "Albert Sans";letter-spacing:.08em;text-transform:uppercase;color:#888;margin-bottom:8px}
+.pal{display:flex;gap:8px}
+.pal div{flex:1;border-radius:8px;height:62px;padding:6px;font-size:11px;display:flex;flex-direction:column;justify-content:flex-end;border:1px solid rgba(0,0,0,.08)}
+ul{padding-left:18px}
+li{margin:2px 0}
+.lg{font-size:13px;color:#666}
+
+/* A : le cercle */
+.mA{background:#F5F7F9;color:#15233A}
+.mA .logo{position:absolute;left:26px;top:18px;height:34px}
+.mA .nav{position:absolute;right:24px;top:24px;font-size:12px;display:flex;gap:14px;align-items:center}
+.mA .nav span:last-child{background:#2366B0;color:#fff;padding:6px 10px;border-radius:99px}
+.mA h4{position:absolute;left:26px;top:92px;width:300px;font:400 38px/1.08 "Young Serif";letter-spacing:-.01em}
+.mA h4 em{font-style:normal;color:#2366B0}
+.mA .txt{position:absolute;left:26px;top:236px;width:270px;font-size:12.5px;line-height:1.45;color:#3c4a5e}
+.mA .btn{position:absolute;left:26px;top:298px;background:#2366B0;color:#fff;font-size:12px;padding:8px 14px;border-radius:99px}
+.mA .info{position:absolute;left:178px;top:304px;font-size:11px;color:#3c4a5e}
+.mA .cercle{position:absolute;right:30px;top:70px;width:250px;height:250px;border-radius:50%;overflow:hidden;box-shadow:0 0 0 10px #E3EEF8}
+.mA .cercle img{width:100%;height:100%;object-fit:cover;object-position:50% 20%}
+.mA .halo{position:absolute;right:6px;top:46px;width:298px;height:298px;border-radius:50%;border:1.5px solid #8FBCEB}
+.mA .p{position:absolute;width:14px;height:14px;border-radius:50%}
+.mA .fleche{position:absolute;right:20px;top:270px;width:70px;height:70px;border-radius:50%;background:#2366B0;color:#fff;display:grid;place-items:center;font-size:30px}
+
+/* B : le carnet */
+.mB{background:#FBFAF6;color:#1C2A4A;background-image:linear-gradient(#e7ecf5 1px,transparent 1px),linear-gradient(90deg,#e7ecf5 1px,transparent 1px);background-size:22px 22px}
+.mB .logo{position:absolute;left:26px;top:18px;height:34px}
+.mB h4{position:absolute;left:26px;top:86px;width:330px;font:800 40px/1.02 "Gabarito";letter-spacing:-.02em}
+.mB mark{background:linear-gradient(transparent 52%,#FFD66B 52% 92%,transparent 92%);color:inherit;padding:0 3px}
+.mB .note{position:absolute;left:250px;top:62px;font:600 21px "Caveat";color:#2F5FB3;transform:rotate(-5deg)}
+.mB .txt{position:absolute;left:26px;top:234px;width:300px;font:400 12.5px/1.45 "Public Sans";color:#3b4660}
+.mB .btn{position:absolute;left:26px;top:298px;background:#2F5FB3;color:#fff;font:600 12px "Public Sans";padding:8px 14px;border-radius:6px}
+.mB .photo{position:absolute;right:34px;top:54px;width:200px;height:260px;background:#fff;padding:8px 8px 30px;transform:rotate(3deg);box-shadow:0 8px 20px rgba(0,0,0,.12)}
+.mB .photo img{width:100%;height:100%;object-fit:cover}
+.mB .photo i{position:absolute;bottom:6px;left:12px;font:600 16px "Caveat";color:#1C2A4A;font-style:normal}
+.mB .onglets{position:absolute;right:0;top:80px;display:flex;flex-direction:column;gap:6px}
+.mB .onglets span{display:block;font:600 11px "Public Sans";padding:7px 10px 7px 12px;border-radius:6px 0 0 6px;color:#1C2A4A}
+
+/* C : constellation */
+.mC{background:#121D33;color:#F7F0EC}
+.mC .logo{position:absolute;left:26px;top:18px;height:34px;filter:brightness(1.6)}
+.mC h4{position:absolute;left:26px;top:96px;width:330px;font:300 42px/1.05 "Spectral"}
+.mC h4 em{font-style:italic;color:#D9A54B}
+.mC .txt{position:absolute;left:26px;top:238px;width:280px;font:400 12.5px/1.45 "Karla";color:#cbd2de}
+.mC .btn{position:absolute;left:26px;top:300px;background:#D9A54B;color:#121D33;font:600 12px "Karla";padding:8px 14px;border-radius:99px}
+.mC svg{position:absolute;right:10px;top:30px}
+.mC .port{position:absolute;right:120px;top:120px;width:120px;height:120px;border-radius:50%;overflow:hidden;border:2px solid #D9A54B}
+.mC .port img{width:100%;height:100%;object-fit:cover;object-position:50% 18%}
+.mC .aube{position:absolute;left:0;right:0;bottom:0;height:34px;background:linear-gradient(#121D33,#F7F0EC)}
+.photos{display:flex;gap:6px}
+.photos img{height:70px;border-radius:6px;object-fit:cover;width:70px}
+</style></head><body>
+<h1>Coaching Guida · trois directions pour la maquette</h1>
+<p class="sous">Toutes partent du bleu du logo, des vrais portraits de Mariève et de ses vrais lieux (salle des constellations, cabinet, grange des formations). Mêmes pages, même contenu : seul le style change.</p>
+<div class="grille">
+
+<section class="col">
+  <div class="tete"><b>Direction A</b><span class="reco">Recommandée</span><h2>Le cercle</h2>
+  <p>Claire, lumineuse, rassurante. Le cercle est partout chez Guida : le rond bleu du logo, les chaises en cercle et les figurines posées au sol de la salle des constellations. Il revient avec mesure : le portrait de Mariève dans le cercle, le voile de transition qui s'ouvre en cercle, un rond qui se pose sur la situation que vous choisissez.</p></div>
+  <div class="mock mA">
+    <img class="logo" src="logo-clair.png" alt="">
+    <div class="nav"><span>Coaching</span><span>Constellations</span><span>Formations</span><span>Prendre rendez-vous</span></div>
+    <h4>Retrouver ce qui est <em>juste</em> pour vous.</h4>
+    <p class="txt">Coaching professionnel, de vie et scolaire, constellations familiales. Mariève Gérard, à Héron, depuis 1996.</p>
+    <span class="btn">Prendre rendez-vous</span><span class="info">Un premier échange de quelques minutes</span>
+    <div class="halo"></div>
+    <div class="cercle"><img src="gerard-marieve-guida.jpg" alt=""></div>
+    <i class="p" style="right:300px;top:84px;background:#8FBCEB"></i>
+    <i class="p" style="right:18px;top:120px;background:#F2A65A"></i>
+    
+    <div class="fleche">↗</div>
+  </div>
+  <div class="bloc"><h3>Palette</h3><div class="pal">
+    <div style="background:#F5F7F9">Fond<br>#F5F7F9</div>
+    <div style="background:#E3EEF8">Second fond<br>#E3EEF8</div>
+    <div style="background:#2366B0;color:#fff">Accent<br>#2366B0 · 5,8:1</div>
+    <div style="background:#163A63;color:#fff">Bandes<br>#163A63</div>
+    <div style="background:#8FBCEB">Rond du logo<br>#8FBCEB</div>
+  </div></div>
+  <div class="bloc"><h3>Typographie</h3><span style="font:400 26px 'Young Serif'">Young Serif</span> pour les titres, chaleureuse, ronde · <b>Albert Sans</b> pour le texte, nette et lisible.</div>
+  <div class="bloc"><h3>Accueil (9 écrans)</h3><ul>
+    <li>Ouverture : grand titre, portrait dans le cercle du logo, la flèche du logo qui « guide »</li>
+    <li>« De quoi avez-vous besoin aujourd'hui ? » : les 5 situations de son site, un rond se pose sur la vôtre et ouvre le bon accompagnement</li>
+    <li>Les accompagnements en grandes cartes photo · Qui suis-je et parcours (1996, Sénégal, IFAPME) · son approche, mot à mot · la salle des constellations qui s'ouvre en plein écran · écoles et entreprises · appel final</li></ul></div>
+  <div class="bloc"><h3>Animations</h3>Le portrait qui entre dans le cercle à l'ouverture, ronds qui se dessinent autour des mots clés, cartes qui arrivent l'une après l'autre, frise du parcours qui se trace, photos en parallaxe, voile en iris. <span class="lg">Niveau visé : Fit-Tri et Nolanis (clair, net, un seul système).</span></div>
+  <div class="bloc"><h3>Vraies photos mises en avant</h3><div class="photos"><img src="gerard-marieve-guida.jpg"><img src="comment-se-deroule-constellation.jpg"><img src="guida-2.jpg"><img src="formations.jpg"><img src="guida.jpg"></div></div>
+</section>
+
+<section class="col">
+  <div class="tete"><b>Direction B</b><h2>Le carnet de méthode</h2>
+  <p>Plus ludique et énergique, tournée vers l'élève et la méthode de travail (son métier de logopède, l'IFAPME). Papier quadrillé, bleu stylo du logo, surligneur qui passe sur les mots clés, petites notes manuscrites dans la marge, onglets de classeur pour les trois coachings.</p></div>
+  <div class="mock mB">
+    <img class="logo" src="logo-clair.png" alt="">
+    <span class="note">depuis 1996 !</span>
+    <h4>Avancer avec une <mark>méthode</mark> qui vous ressemble.</h4>
+    <p class="txt">Coaching scolaire, professionnel et de vie, constellations familiales. Mariève Gérard, coach et logopède, à Héron.</p>
+    <span class="btn">Prendre rendez-vous</span>
+    <div class="photo"><img src="coaching-scolaire-2.jpg" alt=""><i>« des mots doux »</i></div>
+    <div class="onglets"><span style="background:#FFD66B">Scolaire</span><span style="background:#BFD6F2">Professionnel</span><span style="background:#F6C3AE">De vie</span></div>
+  </div>
+  <div class="bloc"><h3>Palette</h3><div class="pal">
+    <div style="background:#FBFAF6">Papier<br>#FBFAF6</div>
+    <div style="background:#F1F4F9">Quadrillage<br>#F1F4F9</div>
+    <div style="background:#2F5FB3;color:#fff">Stylo bleu<br>#2F5FB3 · 6,2:1</div>
+    <div style="background:#FFD66B">Surligneur<br>#FFD66B</div>
+    <div style="background:#1C2A4A;color:#fff">Encre<br>#1C2A4A</div>
+  </div></div>
+  <div class="bloc"><h3>Typographie</h3><span style="font:800 26px 'Gabarito'">Gabarito</span> pour les titres, ronde et franche · <b style="font-family:'Public Sans'">Public Sans</b> pour le texte · <span style="font:600 22px Caveat;color:#2F5FB3">Caveat</span> pour les notes.</div>
+  <div class="bloc"><h3>Accueil (9 écrans)</h3><ul>
+    <li>Ouverture : titre surligné, photo épinglée (le bocal « mots doux »), onglets des trois coachings</li>
+    <li>Les 5 situations en post-it à cocher · les accompagnements en onglets de classeur · Qui suis-je en fiche annotée · la méthode en 4 étapes qui se coche · formations en fiches · appel final</li></ul></div>
+  <div class="bloc"><h3>Animations</h3>Surligneur qui passe au défilement, notes qui s'écrivent dans la marge, post-it qui se posent, onglets qui s'ouvrent, coches qui se tracent. <span class="lg">Niveau visé : Cool Canyoning (plat, joyeux, utile).</span> <span class="lg">Risque : un ton un peu jeune pour les entreprises.</span></div>
+  <div class="bloc"><h3>Vraies photos mises en avant</h3><div class="photos"><img src="coaching-scolaire-2.jpg"><img src="guida-2.jpg"><img src="gerard-marieve-guida-2.jpg"><img src="formations.jpg"></div></div>
+</section>
+
+<section class="col">
+  <div class="tete"><b>Direction C</b><h2>Constellation</h2>
+  <p>Plus intime et introspective. L'accueil s'ouvre de nuit : des points, comme les membres d'une famille, cherchent leur place et se relient en cercle autour du portrait de Mariève ; en descendant, la nuit s'éclaircit jusqu'à l'aube, et tout le reste du site est clair. Portraits en noir et blanc, or doux.</p></div>
+  <div class="mock mC">
+    <img class="logo" src="logo-clair.png" alt="">
+    <h4>Trouver sa <em>place</em>, retrouver son élan.</h4>
+    <p class="txt">Coaching professionnel, de vie et scolaire, constellations familiales et systémiques. Mariève Gérard, à Héron.</p>
+    <span class="btn">Prendre rendez-vous</span>
+    <svg width="300" height="300" viewBox="0 0 300 300" aria-hidden="true">
+      <g stroke="#D9A54B" stroke-opacity=".5" fill="none"><circle cx="150" cy="150" r="118"/><path d="M150 32 L252 92 L250 210 L150 268 L48 208 L50 90 Z"/></g>
+      <g fill="#F7F0EC"><circle cx="150" cy="32" r="5"/><circle cx="252" cy="92" r="4"/><circle cx="250" cy="210" r="6"/><circle cx="150" cy="268" r="4"/><circle cx="48" cy="208" r="5"/><circle cx="50" cy="90" r="4"/></g>
+      <g fill="#8FBCEB" opacity=".7"><circle cx="20" cy="30" r="1.5"/><circle cx="280" cy="20" r="1.5"/><circle cx="270" cy="280" r="1.5"/><circle cx="12" cy="260" r="1.5"/></g>
+    </svg>
+    <div class="port"><img src="gerard-marieve-guida-2.jpg" alt=""></div>
+    <div class="aube"></div>
+  </div>
+  <div class="bloc"><h3>Palette</h3><div class="pal">
+    <div style="background:#F7F0EC">Aube (fond)<br>#F7F0EC</div>
+    <div style="background:#121D33;color:#fff">Nuit<br>#121D33</div>
+    <div style="background:#D9A54B">Or doux<br>#D9A54B · 7,6:1 sur nuit</div>
+    <div style="background:#2366B0;color:#fff">Bleu Guida<br>#2366B0</div>
+    <div style="background:#8FBCEB">Ciel<br>#8FBCEB</div>
+  </div></div>
+  <div class="bloc"><h3>Typographie</h3><span style="font:300 28px Spectral">Spectral <i>italique</i></span> pour les titres, fine et littéraire · <b style="font-family:Karla">Karla</b> pour le texte.</div>
+  <div class="bloc"><h3>Accueil (9 écrans)</h3><ul>
+    <li>Ouverture de nuit : les points se placent en cercle autour du portrait</li>
+    <li>La nuit s'éclaircit au défilement · les situations · les accompagnements · la salle des constellations · Qui suis-je · formations · appel final de nuit</li></ul></div>
+  <div class="bloc"><h3>Animations</h3>Constellation en canvas qui réagit au pointeur, fond qui passe de la nuit à l'aube, titres en italique qui arrivent ligne à ligne, portraits qui se révèlent. <span class="lg">Niveau visé : Les Plus Hautes Eaux (atmosphère) avec un site majoritairement clair.</span> <span class="lg">Risque : plus « spirituel », moins concret pour le scolaire et l'entreprise.</span></div>
+  <div class="bloc"><h3>Vraies photos mises en avant</h3><div class="photos"><img src="gerard-marieve-guida-2.jpg"><img src="comment-se-deroule-constellation.jpg"><img src="gerard-marieve-guida.jpg"><img src="formations.jpg"></div></div>
+</section>
+</div>
+</body></html>

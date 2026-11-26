@@ -1,0 +1,250 @@
+{
+ "explication": "Maquettes favorites de l'utilisateur : le niveau et le style visés, sur l'accueil ET les pages intérieures. Jamais à copier (ni leur idée, ni leur mise en page) : même harmonie, même fluidité, même soin.",
+ "activite": [
+  "bien-être"
+ ],
+ "metier": "coach de vie coaching scolaire",
+ "besoin": [],
+ "ton": [
+  "doux"
+ ],
+ "univers": [],
+ "ambiance": [],
+ "concept": [],
+ "depot": "guida-maquette",
+ "favorites_dans_la_bibliotheque": 22,
+ "favorites": [
+  {
+   "rang": 1,
+   "maquette": "efficience-triathlon-maquette",
+   "client": "coach de triathlon, tests d'effort lactate et stages",
+   "metier": "coach de triathlon",
+   "pourquoi": "Coach de triathlon : bleu nuit et orange, capitales, chiffres de course.",
+   "proche": [
+    "même métier"
+   ],
+   "lumiere": "sombre",
+   "note_maquette": 88,
+   "en_ligne": "https://efficience-triathlon-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "efficience-triathlon-maquette/top",
+     "note_section": 4,
+     "titre": "Héros vidéo sous ondes",
+     "capture": "medias/efficience-triathlon-maquette/top-p1440.jpg",
+     "video": "medias/efficience-triathlon-maquette/top-p720.mp4",
+     "fiche": "sections/efficience-triathlon-maquette/top.json",
+     "en_ligne": "https://efficience-triathlon-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "outil-interactif",
+     "id": "efficience-triathlon-maquette/science",
+     "note_section": 5,
+     "titre": "Courbe interactive à curseur",
+     "capture": "medias/efficience-triathlon-maquette/science-p1440.jpg",
+     "video": "medias/efficience-triathlon-maquette/science-p720.mp4",
+     "fiche": "sections/efficience-triathlon-maquette/science.json",
+     "en_ligne": "https://efficience-triathlon-maquette.vercel.app"
+    },
+    {
+     "page": "stage-triathlon-montagne",
+     "role": "ouverture",
+     "id": "efficience-triathlon-maquette/stage-triathlon-montagne-top",
+     "note_section": 4,
+     "titre": "Héros à profil d'altitude",
+     "capture": "medias/efficience-triathlon-maquette/stage-triathlon-montagne-top-p1440.jpg",
+     "video": "medias/efficience-triathlon-maquette/stage-triathlon-montagne-top-p720.mp4",
+     "fiche": "sections/efficience-triathlon-maquette/stage-triathlon-montagne-top.json",
+     "en_ligne": "https://efficience-triathlon-maquette.vercel.app/stage-triathlon-montagne"
+    },
+    {
+     "page": "test-effort",
+     "role": "étapes",
+     "id": "efficience-triathlon-maquette/test-effort-protocole",
+     "note_section": 4,
+     "titre": "Protocole épinglé palier par palier",
+     "capture": "medias/efficience-triathlon-maquette/test-effort-protocole-p1440.jpg",
+     "video": "medias/efficience-triathlon-maquette/test-effort-protocole-p720.mp4",
+     "fiche": "sections/efficience-triathlon-maquette/test-effort-protocole.json",
+     "en_ligne": "https://efficience-triathlon-maquette.vercel.app/test-effort"
+    }
+   ]
+  },
+  {
+   "rang": 2,
+   "maquette": "fit-tri-maquette",
+   "client": "coach de triathlon diplômé (Michael Lecuivre, « Coach Mika ») : plans d'entraînement à distance, coaching 1-to-1, stages dans les Pyrénées, club FIT-TRI-TEAM, outils gratuits et blog",
+   "metier": "coach de triathlon",
+   "pourquoi": "Coach de triathlon : gris clair, bleu nuit et vert citron, capitales condensées, un seul système sur les douze pages, outils utiles.",
+   "proche": [
+    "même métier"
+   ],
+   "lumiere": "mixte",
+   "note_maquette": 82,
+   "en_ligne": "https://fit-tri-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "fit-tri-maquette/hero",
+     "note_section": 4,
+     "titre": "Des plans fondés sur la science, un coach qui vous connaît",
+     "capture": "medias/fit-tri-maquette/hero-p1440.jpg",
+     "video": "medias/fit-tri-maquette/hero-p720.mp4",
+     "fiche": "sections/fit-tri-maquette/hero.json",
+     "en_ligne": "https://fit-tri-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "tarifs",
+     "id": "fit-tri-maquette/band-nuit",
+     "note_section": 4,
+     "titre": "Les formulesTrois niveaux d’accompagnement, un même sérieux",
+     "capture": "medias/fit-tri-maquette/band-nuit-p1440.jpg",
+     "video": null,
+     "fiche": "sections/fit-tri-maquette/band-nuit.json",
+     "en_ligne": "https://fit-tri-maquette.vercel.app"
+    },
+    {
+     "page": "club",
+     "role": "ouverture",
+     "id": "fit-tri-maquette/club-page-intro",
+     "note_section": 4,
+     "titre": "Faites partie d’une équipe",
+     "capture": "medias/fit-tri-maquette/club-page-intro-p1440.jpg",
+     "video": "medias/fit-tri-maquette/club-page-intro-p720.mp4",
+     "fiche": "sections/fit-tri-maquette/club-page-intro.json",
+     "en_ligne": "https://fit-tri-maquette.vercel.app/club"
+    },
+    {
+     "page": "coaching",
+     "role": "tarifs",
+     "id": "fit-tri-maquette/coaching-section-2",
+     "note_section": 4,
+     "titre": "Les trois formulesChoisissez votre rythme",
+     "capture": "medias/fit-tri-maquette/coaching-section-2-p1440.jpg",
+     "video": null,
+     "fiche": "sections/fit-tri-maquette/coaching-section-2.json",
+     "en_ligne": "https://fit-tri-maquette.vercel.app/coaching"
+    }
+   ]
+  },
+  {
+   "rang": 3,
+   "maquette": "nolanis-maquette",
+   "client": "Agence de communication visuelle à Strasbourg : print et web, espaces publicitaires, publipostage, photo et vidéo, objets publicitaires, sauvegarde en ligne, formation photo",
+   "metier": "agence de communication visuelle",
+   "pourquoi": "Agence de communication : beige, éventail de couleurs, cartes nettes, sommaire des métiers.",
+   "proche": [],
+   "lumiere": "clair",
+   "note_maquette": 86,
+   "en_ligne": "https://nolanis-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "nolanis-maquette/debut",
+     "note_section": 5,
+     "titre": "Votre agence de communication visuelle à Strasbourg",
+     "capture": "medias/nolanis-maquette/debut-p1440.jpg",
+     "video": "medias/nolanis-maquette/debut-p720.mp4",
+     "fiche": "sections/nolanis-maquette/debut.json",
+     "en_ligne": "https://nolanis-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "services",
+     "id": "nolanis-maquette/services",
+     "note_section": 4,
+     "titre": "La liasse des épreuves",
+     "capture": "medias/nolanis-maquette/services-p1440.jpg",
+     "video": "medias/nolanis-maquette/services-p720.mp4",
+     "fiche": "sections/nolanis-maquette/services.json",
+     "en_ligne": "https://nolanis-maquette.vercel.app"
+    },
+    {
+     "page": "formations",
+     "role": "ouverture",
+     "id": "nolanis-maquette/formations-debut",
+     "note_section": 4,
+     "titre": "Choisir l’image juste",
+     "capture": "medias/nolanis-maquette/formations-debut-p1440.jpg",
+     "video": "medias/nolanis-maquette/formations-debut-p720.mp4",
+     "fiche": "sections/nolanis-maquette/formations-debut.json",
+     "en_ligne": "https://nolanis-maquette.vercel.app/formations"
+    },
+    {
+     "page": "contact",
+     "role": "outil-interactif",
+     "id": "nolanis-maquette/contact-devis",
+     "note_section": 4,
+     "titre": "Votre demande, en trois étapes",
+     "capture": "medias/nolanis-maquette/contact-devis-p1440.jpg",
+     "video": "medias/nolanis-maquette/contact-devis-p720.mp4",
+     "fiche": "sections/nolanis-maquette/contact-devis.json",
+     "en_ligne": "https://nolanis-maquette.vercel.app/contact"
+    }
+   ]
+  },
+  {
+   "rang": 4,
+   "maquette": "les-plus-hautes-eaux-maquette",
+   "client": "compagnie de théâtre gestuel et clown pour tous publics, tournée dans le Grand Ouest",
+   "metier": "compagnie de théâtre",
+   "pourquoi": "Compagnie de théâtre : nuit bleue, photos bichromes qui reprennent couleur sous une nappe d'eau WebGL, échelle de crue.",
+   "proche": [],
+   "lumiere": "sombre",
+   "note_maquette": 90,
+   "en_ligne": "https://les-plus-hautes-eaux-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "les-plus-hautes-eaux-maquette/haut",
+     "note_section": 5,
+     "titre": "Héros sous la montée des eaux",
+     "capture": "medias/les-plus-hautes-eaux-maquette/haut-p1440.jpg",
+     "video": "medias/les-plus-hautes-eaux-maquette/haut-p720.mp4",
+     "fiche": "sections/les-plus-hautes-eaux-maquette/haut.json",
+     "en_ligne": "https://les-plus-hautes-eaux-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "manifeste",
+     "id": "les-plus-hautes-eaux-maquette/crue-1910",
+     "note_section": 4,
+     "titre": "L'origine du nom, 1910",
+     "capture": "medias/les-plus-hautes-eaux-maquette/crue-1910-p1440.jpg",
+     "video": "medias/les-plus-hautes-eaux-maquette/crue-1910-p720.mp4",
+     "fiche": "sections/les-plus-hautes-eaux-maquette/crue-1910.json",
+     "en_ligne": "https://les-plus-hautes-eaux-maquette.vercel.app"
+    },
+    {
+     "page": "spectacles/carnet-de-routes",
+     "role": "ouverture",
+     "id": "les-plus-hautes-eaux-maquette/spectacles-carnet-de-routes-f-hero",
+     "note_section": 4,
+     "titre": "Tête de fiche spectacle",
+     "capture": "medias/les-plus-hautes-eaux-maquette/spectacles-carnet-de-routes-f-hero-p1440.jpg",
+     "video": "medias/les-plus-hautes-eaux-maquette/spectacles-carnet-de-routes-f-hero-p720.mp4",
+     "fiche": "sections/les-plus-hautes-eaux-maquette/spectacles-carnet-de-routes-f-hero.json",
+     "en_ligne": "https://les-plus-hautes-eaux-maquette.vercel.app/spectacles/carnet-de-routes"
+    },
+    {
+     "page": "agenda",
+     "role": "agenda",
+     "id": "les-plus-hautes-eaux-maquette/agenda-t-venir",
+     "note_section": 4,
+     "titre": "Prochaines représentations",
+     "capture": "medias/les-plus-hautes-eaux-maquette/agenda-t-venir-p1440.jpg",
+     "video": "medias/les-plus-hautes-eaux-maquette/agenda-t-venir-p720.mp4",
+     "fiche": "sections/les-plus-hautes-eaux-maquette/agenda-t-venir.json",
+     "en_ligne": "https://les-plus-hautes-eaux-maquette.vercel.app/agenda"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1492 @@
+{
+  "logo": {
+    "nom": "logo",
+    "source": "recu/derives/logo-guida.png",
+    "role": "logo",
+    "alt": "Coaching Guida",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "e9b1ccba87be86d9",
+    "ratio": null,
+    "largeurs": [
+      240,
+      480
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "logo-240.webp",
+      "logo-480.webp"
+    ],
+    "poids": {
+      "logo-240.webp": 8220,
+      "logo-480.webp": 16592
+    },
+    "media": "c.media({ nom: 'logo', alt: \"Coaching Guida\", sizes: '240px' })"
+  },
+  "marieve-cercle": {
+    "nom": "marieve-cercle",
+    "source": "recu/guida-recu/gerard-marieve-guida.jpg",
+    "role": "portrait",
+    "alt": "Mariève Gérard, en noir et blanc, sourire doux, cheveux blonds dans le vent",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "dcbc09ff1220b165",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "50% 34%",
+    "sujet": {
+      "x": 13.1,
+      "y": 0,
+      "l": 74.8,
+      "h": 80.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.21,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.2,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.12,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.08,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 230,
+      "top": 0,
+      "width": 1500,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "marieve-cercle-480.webp",
+      "marieve-cercle-800.webp",
+      "marieve-cercle-1200.webp"
+    ],
+    "poids": {
+      "marieve-cercle-480.webp": 33934,
+      "marieve-cercle-800.webp": 86104,
+      "marieve-cercle-1200.webp": 179956
+    },
+    "media": "c.media({ nom: 'marieve-cercle', alt: \"Mariève Gérard, en noir et blanc, sourire doux, cheveux blonds dans le vent\", cadrage: '50% 34%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '1 / 1' })"
+  },
+  "marieve-porte": {
+    "nom": "marieve-porte",
+    "source": "recu/guida-recu/guida.jpg",
+    "role": "portrait",
+    "alt": "Mariève Gérard debout devant une porte en bois turquoise, sur un mur blanchi à la chaux",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "554136e21cdd313c",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "44% 52%",
+    "sujet": {
+      "x": 27.3,
+      "y": 33.1,
+      "l": 32.7,
+      "h": 66.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.56,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.48,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.45,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.14,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 100,
+      "width": 1200,
+      "height": 1500,
+      "source": [
+        1200,
+        1600
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1200 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "marieve-porte-480.webp",
+      "marieve-porte-800.webp",
+      "marieve-porte-1200.webp"
+    ],
+    "poids": {
+      "marieve-porte-480.webp": 34182,
+      "marieve-porte-800.webp": 93620,
+      "marieve-porte-1200.webp": 191884
+    },
+    "media": "c.media({ nom: 'marieve-porte', alt: \"Mariève Gérard debout devant une porte en bois turquoise, sur un mur blanchi à la chaux\", cadrage: '44% 52%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5' })"
+  },
+  "marieve-noir": {
+    "nom": "marieve-noir",
+    "source": "recu/guida-recu/gerard-marieve-guida-2.jpg",
+    "role": "portrait",
+    "alt": "Mariève Gérard en veste claire, les mains dans les poches, en noir et blanc sur fond noir",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "5ce09e03deeb81d2",
+    "ratio": "3:4",
+    "largeurs": [
+      400,
+      585
+    ],
+    "mobile": null,
+    "cadrage": "50% 39%",
+    "sujet": {
+      "x": 20.6,
+      "y": 2.8,
+      "l": 47.1,
+      "h": 46.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.51,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.44,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.43,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.39,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 17,
+      "width": 585,
+      "height": 780,
+      "source": [
+        585,
+        797
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "585 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "marieve-noir-400.webp",
+      "marieve-noir-585.webp"
+    ],
+    "poids": {
+      "marieve-noir-400.webp": 13882,
+      "marieve-noir-585.webp": 25466
+    },
+    "media": "c.media({ nom: 'marieve-noir', alt: \"Mariève Gérard en veste claire, les mains dans les poches, en noir et blanc sur fond noir\", cadrage: '50% 39%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '3 / 4' })"
+  },
+  "cabinet": {
+    "nom": "cabinet",
+    "source": "recu/guida-recu/guida-2.jpg",
+    "role": "galerie",
+    "alt": "Le cabinet : canapé gris, horloge soleil aux rayons colorés, mur à lattes de bois et tapis graphique",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "cc6e06afd1d5c3ce",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "45% 48%",
+    "sujet": {
+      "x": 8.8,
+      "y": 15.7,
+      "l": 64.7,
+      "h": 50.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.07,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1875,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "cabinet-480.webp",
+      "cabinet-800.webp",
+      "cabinet-1200.webp"
+    ],
+    "poids": {
+      "cabinet-480.webp": 60672,
+      "cabinet-800.webp": 163934,
+      "cabinet-1200.webp": 294250
+    },
+    "media": "c.media({ nom: 'cabinet', alt: \"Le cabinet : canapé gris, horloge soleil aux rayons colorés, mur à lattes de bois et tapis graphique\", cadrage: '45% 48%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "salle-constellations": {
+    "nom": "salle-constellations",
+    "source": "recu/guida-recu/comment-se-deroule-constellation.jpg",
+    "role": "carte-service",
+    "alt": "Une salle lumineuse ouverte sur un jardin, des chaises en cercle et des figurines posées au sol dans un cercle",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "7ed27a4d0076ef9c",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "50% 52%",
+    "sujet": {
+      "x": 22.1,
+      "y": 29.4,
+      "l": 48.5,
+      "h": 36.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.36,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.14,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "salle-constellations-480.webp",
+      "salle-constellations-800.webp",
+      "salle-constellations-1200.webp"
+    ],
+    "poids": {
+      "salle-constellations-480.webp": 55418,
+      "salle-constellations-800.webp": 136426,
+      "salle-constellations-1200.webp": 255622
+    },
+    "media": "c.media({ nom: 'salle-constellations', alt: \"Une salle lumineuse ouverte sur un jardin, des chaises en cercle et des figurines posées au sol dans un cercle\", cadrage: '50% 52%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '3 / 4' })"
+  },
+  "salle-arche": {
+    "nom": "salle-arche",
+    "source": "recu/guida-recu/comment-se-deroule-constellation.jpg",
+    "role": "ouverture",
+    "alt": "Des chaises en cercle dans une salle vitrée ouverte sur le jardin, des figurines posées au centre",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "28886055bf7733c0",
+    "ratio": "4:3",
+    "largeurs": [
+      800,
+      1200,
+      1500
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 57%"
+    },
+    "cadrage": "50% 54%",
+    "sujet": {
+      "x": 22.1,
+      "y": 0,
+      "l": 48.5,
+      "h": 65.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.36,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.14,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 588,
+      "width": 1500,
+      "height": 1125,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "salle-arche-800.webp",
+      "salle-arche-1200.webp",
+      "salle-arche-1500.webp",
+      "salle-arche-mobile-640.webp",
+      "salle-arche-mobile-1080.webp"
+    ],
+    "poids": {
+      "salle-arche-800.webp": 81106,
+      "salle-arche-1200.webp": 151244,
+      "salle-arche-1500.webp": 205212,
+      "salle-arche-mobile-640.webp": 90224,
+      "salle-arche-mobile-1080.webp": 217722
+    },
+    "media": "c.media({ nom: 'salle-arche', alt: \"Des chaises en cercle dans une salle vitrée ouverte sur le jardin, des figurines posées au centre\", cadrage: '50% 54%', cadrageMobile: '50% 57%', sizes: '100vw', priorite: true })"
+  },
+  "grange": {
+    "nom": "grange",
+    "source": "recu/guida-recu/formations.jpg",
+    "role": "carte-service",
+    "alt": "Un atelier dans une grange rénovée : mur de briques, charpente en chêne, participants autour de tables hautes",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "a017bf911d3a4eae",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "54% 50%",
+    "sujet": {
+      "x": 23.5,
+      "y": 36.8,
+      "l": 64.7,
+      "h": 25
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.46,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.34,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.34,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.27,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grange-480.webp",
+      "grange-800.webp",
+      "grange-1200.webp"
+    ],
+    "poids": {
+      "grange-480.webp": 57820,
+      "grange-800.webp": 135012,
+      "grange-1200.webp": 247610
+    },
+    "media": "c.media({ nom: 'grange', alt: \"Un atelier dans une grange rénovée : mur de briques, charpente en chêne, participants autour de tables hautes\", cadrage: '54% 50%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '3 / 4' })"
+  },
+  "grange-bandeau": {
+    "nom": "grange-bandeau",
+    "source": "recu/guida-recu/formations.jpg",
+    "role": "ouverture",
+    "alt": "Un atelier dans une grange rénovée : mur de briques, charpente en chêne, participants autour de tables hautes",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "41baaa9aff92ba1a",
+    "ratio": "21:9",
+    "largeurs": [
+      960,
+      1500
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 49%"
+    },
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 23.5,
+      "y": 2.6,
+      "l": 64.7,
+      "h": 77.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.46,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.34,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.34,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.27,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 719,
+      "width": 1500,
+      "height": 643,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "recadrage fort : 32 % de l'image gardée"
+    ],
+    "fichiers": [
+      "grange-bandeau-960.webp",
+      "grange-bandeau-1500.webp",
+      "grange-bandeau-mobile-640.webp",
+      "grange-bandeau-mobile-1080.webp"
+    ],
+    "poids": {
+      "grange-bandeau-960.webp": 80850,
+      "grange-bandeau-1500.webp": 150044,
+      "grange-bandeau-mobile-640.webp": 88978,
+      "grange-bandeau-mobile-1080.webp": 200190
+    },
+    "media": "c.media({ nom: 'grange-bandeau', alt: \"Un atelier dans une grange rénovée : mur de briques, charpente en chêne, participants autour de tables hautes\", cadrageMobile: '50% 49%', sizes: '100vw', priorite: true })"
+  },
+  "salle-reunion": {
+    "nom": "salle-reunion",
+    "source": "recu/guida-recu/entreprise.jpg",
+    "role": "galerie",
+    "alt": "Une salle de formation en entreprise, tables disposées en U et parquet clair",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "f0dc98ae8c29e56a",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "50% 52%",
+    "sujet": {
+      "x": 29.4,
+      "y": 31,
+      "l": 57.4,
+      "h": 25.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.78,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.5,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.45,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.29,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 125,
+      "width": 1500,
+      "height": 1875,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "salle-reunion-480.webp",
+      "salle-reunion-800.webp",
+      "salle-reunion-1200.webp"
+    ],
+    "poids": {
+      "salle-reunion-480.webp": 40162,
+      "salle-reunion-800.webp": 101214,
+      "salle-reunion-1200.webp": 190316
+    },
+    "media": "c.media({ nom: 'salle-reunion', alt: \"Une salle de formation en entreprise, tables disposées en U et parquet clair\", cadrage: '50% 52%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "bocal": {
+    "nom": "bocal",
+    "source": "recu/guida-recu/coaching-scolaire-2.jpg",
+    "role": "vignette",
+    "alt": "Un élève décore un bocal à « mots doux » avec un feutre rouge",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "bbb299f42a10fbf6",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "55% 50%",
+    "sujet": {
+      "x": 18,
+      "y": 0.1,
+      "l": 79.9,
+      "h": 99.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.08,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 63,
+      "width": 1500,
+      "height": 1875,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "bocal-480.webp",
+      "bocal-800.webp"
+    ],
+    "poids": {
+      "bocal-480.webp": 51238,
+      "bocal-800.webp": 112814
+    },
+    "media": "c.media({ nom: 'bocal', alt: \"Un élève décore un bocal à « mots doux » avec un feutre rouge\", cadrage: '55% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 5' })"
+  },
+  "grok/pro-bureau": {
+    "nom": "grok/pro-bureau",
+    "source": "recu/grok/pro-bureau.jpg",
+    "role": "carte-service",
+    "alt": "Une personne de dos à son bureau, devant une grande fenêtre ouverte sur la campagne",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "b7d0405015586648",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      800,
+      1100
+    ],
+    "mobile": null,
+    "cadrage": "46% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 2.9,
+      "l": 95.5,
+      "h": 91.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.3,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.21,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.15,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.12,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 11,
+      "width": 1320,
+      "height": 1760,
+      "source": [
+        1320,
+        1980
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/pro-bureau-480.webp",
+      "grok/pro-bureau-800.webp",
+      "grok/pro-bureau-1100.webp"
+    ],
+    "poids": {
+      "grok/pro-bureau-480.webp": 27200,
+      "grok/pro-bureau-800.webp": 59894,
+      "grok/pro-bureau-1100.webp": 95306
+    },
+    "media": "c.media({ nom: 'grok/pro-bureau', alt: \"Une personne de dos à son bureau, devant une grande fenêtre ouverte sur la campagne\", cadrage: '46% 50%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '3 / 4' })"
+  },
+  "grok/vie-chemin": {
+    "nom": "grok/vie-chemin",
+    "source": "recu/grok/vie-chemin.jpg",
+    "role": "carte-service",
+    "alt": "Une femme de dos marche sur un chemin herbeux entre les champs, dans la brume du matin",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "626f7923df5a2fd9",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      800,
+      1100
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.62,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.14,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.08,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.03,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 169,
+      "width": 1320,
+      "height": 1760,
+      "source": [
+        1320,
+        1980
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/vie-chemin-480.webp",
+      "grok/vie-chemin-800.webp",
+      "grok/vie-chemin-1100.webp"
+    ],
+    "poids": {
+      "grok/vie-chemin-480.webp": 55768,
+      "grok/vie-chemin-800.webp": 151048,
+      "grok/vie-chemin-1100.webp": 266398
+    },
+    "media": "c.media({ nom: 'grok/vie-chemin', alt: \"Une femme de dos marche sur un chemin herbeux entre les champs, dans la brume du matin\", sizes: '(max-width: 760px) 100vw, 33vw', ratio: '3 / 4' })"
+  },
+  "grok/scolaire-devoirs": {
+    "nom": "grok/scolaire-devoirs",
+    "source": "recu/grok/scolaire-devoirs.jpg",
+    "role": "carte-service",
+    "alt": "Les mains d'un élève qui surligne son cahier, un planning coloré à côté",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "316b91b59469d33d",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      800,
+      1100
+    ],
+    "mobile": null,
+    "cadrage": "51% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 2.9,
+      "l": 95.5,
+      "h": 97.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.16,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.06,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.02,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.01,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 11,
+      "width": 1320,
+      "height": 1760,
+      "source": [
+        1320,
+        1980
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/scolaire-devoirs-480.webp",
+      "grok/scolaire-devoirs-800.webp",
+      "grok/scolaire-devoirs-1100.webp"
+    ],
+    "poids": {
+      "grok/scolaire-devoirs-480.webp": 26152,
+      "grok/scolaire-devoirs-800.webp": 51512,
+      "grok/scolaire-devoirs-1100.webp": 79736
+    },
+    "media": "c.media({ nom: 'grok/scolaire-devoirs', alt: \"Les mains d'un élève qui surligne son cahier, un planning coloré à côté\", cadrage: '51% 50%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '3 / 4' })"
+  },
+  "grok/pro-equipe": {
+    "nom": "grok/pro-equipe",
+    "source": "recu/grok/pro-equipe.jpg",
+    "role": "galerie",
+    "alt": "Une table de réunion après un atelier, couverte de notes colorées et d'un grand schéma dessiné",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "da4be4c3d01718c4",
+    "ratio": "4:3",
+    "largeurs": [
+      640,
+      960,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "50% 49%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.13,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.06,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.06,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 113,
+      "top": 0,
+      "width": 1536,
+      "height": 1152,
+      "source": [
+        1728,
+        1152
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/pro-equipe-640.webp",
+      "grok/pro-equipe-960.webp",
+      "grok/pro-equipe-1200.webp"
+    ],
+    "poids": {
+      "grok/pro-equipe-640.webp": 32468,
+      "grok/pro-equipe-960.webp": 57738,
+      "grok/pro-equipe-1200.webp": 79170
+    },
+    "media": "c.media({ nom: 'grok/pro-equipe', alt: \"Une table de réunion après un atelier, couverte de notes colorées et d'un grand schéma dessiné\", cadrage: '50% 49%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "grok/vie-bottes": {
+    "nom": "grok/vie-bottes",
+    "source": "recu/grok/vie-bottes.jpg",
+    "role": "galerie",
+    "alt": "Une paire de bottes d'adulte et une paire de bottes d'enfant côte à côte sur un seuil, en automne",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "9b1b99ee1a6ddcc0",
+    "ratio": "4:3",
+    "largeurs": [
+      640,
+      960,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "48% 44%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.1,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1536,
+      "height": 1152,
+      "source": [
+        1728,
+        1152
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/vie-bottes-640.webp",
+      "grok/vie-bottes-960.webp",
+      "grok/vie-bottes-1200.webp"
+    ],
+    "poids": {
+      "grok/vie-bottes-640.webp": 59090,
+      "grok/vie-bottes-960.webp": 116792,
+      "grok/vie-bottes-1200.webp": 164230
+    },
+    "media": "c.media({ nom: 'grok/vie-bottes', alt: \"Une paire de bottes d'adulte et une paire de bottes d'enfant côte à côte sur un seuil, en automne\", cadrage: '48% 44%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "grok/scolaire-methode": {
+    "nom": "grok/scolaire-methode",
+    "source": "recu/grok/scolaire-methode.jpg",
+    "role": "galerie",
+    "alt": "Un bureau d'étude vu du dessus : planning coloré, carte mentale, fiches et crayons",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "3f9ca7858abcc73e",
+    "ratio": "4:3",
+    "largeurs": [
+      640,
+      960,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "50% 62%",
+    "sujet": {
+      "x": 0,
+      "y": 4.5,
+      "l": 100,
+      "h": 90.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.09,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.01,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 27,
+      "top": 0,
+      "width": 1536,
+      "height": 1152,
+      "source": [
+        1728,
+        1152
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/scolaire-methode-640.webp",
+      "grok/scolaire-methode-960.webp",
+      "grok/scolaire-methode-1200.webp"
+    ],
+    "poids": {
+      "grok/scolaire-methode-640.webp": 35080,
+      "grok/scolaire-methode-960.webp": 66534,
+      "grok/scolaire-methode-1200.webp": 93552
+    },
+    "media": "c.media({ nom: 'grok/scolaire-methode', alt: \"Un bureau d'étude vu du dessus : planning coloré, carte mentale, fiches et crayons\", cadrage: '50% 62%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "grok/bureau-matin": {
+    "nom": "grok/bureau-matin",
+    "source": "recu/grok/bureau-matin.jpg",
+    "role": "section-fond",
+    "alt": "Un bureau près d'une fenêtre au lever du soleil, un carnet ouvert et une tasse de thé",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "bb5d2392c5d19247",
+    "ratio": "16:9",
+    "largeurs": [
+      960,
+      1440,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "53% 75%"
+    },
+    "cadrage": "72% 59%",
+    "sujet": {
+      "x": 37.5,
+      "y": 5.6,
+      "l": 62.5,
+      "h": 94.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.82,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.53,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.24,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1792,
+      "height": 1008,
+      "source": [
+        1792,
+        1008
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,07 fois (source de 1792 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/bureau-matin-960.webp",
+      "grok/bureau-matin-1440.webp",
+      "grok/bureau-matin-1920.webp",
+      "grok/bureau-matin-mobile-640.webp",
+      "grok/bureau-matin-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/bureau-matin-960.webp": 31382,
+      "grok/bureau-matin-1440.webp": 61542,
+      "grok/bureau-matin-1920.webp": 92148,
+      "grok/bureau-matin-mobile-640.webp": 45992,
+      "grok/bureau-matin-mobile-1080.webp": 97424
+    },
+    "media": "c.media({ nom: 'grok/bureau-matin', alt: \"Un bureau près d'une fenêtre au lever du soleil, un carnet ouvert et une tasse de thé\", cadrage: '72% 59%', cadrageMobile: '53% 75%', sizes: '100vw' })"
+  },
+  "grok/constellation-figurines": {
+    "nom": "grok/constellation-figurines",
+    "source": "recu/grok/constellation-figurines.jpg",
+    "role": "galerie",
+    "alt": "De petites figurines en bois posées en cercle sur un parquet clair",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "39f1d646e1baff44",
+    "ratio": "4:3",
+    "largeurs": [
+      640,
+      960,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "50% 42%",
+    "sujet": {
+      "x": 0,
+      "y": 4.5,
+      "l": 100,
+      "h": 81.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.31,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.13,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.07,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.06,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 61,
+      "top": 0,
+      "width": 1536,
+      "height": 1152,
+      "source": [
+        1728,
+        1152
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/constellation-figurines-640.webp",
+      "grok/constellation-figurines-960.webp",
+      "grok/constellation-figurines-1200.webp"
+    ],
+    "poids": {
+      "grok/constellation-figurines-640.webp": 24698,
+      "grok/constellation-figurines-960.webp": 43416,
+      "grok/constellation-figurines-1200.webp": 59644
+    },
+    "media": "c.media({ nom: 'grok/constellation-figurines', alt: \"De petites figurines en bois posées en cercle sur un parquet clair\", cadrage: '50% 42%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "grok/bureau-range": {
+    "nom": "grok/bureau-range",
+    "source": "recu/grok/bureau-range.jpg",
+    "role": "vignette",
+    "alt": "Un petit bureau rangé : étagères claires, boîtes en carton, bureau dégagé",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "8ac04bdcb2236ec3",
+    "ratio": "4:3",
+    "largeurs": [
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "51% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.12,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.09,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.02,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 192,
+      "top": 0,
+      "width": 1536,
+      "height": 1152,
+      "source": [
+        1728,
+        1152
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/bureau-range-640.webp",
+      "grok/bureau-range-960.webp"
+    ],
+    "poids": {
+      "grok/bureau-range-640.webp": 20558,
+      "grok/bureau-range-960.webp": 37238
+    },
+    "media": "c.media({ nom: 'grok/bureau-range', alt: \"Un petit bureau rangé : étagères claires, boîtes en carton, bureau dégagé\", cadrage: '51% 52%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "grok/carrefour-404": {
+    "nom": "grok/carrefour-404",
+    "source": "recu/grok/carrefour-404.jpg",
+    "role": "404",
+    "alt": "Un poteau indicateur en bois à la fourche de deux chemins dans la brume",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "59acb9b6806a4d8d",
+    "ratio": "16:9",
+    "largeurs": [
+      960,
+      1440
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 58%"
+    },
+    "cadrage": "55% 58%",
+    "sujet": {
+      "x": 3.1,
+      "y": 5.6,
+      "l": 96.9,
+      "h": 94.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.62,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.2,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1792,
+      "height": 1008,
+      "source": [
+        1792,
+        1008
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/carrefour-404-960.webp",
+      "grok/carrefour-404-1440.webp",
+      "grok/carrefour-404-mobile-640.webp",
+      "grok/carrefour-404-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/carrefour-404-960.webp": 83570,
+      "grok/carrefour-404-1440.webp": 162304,
+      "grok/carrefour-404-mobile-640.webp": 72172,
+      "grok/carrefour-404-mobile-1080.webp": 132056
+    },
+    "media": "c.media({ nom: 'grok/carrefour-404', alt: \"Un poteau indicateur en bois à la fourche de deux chemins dans la brume\", cadrage: '55% 58%', cadrageMobile: '50% 58%', sizes: '100vw', ratio: '16 / 9' })"
+  }
+}

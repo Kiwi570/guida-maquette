@@ -1,0 +1,100 @@
+{
+  "projet": "guida-maquette",
+  "client": "Coaching Guida (Mariève Gérard)",
+  "siteActuel": "https://www.guida.be",
+  "versions": [
+    {
+      "version": 1,
+      "skill": "v11.1",
+      "perimetre": [
+        "accueil",
+        "coaching",
+        "constellations",
+        "formations",
+        "rendez-vous",
+        "404"
+      ],
+      "etapes": [
+        {
+          "etape": "analyse, bibliothèque et questions",
+          "budget": 20,
+          "debut": "2026-11-26T10:36:30+01:00",
+          "fin": "2026-11-26T09:45:50.283Z"
+        },
+        {
+          "etape": "plans et document Grok",
+          "budget": 10,
+          "debut": "2026-11-26T09:52:59.854Z",
+          "fin": "2026-11-26T09:55:45.317Z"
+        },
+        {
+          "etape": "construction : accueil",
+          "budget": 40,
+          "debut": "2026-11-26T09:55:45.317Z",
+          "fin": "2026-11-26T11:17:00+01:00"
+        },
+        {
+          "etape": "aperçu de l'accueil en films",
+          "budget": 5,
+          "debut": "2026-11-26T11:17:00+01:00",
+          "fin": "2026-11-26T10:22:54.420Z"
+        },
+        {
+          "etape": "construction : pages d'onglet, contact et 404",
+          "budget": 40,
+          "debut": "2026-11-26T11:05:00+01:00",
+          "fin": "2026-11-26T10:43:00.242Z"
+        },
+        {
+          "etape": "audit, regard neuf et corrections",
+          "budget": 25,
+          "debut": "2026-11-26T10:43:00.242Z",
+          "fin": "2026-11-26T11:16:22.823Z"
+        },
+        {
+          "etape": "livraison",
+          "budget": 5,
+          "debut": "2026-11-26T11:16:22.824Z",
+          "fin": ""
+        }
+      ],
+      "attentes": [
+        {
+          "pour": "zip des images du site",
+          "debut": "2026-11-26T09:42:05.963Z",
+          "fin": "2026-11-26T09:43:08.331Z"
+        },
+        {
+          "pour": "réponses aux questions (direction, pages, langues)",
+          "debut": "2026-11-26T09:45:50.283Z",
+          "fin": "2026-11-26T09:52:59.849Z"
+        },
+        {
+          "pour": "images Grok",
+          "debut": "2026-11-26T09:55:45.317Z",
+          "fin": "2026-11-26T10:05:13.692Z"
+        }
+      ],
+      "allersRetours": 1,
+      "modules": [
+        "formulaire-par-etapes",
+        "schema-epingle-etapes",
+        "manifeste-mot-a-mot"
+      ],
+      "audit": {
+        "niveau": "standard + passe des formats (complète sur mesures et écran), relances ciblées",
+        "echecsPremierPassage": 2,
+        "relances": 4,
+        "corrections": [
+          "débordement de 2 px (rond décoratif de la bande bleue)",
+          "contraste mesuré pendant le fondu des étapes du schéma",
+          "premiers écrans des écrans bas (1000×560, sans JavaScript)",
+          "noms des étapes du formulaire coupés à 1000–1024 px"
+        ]
+      },
+      "effetsRetires": [],
+      "grilleDispenses": {},
+      "notes": "Accueil validé sur films sans retouche demandée."
+    }
+  ]
+}

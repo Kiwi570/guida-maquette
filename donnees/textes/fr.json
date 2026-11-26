@@ -1,0 +1,298 @@
+{
+  "commun": {
+    "navigation": "Navigation principale",
+    "menu": "Menu",
+    "fermer": "Fermer",
+    "langueAutre": "Autre langue",
+    "actionEntete": "Prendre rendez-vous",
+    "appeler": "Appeler",
+    "sommaire": "Pages",
+    "retourHaut": "Retour en haut",
+    "maquette": "Maquette de présentation : formulaires simulés, rien n'est envoyé.",
+    "evitement": "Aller au contenu",
+    "mentionIa": "Illustration générée",
+    "pause": "Pause",
+    "lecture": "Lecture",
+    "introLigne": "by Mariève Gérard",
+    "logo": "Coaching Guida, accueil",
+    "coordonnees": "Coordonnées",
+    "email": "E-mail",
+    "telephone": "Téléphone",
+    "adresse": "Adresse",
+    "tva": "TVA BE0830350385",
+    "reseaux": "Suivre Mariève",
+    "legal": "Mentions légales et politique de confidentialité : à compléter",
+    "decouvrir": "Découvrir",
+    "enParler": "En parler",
+    "fin": {
+      "surtitre": "Une question ? Envie d'en parler ?",
+      "titre": "Un premier échange de quelques minutes, pour faire le point.",
+      "texte": "Appelez Mariève ou laissez-lui un message : vous verrez ensemble quel accompagnement vous convient.",
+      "rdv": "Prendre rendez-vous",
+      "appel": "Appeler le 0479 21 53 83"
+    }
+  },
+  "pages": {
+    "accueil": {
+      "titre": "Coaching Guida : coaching professionnel, de vie et scolaire à Héron",
+      "description": "Mariève Gérard, coach et logopède de formation, accompagne adultes, élèves, parents, équipes et écoles depuis 1996 : coaching, constellations familiales, formations et ateliers.",
+      "nav": "Accueil",
+      "partageAlt": "Mariève Gérard, Coaching Guida",
+      "accroche": "Retrouver ce qui est juste pour vous"
+    },
+    "coaching": {
+      "titre": "Coaching professionnel, de vie et scolaire : Coaching Guida",
+      "description": "Trois coachings, une même écoute : au travail, dans votre vie, à l'école. Thèmes, encadrés pour les chefs d'entreprise, les parents et les écoles.",
+      "nav": "Coaching",
+      "partageAlt": "Les trois coachings de Coaching Guida",
+      "accroche": "Trois coachings, une même écoute"
+    },
+    "constellations": {
+      "titre": "Constellations familiales et systémiques : Coaching Guida",
+      "description": "Regarder autrement sa place dans sa famille : de quoi il s'agit, pour quelles situations, et comment se déroule une constellation individuelle, en quatre étapes.",
+      "nav": "Constellations",
+      "partageAlt": "Une salle avec des chaises en cercle, pour les constellations familiales",
+      "accroche": "Trouver sa place dans son histoire"
+    },
+    "formations": {
+      "titre": "Formations et ateliers : Coaching Guida",
+      "description": "Ateliers individuels et d'équipe (motivation, Ikigaï, Ennéagramme, méthode de travail, réunions, orientation) et formations pour entreprises et écoles.",
+      "nav": "Formations",
+      "partageAlt": "Un atelier dans une grange rénovée",
+      "accroche": "Des ateliers pour avancer, seul ou en équipe"
+    },
+    "rendez-vous": {
+      "titre": "Prendre rendez-vous : Coaching Guida, Héron",
+      "description": "Appelez Mariève Gérard au 0479 21 53 83 ou laissez votre demande en trois étapes. Rue de Hérédia 5, 4217 Héron.",
+      "nav": "Rendez-vous",
+      "partageAlt": "Prendre rendez-vous avec Mariève Gérard",
+      "accroche": "Parlons-en"
+    },
+    "404": {
+      "titre": "Page introuvable : Coaching Guida",
+      "description": "Cette page n'existe pas ou plus.",
+      "nav": "Page introuvable",
+      "partageAlt": "Page introuvable",
+      "accroche": "Page introuvable"
+    }
+  },
+  "accueil": {
+    "hero": {
+      "surtitre": "Coaching Guida, by Mariève Gérard",
+      "titre1": "Retrouver ce",
+      "titre2": "qui est",
+      "titreMot": "juste",
+      "titre3": "pour vous.",
+      "texte": "Coaching professionnel, de vie et scolaire, constellations familiales, formations et ateliers. À Héron, depuis 1996.",
+      "action": "Prendre rendez-vous",
+      "info": "Un premier échange de quelques minutes :",
+      "suite": "De quoi avez-vous besoin ?"
+    },
+    "besoin": {
+      "surtitre": "Par où commencer",
+      "titre": "De quoi avez-vous besoin aujourd'hui ?",
+      "texte": "Choisissez ce qui vous ressemble : le cercle se pose sur l'accompagnement qui y répond.",
+      "aide": "Touchez une situation pour voir l'accompagnement qui y répond.",
+      "regionReponse": "Accompagnement conseillé"
+    },
+    "accompagnements": {
+      "surtitre": "Les accompagnements",
+      "titre": "Au travail, dans la vie, à l'école, en famille.",
+      "texte": "Chaque accompagnement est personnalisé : les outils changent d'une personne à l'autre, l'écoute reste la même."
+    },
+    "qui": {
+      "surtitre": "Qui suis-je ?",
+      "titre": "Je suis Mariève.",
+      "texte1": "Coach et orthophoniste de formation, j'accompagne des personnes d'âges et de profils très différents depuis 1996.",
+      "texte2": "Après un début de carrière en logopédie et une expatriation au Sénégal, j'ai développé une approche qui allie écoute, analyse, compréhension du fonctionnement de chacun et outils concrets. Je continue à me former pour enrichir ma pratique.",
+      "frise": "Le parcours",
+      "legende": "Mariève, devant une porte turquoise"
+    },
+    "approche": {
+      "surtitre": "Mon approche",
+      "texte": "Un accompagnement personnalisé et humaniste : comprendre votre situation, mobiliser vos ressources, retrouver votre capacité d'agir.",
+      "domaines": "Personnel · Professionnel · Familial · Scolaire",
+      "legende": "Le cabinet où Mariève reçoit"
+    },
+    "citation": {
+      "texte": "La réussite ne demande pas d'être parfait, seulement de continuer à essayer.",
+      "source": "Mise en avant dans le coaching scolaire",
+      "gauche": "Continuer",
+      "droite": "à essayer"
+    },
+    "pros": {
+      "surtitre": "Écoles et entreprises",
+      "titre": "Des ateliers et des formations, sur place.",
+      "texte": "Mariève dispense et coordonne la formation Coaching scolaire à l'IFAPME, et intervient en entreprise, dans les secteurs marchand, pharmaceutique, juridique et automobile.",
+      "liste": "Moteurs de motivation · Gestion de réunion · Gestion de conflits · Méthodes de travail · Aménagements raisonnables · Posture de coach",
+      "devis": "Demander un devis",
+      "voir": "Voir les formations"
+    }
+  },
+  "coaching": {
+    "tete": {
+      "surtitre": "Coaching",
+      "titre": "Trois coachings, une même écoute.",
+      "texte": "Au travail, dans votre vie ou à l'école : on part de votre situation, on trouve ensemble les outils qui vous conviennent.",
+      "action": "Prendre rendez-vous",
+      "info": "Tarif et durée précisés au premier échange",
+      "sommaire": "Les trois coachings"
+    },
+    "professionnel": {
+      "nom": "Professionnel",
+      "surtitre": "Coaching professionnel",
+      "titre": "Avancer au travail avec plus de confiance et de cohérence.",
+      "texte": "Vous cherchez de la sérénité, de l'énergie, de la motivation dans votre vie professionnelle ? L'accompagnement s'appuie sur des outils concrets et faciles à appliquer.",
+      "themes": "Les thèmes"
+    },
+    "vie": {
+      "nom": "De vie",
+      "surtitre": "Coaching de vie",
+      "titre": "Prendre du recul, et retrouver l'élan pour agir.",
+      "texte": "Quand la vie bouge ou se déséquilibre, le coaching de vie offre un espace pour clarifier vos envies et retrouver votre capacité d'action.",
+      "situations": "Quand on vient",
+      "themes": "Ce qu'on travaille"
+    },
+    "scolaire": {
+      "nom": "Scolaire",
+      "surtitre": "Coaching scolaire",
+      "titre": "Aider l'élève à trouver sa façon d'apprendre.",
+      "texte": "En difficulté, démotivé, perdu dans l'organisation ou les méthodes ? Nous analysons ensemble la situation. Logopède de formation, Mariève peut aussi repérer d'éventuels troubles des apprentissages et orienter si besoin.",
+      "themes": "Les domaines",
+      "citation": "La réussite ne demande pas d'être parfait, seulement de continuer à essayer.",
+      "legende": "Un bocal à « mots doux » décoré en séance"
+    }
+  },
+  "constellations": {
+    "tete": {
+      "surtitre": "Constellations familiales et systémiques",
+      "titre": "Trouver sa place dans son histoire.",
+      "texte": "Nous sommes reliés à notre système familial, parfois plus qu'on ne l'imagine. La constellation met en lumière des dynamiques cachées et des loyautés invisibles, pour voir sa situation autrement.",
+      "action": "Prendre rendez-vous",
+      "info": "Constellation individuelle, sur rendez-vous"
+    },
+    "quoi": {
+      "surtitre": "De quoi s'agit-il ?",
+      "titre": "Un autre regard, sans chercher de coupable.",
+      "texte1": "L'approche est née dans les années 1990 avec Bert Hellinger. Elle part d'une idée simple : notre famille nous influence, au-delà de ce que l'on voit.",
+      "texte2": "Elle ne cherche pas de coupable et ne prétend pas tout expliquer par le passé. Elle propose de regarder autrement des liens et des charges héritées, pour retrouver de la liberté et de l'équilibre.",
+      "note": "La constellation est une démarche d'accompagnement : elle ne remplace pas un suivi médical ou psychologique."
+    },
+    "situations": {
+      "surtitre": "Pour quelles situations ?",
+      "titre": "Quand quelque chose se répète, ou pèse."
+    },
+    "etapes": {
+      "surtitre": "Comment ça se passe ?",
+      "titre": "Une constellation individuelle, en quatre étapes.",
+      "etape": "Étape",
+      "schema": "Schéma : des points dispersés, puis posés dans l'espace, reliés entre eux, enfin rassemblés en cercle."
+    },
+    "fin": {
+      "titre": "Prêt à regarder autrement ?",
+      "texte": "Parlez-en d'abord quelques minutes avec Mariève : elle vous dira si une constellation est adaptée à votre situation."
+    }
+  },
+  "formations": {
+    "tete": {
+      "surtitre": "Formations et ateliers",
+      "titre": "Des ateliers pour avancer, seul ou en équipe.",
+      "texte": "En séance individuelle, en entreprise ou en école : pour retrouver confiance, réduire le stress et mieux travailler ensemble.",
+      "action": "Demander un devis",
+      "info": "Dates et thèmes annoncés sur les réseaux sociaux",
+      "chiffre1": "6 ateliers",
+      "chiffre2": "11 formations"
+    },
+    "ateliers": {
+      "surtitre": "Les ateliers",
+      "titre": "Six ateliers, à composer selon vos besoins.",
+      "filtre": "Pour qui ?",
+      "tous": "Tous",
+      "particuliers": "Particuliers",
+      "entreprises": "Entreprises",
+      "ecoles": "Écoles",
+      "compte": "atelier(s)",
+      "demande": "Demander cet atelier"
+    },
+    "liste": {
+      "surtitre": "Les formations",
+      "titre": "Onze formations, pour les équipes et les écoles.",
+      "entreprises": "Entreprises",
+      "ecoles": "Écoles",
+      "accompagnants": "Pour devenir coach",
+      "ifapme": "La formation Coaching scolaire est dispensée et coordonnée par Mariève à l'IFAPME.",
+      "ifapmeLien": "Voir l'IFAPME"
+    },
+    "devis": {
+      "titre": "Une thématique sur mesure ?",
+      "texte": "Décrivez votre équipe, votre école ou votre projet : Mariève vous répond avec une proposition et un devis.",
+      "action": "Demander un devis"
+    },
+    "legendeSalle": "Une formation en entreprise"
+  },
+  "rendezvous": {
+    "tete": {
+      "surtitre": "Prendre rendez-vous",
+      "titre": "Parlons‑en.",
+      "texte": "Un premier échange de quelques minutes suffit souvent pour savoir quel accompagnement vous convient. Appelez, ou laissez votre demande en trois étapes.",
+      "info": "0479 21 53 83",
+      "action": "Appeler Mariève"
+    },
+    "form": {
+      "titre": "Votre demande",
+      "etapePour": "Pour qui ?",
+      "pourQuestion": "Pour qui est l'accompagnement ?",
+      "pourMoi": "Pour moi",
+      "pourMoiTexte": "Au travail, dans ma vie, dans ma famille",
+      "pourEnfant": "Pour mon enfant",
+      "pourEnfantTexte": "École, méthode, motivation, orientation",
+      "pourEquipe": "Pour mon équipe",
+      "pourEquipeTexte": "Entreprise, atelier, formation",
+      "pourEcole": "Pour une école",
+      "pourEcoleTexte": "Équipe éducative, aménagements, ateliers",
+      "etapeSujet": "Le sujet",
+      "sujetQuestion": "Quel accompagnement vous intéresse ?",
+      "professionnel": "Coaching professionnel",
+      "vie": "Coaching de vie",
+      "scolaire": "Coaching scolaire",
+      "constellations": "Constellation familiale",
+      "formation": "Atelier ou formation",
+      "autre": "Je ne sais pas encore",
+      "etapeCoord": "Coordonnées",
+      "coordQuestion": "Comment vous joindre ?",
+      "prenom": "Prénom",
+      "nom": "Nom",
+      "tel": "Téléphone",
+      "email": "E-mail",
+      "message": "Votre message (facultatif)",
+      "messageAide": "Quelques mots sur votre situation, vos disponibilités…",
+      "etapeRecap": "Récapitulatif",
+      "recapQuestion": "Tout est juste ?",
+      "accord": "J'accepte que mes coordonnées servent uniquement à répondre à ma demande.",
+      "donnees": "Vos données servent seulement à vous répondre. Politique de confidentialité : à compléter.",
+      "retour": "Retour",
+      "continuer": "Continuer",
+      "envoyer": "Envoyer la demande",
+      "merci": "Merci, c'est noté.",
+      "simule": "Maquette : demande simulée, rien n'a été envoyé. Sur le site final, elle arrivera chez Mariève.",
+      "recommencer": "Nouvelle demande"
+    },
+    "coord": {
+      "titre": "Coordonnées",
+      "telephone": "Téléphone",
+      "email": "E-mail",
+      "adresse": "Adresse",
+      "horaires": "Horaires et tarifs précisés au premier échange."
+    },
+    "carte": {
+      "titre": "À Héron, entre Namur et Liège",
+      "texte": "Rue de Hérédia 5, 4217 Héron (province de Liège), au nord de la Meuse, près de l'E42.",
+      "alt": "Plan schématique : Héron entre Namur, Andenne, Huy et Liège, au nord de la Meuse et près de l'autoroute E42."
+    }
+  },
+  "introuvable": {
+    "titre": "Ce chemin ne mène nulle part.",
+    "texte": "La page que vous cherchez n'existe pas ou plus. Revenez à l'accueil : il y a toujours un autre chemin.",
+    "retour": "Revenir à l'accueil"
+  }
+}

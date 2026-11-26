@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Coaching professionnel, de vie et scolaire : Coaching Guida</title>
+<meta name="description" content="Trois coachings, une même écoute : au travail, dans votre vie, à l&#39;école. Thèmes, encadrés pour les chefs d&#39;entreprise, les parents et les écoles.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://guida-maquette.vercel.app/coaching">
+<style>:root{--fond:#F5F7F9;--texte:#15233A;--voile-fond:#163A63;--ouverture-fond:#163A63;--menu-fond:#F5F7F9}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/young-serif-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/albert-sans-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/modules.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#F5F7F9">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Coaching Guida">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Coaching professionnel, de vie et scolaire : Coaching Guida">
+<meta property="og:description" content="Trois coachings, une même écoute : au travail, dans votre vie, à l&#39;école. Thèmes, encadrés pour les chefs d&#39;entreprise, les parents et les écoles.">
+<meta property="og:url" content="https://guida-maquette.vercel.app/coaching">
+<meta property="og:image" content="https://guida-maquette.vercel.app/assets/partage/coaching-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Les trois coachings de Coaching Guida">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"Coaching Guida","url":"https://guida-maquette.vercel.app/","telephone":"+32479215383","email":"info@guida.be","vatID":"BE0830350385","founder":{"@type":"Person","name":"Mariève Gérard","jobTitle":"Coach"},"address":{"@type":"PostalAddress","streetAddress":"Rue de Hérédia 5","postalCode":"4217","addressLocality":"Héron","addressCountry":"BE"},"areaServed":"Belgique","sameAs":["https://www.facebook.com/coaching.guida/","https://www.instagram.com/marievegerard/","https://www.tiktok.com/@marievegerardcoaching"],"description":"Coaching professionnel, coaching de vie, coaching scolaire, constellations familiales et systémiques, formations et ateliers, par Mariève Gérard à Héron."}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><span class="disque-logo"><img src="/assets/images/logo-240.webp" alt="" width="240" height="143"></span><span data-voile-libelle>Coaching</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <span class="ouverture-disque disque-logo" data-ouverture-objet><img src="/assets/images/logo-480.webp" alt="" width="480" height="286"><svg class="ouverture-fleche" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="48" /></svg></span>
+  <p class="ouverture-ligne">by Mariève Gérard</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil" aria-label="Coaching Guida, accueil">
+      <img src="/assets/images/logo-240.webp" srcset="/assets/images/logo-240.webp 240w, /assets/images/logo-480.webp 480w" sizes="120px" alt="" width="240" height="143">
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/coaching" data-libelle="Coaching" aria-current="page">Coaching</a></li><li><a href="/constellations" data-libelle="Constellations">Constellations</a></li><li><a href="/formations" data-libelle="Formations">Formations</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/rendez-vous" data-libelle="Rendez-vous">Prendre rendez-vous</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/coaching" class="menu-lien" data-libelle="Coaching" aria-current="page">Coaching</a></li><li style="--i:2"><a href="/constellations" class="menu-lien" data-libelle="Constellations">Constellations</a></li><li style="--i:3"><a href="/formations" class="menu-lien" data-libelle="Formations">Formations</a></li><li style="--i:4"><a href="/rendez-vous" class="menu-lien" data-libelle="Rendez-vous">Rendez-vous</a></li></ul>
+  <p><a class="bouton" href="tel:+32479215383">Appeler 0479 21 53 83</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="co-tete" id="debut">
+  <div>
+    <p class="surtitre" data-apparait>Coaching</p>
+    <h1 class="page-titre" data-anime="gsap"><span class="hl"><span class="hl-in">Trois coachings, une même écoute.</span></span></h1>
+    <p class="intro" data-apparait>Au travail, dans votre vie ou à l&#39;école : on part de votre situation, on trouve ensemble les outils qui vous conviennent.</p>
+    <p class="actions" data-apparait><a href="/rendez-vous" class="bouton" data-libelle="Rendez-vous" data-action-principale data-survol="magnetique">Prendre rendez-vous</a></p>
+    <p class="texte-doux" data-info-cle data-apparait>Tarif et durée précisés au premier échange</p>
+  </div>
+  <div class="trois" data-effet="trois-cercles">
+    <a href="#professionnel" data-sans-transition><figure class="media " data-grok style="--cadrage:50% 45%">
+  <picture>
+    <img src="/assets/images/grok/pro-bureau-1100.webp" srcset="/assets/images/grok/pro-bureau-480.webp 480w, /assets/images/grok/pro-bureau-800.webp 800w, /assets/images/grok/pro-bureau-1100.webp 1100w" sizes="(max-width: 900px) 30vw, 220px" alt="" width="1100" height="1467" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure><span>Professionnel</span></a><a href="#vie" data-sans-transition><figure class="media " data-grok data-iris-centre="disque" style="--cadrage:50% 55%">
+  <picture>
+    <img src="/assets/images/grok/vie-chemin-1100.webp" srcset="/assets/images/grok/vie-chemin-480.webp 480w, /assets/images/grok/vie-chemin-800.webp 800w, /assets/images/grok/vie-chemin-1100.webp 1100w" sizes="(max-width: 900px) 30vw, 220px" alt="" width="1100" height="1467" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure><span>De vie</span></a><a href="#scolaire" data-sans-transition><figure class="media " data-grok style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/scolaire-devoirs-1100.webp" srcset="/assets/images/grok/scolaire-devoirs-480.webp 480w, /assets/images/grok/scolaire-devoirs-800.webp 800w, /assets/images/grok/scolaire-devoirs-1100.webp 1100w" sizes="(max-width: 900px) 30vw, 220px" alt="" width="1100" height="1467" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure><span>Scolaire</span></a>
+  </div>
+</section>
+<nav class="co-nav" aria-label="Les trois coachings">
+  <ul><li><a href="#professionnel" data-sans-transition>Professionnel</a></li><li><a href="#vie" data-sans-transition>De vie</a></li><li><a href="#scolaire" data-sans-transition>Scolaire</a></li></ul>
+</nav>
+<section class="section volet" id="professionnel">
+  <div class="conteneur volet-grille">
+    <div>
+      <p class="surtitre">Coaching professionnel</p>
+      <h2 data-anime="lignes">Avancer au travail avec plus de confiance et de cohérence.</h2>
+      <p class="intro-section" data-anime>Vous cherchez de la sérénité, de l&#39;énergie, de la motivation dans votre vie professionnelle ? L&#39;accompagnement s&#39;appuie sur des outils concrets et faciles à appliquer.</p>
+      <h3 class="sous">Les thèmes</h3>
+      <ul class="puces" data-anime="cascade"><li>Organisation et gestion du temps</li><li>Mise en valeur de vos talents</li><li>Estime et confiance en soi</li><li>Équilibre entre vie professionnelle et vie privée</li><li>Prévention ou gestion du burn-out</li><li>Bilan de compétences ou d&#39;orientation</li><li>Clarifier votre projet professionnel</li><li>Motivation</li><li>Gestion du stress</li></ul>
+      <p class="actions" style="margin-top:28px" data-anime><a href="/rendez-vous?sujet=professionnel" class="bouton" data-libelle="Rendez-vous">En parler</a></p>
+    </div>
+    <div class="volet-visuel">
+      <figure class="media " data-grok data-fx="parallaxe" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/pro-equipe-1200.webp" srcset="/assets/images/grok/pro-equipe-640.webp 640w, /assets/images/grok/pro-equipe-960.webp 960w, /assets/images/grok/pro-equipe-1200.webp 1200w" sizes="(max-width: 900px) 90vw, 560px" alt="" width="1200" height="900" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    </div>
+  </div>
+  <div class="conteneur"><ul class="encadres" data-anime="cascade"><li class="encadre">
+  <h3>Chefs d&#39;entreprise</h3><p>Un accompagnement individuel ou pour votre équipe, et des ateliers : gestion des conflits, des réunions, du temps et du stress, cohésion d&#39;équipe.</p>
+</li><li class="encadre">
+  <h3>Emploi et réorientation</h3><p>Un regard extérieur sur votre CV, un projet clarifié et une préparation à l&#39;entretien d&#39;embauche.</p>
+</li><li class="encadre">
+  <figure class="media " data-grok style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/bureau-range-960.webp" srcset="/assets/images/grok/bureau-range-640.webp 640w, /assets/images/grok/bureau-range-960.webp 960w" sizes="(max-width: 760px) 90vw, 380px" alt="" width="960" height="720" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  <h3>Office organising</h3><p>Trier, ranger, désencombrer : repenser votre espace de rangement et votre organisation pour gagner du temps, si votre bureau déborde ou manque de place.</p>
+</li></ul></div>
+</section>
+<section class="section section--ciel volet volet--inverse" id="vie">
+  <div class="conteneur volet-grille">
+    <div>
+      <p class="surtitre">Coaching de vie</p>
+      <h2 data-anime="lignes">Prendre du recul, et retrouver l&#39;élan pour agir.</h2>
+      <p class="intro-section" data-anime>Quand la vie bouge ou se déséquilibre, le coaching de vie offre un espace pour clarifier vos envies et retrouver votre capacité d&#39;action.</p>
+      <h3 class="sous">Quand on vient</h3>
+      <ul class="puces" data-anime="cascade"><li>Une transition</li><li>Une décision importante</li><li>Une perte de repères</li><li>Un besoin de sens</li><li>Du mal à lâcher prise</li><li>Un manque de confiance</li></ul>
+      <h3 class="sous">Ce qu&#39;on travaille</h3>
+      <ul class="puces" data-anime="cascade"><li>S&#39;organiser et gérer son temps</li><li>Relativiser</li><li>Estime et confiance en soi</li><li>Équilibre entre vie professionnelle et vie privée</li><li>Prévenir ou gérer le burn-out</li><li>Clarifier un projet</li><li>Mieux vivre son rôle de parent</li><li>Retrouver du temps et de la sérénité</li></ul>
+      <p class="actions" style="margin-top:28px" data-anime><a href="/rendez-vous?sujet=vie" class="bouton" data-libelle="Rendez-vous">En parler</a></p>
+    </div>
+    <div class="volet-visuel">
+      <figure class="media " data-grok data-fx="parallaxe" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/vie-bottes-1200.webp" srcset="/assets/images/grok/vie-bottes-640.webp 640w, /assets/images/grok/vie-bottes-960.webp 960w, /assets/images/grok/vie-bottes-1200.webp 1200w" sizes="(max-width: 900px) 90vw, 560px" alt="" width="1200" height="900" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    </div>
+  </div>
+  <div class="conteneur"><ul class="encadres" data-anime="cascade"><li class="encadre">
+  <h3>Guidance parentale</h3><p>Poser un cadre et des limites, gérer les conflits, et recevoir des outils pour accompagner les émotions et les besoins de vos enfants.</p>
+</li><li class="encadre">
+  <h3>Constellation familiale individuelle</h3><p>Explorer les schémas familiaux qui influencent votre vie et regarder autrement ce qui bloque.</p>
+  <a href="/constellations" class="lien-fleche" data-libelle="Constellations">Découvrir</a>
+</li></ul></div>
+</section>
+<section class="section volet" id="scolaire">
+  <div class="conteneur volet-grille">
+    <div>
+      <p class="surtitre">Coaching scolaire</p>
+      <h2 data-anime="lignes">Aider l&#39;élève à trouver sa façon d&#39;apprendre.</h2>
+      <p class="intro-section" data-anime>En difficulté, démotivé, perdu dans l&#39;organisation ou les méthodes ? Nous analysons ensemble la situation. Logopède de formation, Mariève peut aussi repérer d&#39;éventuels troubles des apprentissages et orienter si besoin.</p>
+      <h3 class="sous">Les domaines</h3>
+      <ul class="puces" data-anime="cascade"><li>Orientation scolaire</li><li>Motivation</li><li>Gestion du temps et organisation</li><li>Méthodes de travail, dont la gestion mentale</li><li>Estime et confiance en soi</li><li>Gestion du stress</li><li>Repérage et accompagnement des hauts potentiels</li><li>Aménagements raisonnables en classe</li></ul>
+      <blockquote class="volet-citation" data-anime>La réussite ne demande pas d&#39;être parfait, seulement de continuer à essayer.</blockquote>
+      <p class="actions" style="margin-top:28px" data-anime><a href="/rendez-vous?sujet=scolaire&amp;pour=enfant" class="bouton" data-libelle="Rendez-vous">En parler</a></p>
+    </div>
+    <div class="volet-visuel">
+      <figure class="media " data-grok data-fx="parallaxe" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/scolaire-methode-1200.webp" srcset="/assets/images/grok/scolaire-methode-640.webp 640w, /assets/images/grok/scolaire-methode-960.webp 960w, /assets/images/grok/scolaire-methode-1200.webp 1200w" sizes="(max-width: 900px) 90vw, 560px" alt="" width="1200" height="900" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+      <figure class="media media--rond" data-fx="zoom" style="--cadrage:55% 50%">
+  <picture>
+    <img src="/assets/images/bocal-800.webp" srcset="/assets/images/bocal-480.webp 480w, /assets/images/bocal-800.webp 800w" sizes="(max-width: 900px) 45vw, 270px" alt="Un bocal à « mots doux » décoré en séance" width="800" height="1000" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </div>
+  </div>
+  <div class="conteneur"><ul class="encadres" data-anime="cascade"><li class="encadre">
+  <h3>Pour les parents</h3><p>Des outils et des conseils pour mieux accompagner la scolarité de votre enfant.</p>
+</li><li class="encadre">
+  <h3>Pour les écoles</h3><p>Aménagements raisonnables, ateliers de méthode de travail, accompagnement des équipes éducatives et formations.</p>
+</li></ul></div>
+</section>
+<section class="section section--ciel" id="fin">
+  <div class="conteneur fin-bloc">
+    <div class="fin-portrait">
+      <figure class="media fin-media" style="--cadrage:50% 22%">
+  <picture>
+    <img src="/assets/images/marieve-noir-585.webp" srcset="/assets/images/marieve-noir-400.webp 400w, /assets/images/marieve-noir-585.webp 585w" sizes="210px" alt="Je suis Mariève." width="585" height="780" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <svg viewBox="0 0 200 200" aria-hidden="true" data-fx="trace"><circle cx="100" cy="100" r="98" /></svg>
+    </div>
+    <div class="fin-texte">
+      <p class="surtitre">Une question ? Envie d&#39;en parler ?</p>
+      <h2 data-anime="lignes">Un premier échange de quelques minutes, pour faire le point.</h2>
+      <p data-anime>Appelez Mariève ou laissez-lui un message : vous verrez ensemble quel accompagnement vous convient.</p>
+      <p class="actions fin-actions" data-anime>
+        <a href="/rendez-vous" class="bouton" data-libelle="Rendez-vous" data-survol="magnetique">Prendre rendez-vous</a>
+        <a class="bouton bouton--contour" href="tel:+32479215383">Appeler le 0479 21 53 83</a>
+      </p>
+    </div>
+    <div class="fin-coord" data-anime>
+      <span>Rue de Hérédia 5, 4217 Héron (Belgique)</span>
+      <a href="tel:+32479215383">0479 21 53 83</a>
+      <span class="selectionnable">info@guida.be</span>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-240.webp" alt="Coaching Guida" width="240" height="143" loading="lazy">
+      <p>by Mariève Gérard</p>
+    </div>
+    <div>
+      <p class="pied-titre">Coordonnées</p>
+      <p>Rue de Hérédia 5, 4217 Héron (Belgique)<br><a href="tel:+32479215383">0479 21 53 83</a><br><span class="selectionnable">info@guida.be</span></p>
+      <p class="pied-petit">TVA BE0830350385</p>
+    </div>
+    <nav aria-label="Pages">
+      <p class="pied-titre">Pages</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/coaching" data-libelle="Coaching" aria-current="page">Coaching</a></li><li><a href="/constellations" data-libelle="Constellations">Constellations</a></li><li><a href="/formations" data-libelle="Formations">Formations</a></li><li><a href="/rendez-vous" data-libelle="Rendez-vous">Rendez-vous</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Suivre Mariève</p>
+      <ul class="pied-reseaux">
+        <li><a href="https://www.facebook.com/coaching.guida/" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a href="https://www.instagram.com/marievegerard/" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://www.tiktok.com/@marievegerardcoaching" target="_blank" rel="noopener">TikTok</a></li>
+      </ul>
+      <p><a href="#haut" data-sans-transition>Retour en haut</a></p>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Mentions légales et politique de confidentialité : à compléter</p><p>Maquette de présentation : formulaires simulés, rien n&#39;est envoyé.</p><p>© Coaching Guida</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+32479215383">Appeler</a>
+  <a class="bouton" href="/rendez-vous" data-libelle="Rendez-vous">Prendre rendez-vous</a>
+</div>
+</body>
+</html>

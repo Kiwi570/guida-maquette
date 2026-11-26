@@ -1,0 +1,8 @@
+[
+  { "cle": "motivation", "titre": "Moteurs de motivation", "texte": "Identifier vos trois moteurs de motivation et apprendre à les activer au quotidien.", "formats": ["Individuel : 2 h", "Équipe : matinée ou journée"], "publics": ["particuliers", "entreprises"], "figure": "trois" },
+  { "cle": "ikigai", "titre": "Ikigaï", "texte": "La méthode japonaise pour donner du sens à votre vie ou à votre carrière, en équilibrant quatre éléments.", "formats": ["Individuel : 2 h 30"], "publics": ["particuliers"], "figure": "ikigai" },
+  { "cle": "enneagramme", "titre": "Ennéagramme", "texte": "Une initiation aux neuf types de personnalité, pour mieux comprendre vos comportements et votre façon de penser.", "formats": ["Individuel : 2 h 30"], "publics": ["particuliers"], "figure": "enneagramme" },
+  { "cle": "methode", "titre": "Méthode de travail", "texte": "Organiser votre temps, vos priorités et votre énergie avec une méthode personnalisée, pour le travail ou les études.", "formats": ["Durée selon la demande"], "publics": ["particuliers", "ecoles"], "figure": "blocs" },
+  { "cle": "reunion", "titre": "Gestion de réunion et intelligence collaborative", "texte": "Un accompagnement en amont d'une réunion, ou l'animation d'une journée d'équipe.", "formats": ["Durée selon la demande"], "publics": ["entreprises"], "figure": "table" },
+  { "cle": "orientation", "titre": "Bilan d'orientation", "texte": "Un bilan d'orientation pour choisir ses études, ou un bilan de compétences pour se réorienter.", "formats": ["Durée selon la demande"], "publics": ["particuliers", "ecoles"], "figure": "fleche" }
+]

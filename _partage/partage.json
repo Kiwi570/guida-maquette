@@ -1,0 +1,210 @@
+{
+  "avertissements": [],
+  "cartes": [
+    {
+      "page": "accueil",
+      "langue": "fr",
+      "fichier": "assets/partage/accueil-fr.jpg",
+      "gabarit": "droite",
+      "image": "marieve-cercle-1200.webp",
+      "poids": 95206,
+      "sujet": {
+        "x": 665,
+        "y": 0,
+        "l": 471,
+        "h": 505
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 235,
+          "l": 480,
+          "h": 193
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        },
+        {
+          "x": 600,
+          "y": 0,
+          "l": 56,
+          "h": 630
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "coaching",
+      "langue": "fr",
+      "fichier": "assets/partage/coaching-fr.jpg",
+      "gabarit": "droite",
+      "image": "cabinet-1200.webp",
+      "poids": 118180,
+      "sujet": {
+        "x": 653,
+        "y": 69,
+        "l": 388,
+        "h": 377
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 235,
+          "l": 480,
+          "h": 193
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        },
+        {
+          "x": 600,
+          "y": 0,
+          "l": 45,
+          "h": 630
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "constellations",
+      "langue": "fr",
+      "fichier": "assets/partage/constellations-fr.jpg",
+      "gabarit": "droite",
+      "image": "salle-arche-1200.webp",
+      "poids": 98267,
+      "sujet": {
+        "x": 697,
+        "y": 0,
+        "l": 407,
+        "h": 412
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 235,
+          "l": 480,
+          "h": 193
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        },
+        {
+          "x": 600,
+          "y": 0,
+          "l": 88,
+          "h": 630
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "formations",
+      "langue": "fr",
+      "fichier": "assets/partage/formations-fr.jpg",
+      "gabarit": "droite",
+      "image": "grange-1200.webp",
+      "poids": 114224,
+      "sujet": {
+        "x": 741,
+        "y": 211,
+        "l": 388,
+        "h": 200
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 202,
+          "l": 480,
+          "h": 258
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        },
+        {
+          "x": 600,
+          "y": 0,
+          "l": 90,
+          "h": 630
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "rendez-vous",
+      "langue": "fr",
+      "fichier": "assets/partage/rendez-vous-fr.jpg",
+      "gabarit": "droite",
+      "image": "marieve-noir-585.webp",
+      "poids": 47009,
+      "sujet": {
+        "x": 724,
+        "y": 0,
+        "l": 283,
+        "h": 350
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 299,
+          "l": 480,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        },
+        {
+          "x": 600,
+          "y": 0,
+          "l": 90,
+          "h": 630
+        }
+      ],
+      "recouvrement": 0
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "cle": "professionnel",
+    "titre": "Coaching professionnel",
+    "texte": "Temps, stress, motivation, confiance, projet ou réorientation : avancer au travail avec des outils concrets.",
+    "image": "grok/pro-bureau",
+    "page": "coaching",
+    "ancre": "professionnel",
+    "cadrage": "50% 45%"
+  },
+  {
+    "cle": "vie",
+    "titre": "Coaching de vie",
+    "texte": "Une transition, une décision, une perte de repères : retrouver ce qui compte et l'élan pour agir.",
+    "image": "grok/vie-chemin",
+    "page": "coaching",
+    "ancre": "vie",
+    "cadrage": "50% 55%"
+  },
+  {
+    "cle": "scolaire",
+    "titre": "Coaching scolaire",
+    "texte": "Motivation, méthode, organisation, orientation : aider l'élève à trouver sa façon d'apprendre.",
+    "image": "grok/scolaire-devoirs",
+    "page": "coaching",
+    "ancre": "scolaire",
+    "cadrage": "50% 50%"
+  },
+  {
+    "cle": "constellations",
+    "titre": "Constellations familiales",
+    "texte": "Regarder autrement sa place dans sa famille et les liens qui la traversent.",
+    "image": "salle-constellations",
+    "page": "constellations",
+    "ancre": "",
+    "cadrage": "50% 60%"
+  },
+  {
+    "cle": "formations",
+    "titre": "Formations et ateliers",
+    "texte": "Ikigaï, Ennéagramme, motivation, gestion de réunion : en séance individuelle, en entreprise ou en école.",
+    "image": "grange",
+    "page": "formations",
+    "ancre": "",
+    "cadrage": "54% 50%"
+  }
+]

@@ -1,0 +1,83 @@
+{
+  "professionnel": {
+    "themes": [
+      "Organisation et gestion du temps",
+      "Mise en valeur de vos talents",
+      "Estime et confiance en soi",
+      "Équilibre entre vie professionnelle et vie privée",
+      "Prévention ou gestion du burn-out",
+      "Bilan de compétences ou d'orientation",
+      "Clarifier votre projet professionnel",
+      "Motivation",
+      "Gestion du stress"
+    ],
+    "encadres": [
+      {
+        "titre": "Chefs d'entreprise",
+        "texte": "Un accompagnement individuel ou pour votre équipe, et des ateliers : gestion des conflits, des réunions, du temps et du stress, cohésion d'équipe."
+      },
+      {
+        "titre": "Emploi et réorientation",
+        "texte": "Un regard extérieur sur votre CV, un projet clarifié et une préparation à l'entretien d'embauche."
+      },
+      {
+        "titre": "Office organising",
+        "texte": "Trier, ranger, désencombrer : repenser votre espace de rangement et votre organisation pour gagner du temps, si votre bureau déborde ou manque de place.",
+        "image": "grok/bureau-range"
+      }
+    ]
+  },
+  "vie": {
+    "situations": [
+      "Une transition",
+      "Une décision importante",
+      "Une perte de repères",
+      "Un besoin de sens",
+      "Du mal à lâcher prise",
+      "Un manque de confiance"
+    ],
+    "themes": [
+      "S'organiser et gérer son temps",
+      "Relativiser",
+      "Estime et confiance en soi",
+      "Équilibre entre vie professionnelle et vie privée",
+      "Prévenir ou gérer le burn-out",
+      "Clarifier un projet",
+      "Mieux vivre son rôle de parent",
+      "Retrouver du temps et de la sérénité"
+    ],
+    "encadres": [
+      {
+        "titre": "Guidance parentale",
+        "texte": "Poser un cadre et des limites, gérer les conflits, et recevoir des outils pour accompagner les émotions et les besoins de vos enfants."
+      },
+      {
+        "titre": "Constellation familiale individuelle",
+        "texte": "Explorer les schémas familiaux qui influencent votre vie et regarder autrement ce qui bloque.",
+        "page": "constellations"
+      }
+    ]
+  },
+  "scolaire": {
+    "themes": [
+      "Orientation scolaire",
+      "Motivation",
+      "Gestion du temps et organisation",
+      "Méthodes de travail, dont la gestion mentale",
+      "Estime et confiance en soi",
+      "Gestion du stress",
+      "Repérage et accompagnement des hauts potentiels",
+      "Aménagements raisonnables en classe"
+    ],
+    "encadres": [
+      {
+        "titre": "Pour les parents",
+        "texte": "Des outils et des conseils pour mieux accompagner la scolarité de votre enfant."
+      },
+      {
+        "titre": "Pour les écoles",
+        "texte": "Aménagements raisonnables, ateliers de méthode de travail, accompagnement des équipes éducatives et formations."
+      }
+    ]
+  }
+}

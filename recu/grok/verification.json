@@ -1,0 +1,244 @@
+{
+  "date": "2026-11-26T10:05:22.084Z",
+  "plan": "/home/claude/guida-maquette/plan-images.json",
+  "attendus": 11,
+  "recus": 11,
+  "planches": [
+    "planche.jpg"
+  ],
+  "inconnus": [],
+  "manquants": [],
+  "a_regenerer": [
+    {
+      "fichier": "bureau-matin.jpg",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "consigne_corrigee": "A quiet desk by a large window at sunrise: an open notebook with a pencil, a cup of tea with a thin line of steam, a small plant; outside, misty fields and a soft pale blue and apricot sky; the left half of the image is calm and simple (wall and soft light). Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Soft natural documentary photography, bright, airy, reassuring and warm mood, palette of soft sky blue, white, pale blue-grey, light oak wood and a small touch of warm apricot, soft natural morning daylight, tactile light oak wood, linen, paper and a few green plants, set in the rolling countryside of Wallonia in Belgium (open fields, hedgerows, small brick farmhouses, low hills) on a mild clear morning in early autumn, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. Pages completely blank, blank book spines, abstract unreadable marks, plain unmarked surfaces, dials with tick marks only and no numbers. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "bureau-matin-mobile.jpg",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "consigne_corrigee": "A quiet desk by a large window at sunrise: an open notebook with a pencil, a cup of tea with a thin line of steam, a small plant; outside, misty fields and a soft pale blue and apricot sky; the left half of the image is calm and simple (wall and soft light). Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, bright, airy, reassuring and warm mood, palette of soft sky blue, white, pale blue-grey, light oak wood and a small touch of warm apricot, soft natural morning daylight, tactile light oak wood, linen, paper and a few green plants, set in the rolling countryside of Wallonia in Belgium (open fields, hedgerows, small brick farmhouses, low hills) on a mild clear morning in early autumn, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. Pages completely blank, blank book spines, abstract unreadable marks, plain unmarked surfaces, dials with tick marks only and no numbers. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "carrefour-404.jpg",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "consigne_corrigee": "A simple wooden signpost with two blank arrow boards at a fork of two grass paths in the countryside, light morning mist, hedgerows, soft daylight, calm area on the left. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Soft natural documentary photography, bright, airy, reassuring and warm mood, palette of soft sky blue, white, pale blue-grey, light oak wood and a small touch of warm apricot, soft natural morning daylight, tactile light oak wood, linen, paper and a few green plants, set in the rolling countryside of Wallonia in Belgium (open fields, hedgerows, small brick farmhouses, low hills) on a mild clear morning in early autumn, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    }
+  ],
+  "images": [
+    {
+      "nom": "grok/pro-bureau",
+      "attendu": "pro-bureau.jpg",
+      "fichier": "pro-bureau.jpg",
+      "priorite": "indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1320,
+      "hauteur": 1980,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/vie-chemin",
+      "attendu": "vie-chemin.jpg",
+      "fichier": "vie-chemin.jpg",
+      "priorite": "indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1320,
+      "hauteur": 1980,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/scolaire-devoirs",
+      "attendu": "scolaire-devoirs.jpg",
+      "fichier": "scolaire-devoirs.jpg",
+      "priorite": "indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1320,
+      "hauteur": 1980,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/pro-equipe",
+      "attendu": "pro-equipe.jpg",
+      "fichier": "pro-equipe.jpg",
+      "priorite": "indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1728,
+      "hauteur": 1152,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/vie-bottes",
+      "attendu": "vie-bottes.jpg",
+      "fichier": "vie-bottes.jpg",
+      "priorite": "indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1728,
+      "hauteur": 1152,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/scolaire-methode",
+      "attendu": "scolaire-methode.jpg",
+      "fichier": "scolaire-methode.jpg",
+      "priorite": "conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1728,
+      "hauteur": 1152,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/bureau-matin",
+      "attendu": "bureau-matin.jpg",
+      "fichier": "bureau-matin.jpg",
+      "priorite": "indispensable",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1792,
+      "hauteur": 1008,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "A quiet desk by a large window at sunrise: an open notebook with a pencil, a cup of tea with a thin line of steam, a small plant; outside, misty fields and a soft pale blue and apricot sky; the left half of the image is calm and simple (wall and soft light). Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Soft natural documentary photography, bright, airy, reassuring and warm mood, palette of soft sky blue, white, pale blue-grey, light oak wood and a small touch of warm apricot, soft natural morning daylight, tactile light oak wood, linen, paper and a few green plants, set in the rolling countryside of Wallonia in Belgium (open fields, hedgerows, small brick farmhouses, low hills) on a mild clear morning in early autumn, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. Pages completely blank, blank book spines, abstract unreadable marks, plain unmarked surfaces, dials with tick marks only and no numbers. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/bureau-matin",
+      "mobile": true,
+      "attendu": "bureau-matin-mobile.jpg",
+      "fichier": "bureau-matin-mobile.jpg",
+      "priorite": "indispensable",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1320,
+      "hauteur": 2347,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "A quiet desk by a large window at sunrise: an open notebook with a pencil, a cup of tea with a thin line of steam, a small plant; outside, misty fields and a soft pale blue and apricot sky; the left half of the image is calm and simple (wall and soft light). Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, bright, airy, reassuring and warm mood, palette of soft sky blue, white, pale blue-grey, light oak wood and a small touch of warm apricot, soft natural morning daylight, tactile light oak wood, linen, paper and a few green plants, set in the rolling countryside of Wallonia in Belgium (open fields, hedgerows, small brick farmhouses, low hills) on a mild clear morning in early autumn, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. Pages completely blank, blank book spines, abstract unreadable marks, plain unmarked surfaces, dials with tick marks only and no numbers. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/constellation-figurines",
+      "attendu": "constellation-figurines.jpg",
+      "fichier": "constellation-figurines.jpg",
+      "priorite": "indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1728,
+      "hauteur": 1152,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/bureau-range",
+      "attendu": "bureau-range.jpg",
+      "fichier": "bureau-range.jpg",
+      "priorite": "conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1728,
+      "hauteur": 1152,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/carrefour-404",
+      "attendu": "carrefour-404.jpg",
+      "fichier": "carrefour-404.jpg",
+      "priorite": "conseillée",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1792,
+      "hauteur": 1008,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "A simple wooden signpost with two blank arrow boards at a fork of two grass paths in the countryside, light morning mist, hedgerows, soft daylight, calm area on the left. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Soft natural documentary photography, bright, airy, reassuring and warm mood, palette of soft sky blue, white, pale blue-grey, light oak wood and a small touch of warm apricot, soft natural morning daylight, tactile light oak wood, linen, paper and a few green plants, set in the rolling countryside of Wallonia in Belgium (open fields, hedgerows, small brick farmhouses, low hills) on a mild clear morning in early autumn, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    }
+  ]
+}

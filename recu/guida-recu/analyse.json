@@ -1,0 +1,3118 @@
+{
+  "dossier": "/Users/paul/Downloads/guida-recu",
+  "date": "2026-11-26T09:39:27.924Z",
+  "detection": "Vision (macOS) + mesures sharp",
+  "planches": [
+    "planche.jpg",
+    "planche-2.jpg",
+    "planche-3.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [],
+  "images": [
+    {
+      "fichier": "logo-clair.png",
+      "nom": "logo-clair",
+      "drapeau": "logo",
+      "largeur": 2000,
+      "hauteur": 1148,
+      "ratio": "16:9",
+      "ratio_valeur": 1.742,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 131989,
+      "transparence": true,
+      "sujet": {
+        "x": 8.7,
+        "y": 15.4,
+        "l": 84.8,
+        "h": 79.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        51
+      ],
+      "cadrage_css": "47% 51%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.58,
+          "ton": "clair",
+          "recouvre_sujet": 0.47
+        },
+        {
+          "cote": "bas",
+          "score": 0.46,
+          "ton": "clair",
+          "recouvre_sujet": 0.72
+        },
+        {
+          "cote": "gauche",
+          "score": 0.39,
+          "ton": "clair",
+          "recouvre_sujet": 0.62
+        },
+        {
+          "cote": "droite",
+          "score": 0.36,
+          "ton": "clair",
+          "recouvre_sujet": 0.67
+        }
+      ],
+      "qualite": {
+        "nettete": 19.4,
+        "bruit": 0.03,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "803a1b0d0d4c1a38",
+      "drapeaux": [
+        "logo"
+      ]
+    },
+    {
+      "fichier": "gerard-marieve-guida.jpg",
+      "nom": "gerard-marieve-guida",
+      "drapeau": "portrait",
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 572109,
+      "transparence": false,
+      "sujet": {
+        "x": 21.3,
+        "y": 0,
+        "l": 56.1,
+        "h": 80.1,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        49,
+        42
+      ],
+      "cadrage_css": "49% 42%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.21,
+          "ton": "clair",
+          "recouvre_sujet": 0.56
+        },
+        {
+          "cote": "gauche",
+          "score": 0.2,
+          "ton": "clair",
+          "recouvre_sujet": 0.37
+        },
+        {
+          "cote": "bas",
+          "score": 0.12,
+          "ton": "sombre",
+          "recouvre_sujet": 0.24
+        },
+        {
+          "cote": "droite",
+          "score": 0.08,
+          "ton": "moyen",
+          "recouvre_sujet": 0.35
+        }
+      ],
+      "qualite": {
+        "nettete": 58.3,
+        "bruit": 1.33,
+        "compression": 1.2,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "868686c787175159",
+      "drapeaux": [
+        "portrait",
+        "visage"
+      ]
+    },
+    {
+      "fichier": "logo-seul-guida.png",
+      "nom": "logo-seul-guida",
+      "drapeau": "portrait",
+      "largeur": 2000,
+      "hauteur": 1473,
+      "ratio": "4:3",
+      "ratio_valeur": 1.358,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 97630,
+      "transparence": true,
+      "sujet": {
+        "x": 18.3,
+        "y": 22.9,
+        "l": 38.3,
+        "h": 53.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        47
+      ],
+      "cadrage_css": "43% 47%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.86,
+          "ton": "clair",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "haut",
+          "score": 0.85,
+          "ton": "clair",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "droite",
+          "score": 0.8,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.69,
+          "ton": "clair",
+          "recouvre_sujet": 0.29
+        }
+      ],
+      "qualite": {
+        "nettete": 11.5,
+        "bruit": 0.04,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "08101a0b0b1a1428",
+      "drapeaux": [
+        "portrait",
+        "calme bas/haut/droite/gauche"
+      ]
+    },
+    {
+      "fichier": "fond.jpg",
+      "nom": "fond",
+      "drapeau": "portrait",
+      "largeur": 2000,
+      "hauteur": 500,
+      "ratio": "4",
+      "ratio_valeur": 4,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 40477,
+      "transparence": false,
+      "sujet": {
+        "x": 24.6,
+        "y": 21.5,
+        "l": 39.1,
+        "h": 74.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        52
+      ],
+      "cadrage_css": "47% 52%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.62,
+          "ton": "clair",
+          "recouvre_sujet": 0.29
+        },
+        {
+          "cote": "droite",
+          "score": 0.57,
+          "ton": "clair",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "haut",
+          "score": 0.55,
+          "ton": "clair",
+          "recouvre_sujet": 0.15
+        },
+        {
+          "cote": "bas",
+          "score": 0.43,
+          "ton": "clair",
+          "recouvre_sujet": 0.35
+        }
+      ],
+      "qualite": {
+        "nettete": 27.9,
+        "bruit": 0.21,
+        "compression": 1.15,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "139797050c050d13",
+      "drapeaux": [
+        "portrait"
+      ]
+    },
+    {
+      "fichier": "accompagnement-personnalise.jpg",
+      "nom": "accompagnement-personnalise",
+      "drapeau": "portrait",
+      "largeur": 895,
+      "hauteur": 596,
+      "ratio": "3:2",
+      "ratio_valeur": 1.502,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 75821,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 52.4,
+        "h": 83.9,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        12,
+        17
+      ],
+      "cadrage_css": "12% 17%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.2,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.1,
+          "ton": "moyen",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "haut",
+          "score": 0.02,
+          "ton": "moyen",
+          "recouvre_sujet": 0.52
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.84
+        }
+      ],
+      "qualite": {
+        "nettete": 27.2,
+        "bruit": 0.76,
+        "compression": 1.12,
+        "faible": true,
+        "raisons": [
+          "895 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "2d8d1c6ccccf3bb3",
+      "drapeaux": [
+        "portrait",
+        "visage",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "gerard-marieve-guida-2.jpg",
+      "nom": "gerard-marieve-guida-2",
+      "drapeau": "portrait",
+      "largeur": 585,
+      "hauteur": 797,
+      "ratio": "3:4",
+      "ratio_valeur": 0.734,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 76215,
+      "transparence": false,
+      "sujet": {
+        "x": 20.6,
+        "y": 4.9,
+        "l": 47.1,
+        "h": 45.5,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        44,
+        25
+      ],
+      "cadrage_css": "44% 25%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.51,
+          "ton": "sombre",
+          "recouvre_sujet": 0.41
+        },
+        {
+          "cote": "droite",
+          "score": 0.44,
+          "ton": "sombre",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "gauche",
+          "score": 0.43,
+          "ton": "sombre",
+          "recouvre_sujet": 0.22
+        },
+        {
+          "cote": "bas",
+          "score": 0.39,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        }
+      ],
+      "qualite": {
+        "nettete": 36.2,
+        "bruit": 0.46,
+        "compression": 0.99,
+        "faible": true,
+        "raisons": [
+          "585 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "35727078f0f0f0c8",
+      "drapeaux": [
+        "portrait",
+        "visage",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "coaching-guida-by-marieve.jpg",
+      "nom": "coaching-guida-by-marieve",
+      "drapeau": "portrait",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 60230,
+      "transparence": false,
+      "sujet": {
+        "x": 35.3,
+        "y": 22.1,
+        "l": 32.4,
+        "h": 42.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        48
+      ],
+      "cadrage_css": "50% 48%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.39,
+          "ton": "moyen",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "droite",
+          "score": 0.23,
+          "ton": "moyen",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "bas",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.19,
+          "ton": "moyen",
+          "recouvre_sujet": 0.05
+        }
+      ],
+      "qualite": {
+        "nettete": 100.7,
+        "bruit": 1.3,
+        "compression": 1.09,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "03b7a286562eccc8",
+      "drapeaux": [
+        "portrait",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "contact.jpg",
+      "nom": "contact",
+      "drapeau": "autre",
+      "largeur": 480,
+      "hauteur": 480,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 18412,
+      "transparence": false,
+      "sujet": {
+        "x": 20.2,
+        "y": 0,
+        "l": 48,
+        "h": 51.2,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        44,
+        25
+      ],
+      "cadrage_css": "44% 25%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.48,
+          "ton": "sombre",
+          "recouvre_sujet": 0.48
+        },
+        {
+          "cote": "droite",
+          "score": 0.46,
+          "ton": "sombre",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.43,
+          "ton": "sombre",
+          "recouvre_sujet": 0.25
+        },
+        {
+          "cote": "bas",
+          "score": 0.39,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        }
+      ],
+      "qualite": {
+        "nettete": 27.9,
+        "bruit": 0.55,
+        "compression": 1.18,
+        "faible": true,
+        "raisons": [
+          "480 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "327271787070f0f4",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "guida.jpg",
+      "nom": "guida",
+      "drapeau": "autre",
+      "largeur": 1200,
+      "hauteur": 1600,
+      "ratio": "3:4",
+      "ratio_valeur": 0.75,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 465202,
+      "transparence": false,
+      "sujet": {
+        "x": 27.3,
+        "y": 37.3,
+        "l": 32.7,
+        "h": 62.2,
+        "source": "corps"
+      },
+      "visages": 1,
+      "cadrage": [
+        44,
+        53
+      ],
+      "cadrage_css": "44% 53%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.56,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.48,
+          "ton": "clair",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "droite",
+          "score": 0.45,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 0.32
+        }
+      ],
+      "qualite": {
+        "nettete": 38.6,
+        "bruit": 1.01,
+        "compression": 1.17,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "\"CALERÍA",
+        "blocs": 1,
+        "surface": 0.2,
+        "details": [
+          {
+            "texte": "\"CALERÍA",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "470b0f8da58d8dcd",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "contact-2.webp",
+      "nom": "contact-2",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 13392,
+      "transparence": false,
+      "sujet": {
+        "x": 44.1,
+        "y": 23.5,
+        "l": 44.1,
+        "h": 57.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        70,
+        54
+      ],
+      "cadrage_css": "70% 54%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.95,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.85,
+          "ton": "clair",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "bas",
+          "score": 0.81,
+          "ton": "clair",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "droite",
+          "score": 0.68,
+          "ton": "clair",
+          "recouvre_sujet": 0.4
+        }
+      ],
+      "qualite": {
+        "nettete": 16.3,
+        "bruit": 0.18,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Rue de Burdinne-",
+        "blocs": 1,
+        "surface": 5.6,
+        "details": [
+          {
+            "texte": "Rue de Burdinne-",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "34160c0e59511981",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme gauche/haut/bas/droite"
+      ]
+    },
+    {
+      "fichier": "contact-3.webp",
+      "nom": "contact-3",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 13480,
+      "transparence": false,
+      "sujet": {
+        "x": 23.1,
+        "y": 19.6,
+        "l": 67.5,
+        "h": 57.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        59,
+        50
+      ],
+      "cadrage_css": "59% 50%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.83,
+          "ton": "clair",
+          "recouvre_sujet": 0.23
+        },
+        {
+          "cote": "gauche",
+          "score": 0.82,
+          "ton": "clair",
+          "recouvre_sujet": 0.24
+        },
+        {
+          "cote": "haut",
+          "score": 0.78,
+          "ton": "clair",
+          "recouvre_sujet": 0.3
+        },
+        {
+          "cote": "droite",
+          "score": 0.68,
+          "ton": "clair",
+          "recouvre_sujet": 0.44
+        }
+      ],
+      "qualite": {
+        "nettete": 13.2,
+        "bruit": 0.22,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "2050b0b0404044a3",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme bas/gauche/haut/droite"
+      ]
+    },
+    {
+      "fichier": "contact-4.webp",
+      "nom": "contact-4",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 7834,
+      "transparence": false,
+      "sujet": {
+        "x": 27,
+        "y": 23.2,
+        "l": 72.2,
+        "h": 27.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        62,
+        39
+      ],
+      "cadrage_css": "62% 39%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.94,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.93,
+          "ton": "clair",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "droite",
+          "score": 0.86,
+          "ton": "clair",
+          "recouvre_sujet": 0.27
+        },
+        {
+          "cote": "haut",
+          "score": 0.84,
+          "ton": "clair",
+          "recouvre_sujet": 0.24
+        }
+      ],
+      "qualite": {
+        "nettete": 6.6,
+        "bruit": 0.15,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "0a8400409089848a",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme bas/gauche/droite/haut"
+      ]
+    },
+    {
+      "fichier": "contact-5.webp",
+      "nom": "contact-5",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 4332,
+      "transparence": false,
+      "sujet": {
+        "x": 7.4,
+        "y": 13.2,
+        "l": 86.8,
+        "h": 33.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        31
+      ],
+      "cadrage_css": "44% 31%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.96,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.83,
+          "ton": "clair",
+          "recouvre_sujet": 0.29
+        },
+        {
+          "cote": "gauche",
+          "score": 0.81,
+          "ton": "clair",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "haut",
+          "score": 0.72,
+          "ton": "clair",
+          "recouvre_sujet": 0.54
+        }
+      ],
+      "qualite": {
+        "nettete": 11.7,
+        "bruit": 0.17,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "1161509882818008",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme bas/droite/gauche/haut"
+      ]
+    },
+    {
+      "fichier": "contact-6.webp",
+      "nom": "contact-6",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 12888,
+      "transparence": false,
+      "sujet": {
+        "x": 38.2,
+        "y": 13.2,
+        "l": 32.4,
+        "h": 44.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        34
+      ],
+      "cadrage_css": "54% 34%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.9,
+          "ton": "clair",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "bas",
+          "score": 0.9,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.85,
+          "ton": "clair",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "haut",
+          "score": 0.82,
+          "ton": "clair",
+          "recouvre_sujet": 0.2
+        }
+      ],
+      "qualite": {
+        "nettete": 10.8,
+        "bruit": 0.24,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "c2868d8999932366",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme gauche/bas/droite/haut"
+      ]
+    },
+    {
+      "fichier": "contact-7.webp",
+      "nom": "contact-7",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 17584,
+      "transparence": false,
+      "sujet": {
+        "x": 19.1,
+        "y": 30.9,
+        "l": 44.1,
+        "h": 36.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        40,
+        48
+      ],
+      "cadrage_css": "40% 48%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.91,
+          "ton": "clair",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "droite",
+          "score": 0.87,
+          "ton": "clair",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "bas",
+          "score": 0.85,
+          "ton": "clair",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "gauche",
+          "score": 0.7,
+          "ton": "clair",
+          "recouvre_sujet": 0.19
+        }
+      ],
+      "qualite": {
+        "nettete": 39.5,
+        "bruit": 0.24,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "RON · Chau-de Wavre · Rue du-Vieux Moulin- · LAV",
+        "blocs": 4,
+        "surface": 12.1,
+        "details": [
+          {
+            "texte": "RON",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Chau-de Wavre",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue du-Vieux Moulin-",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "LAV",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "20808c4c66309dc2",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme haut/droite/bas/gauche"
+      ]
+    },
+    {
+      "fichier": "contact-8.webp",
+      "nom": "contact-8",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 7770,
+      "transparence": false,
+      "sujet": {
+        "x": 25,
+        "y": 1.5,
+        "l": 48.5,
+        "h": 42.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        19
+      ],
+      "cadrage_css": "47% 19%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.9,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.81,
+          "ton": "clair",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "droite",
+          "score": 0.74,
+          "ton": "clair",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "haut",
+          "score": 0.6,
+          "ton": "clair",
+          "recouvre_sujet": 0.46
+        }
+      ],
+      "qualite": {
+        "nettete": 20.1,
+        "bruit": 0.2,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "998d4243c3858481",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme bas/gauche/droite"
+      ]
+    },
+    {
+      "fichier": "contact-9.webp",
+      "nom": "contact-9",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 6844,
+      "transparence": false,
+      "sujet": {
+        "x": 20.6,
+        "y": 52.9,
+        "l": 61.8,
+        "h": 29.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        68
+      ],
+      "cadrage_css": "51% 68%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.88,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.79,
+          "ton": "clair",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "gauche",
+          "score": 0.77,
+          "ton": "clair",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "bas",
+          "score": 0.61,
+          "ton": "clair",
+          "recouvre_sujet": 0.31
+        }
+      ],
+      "qualite": {
+        "nettete": 20.3,
+        "bruit": 0.21,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "A15 · Andenne",
+        "blocs": 2,
+        "surface": 0.7,
+        "details": [
+          {
+            "texte": "A15",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Andenne",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "dc24a02820414988",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme haut/droite/gauche"
+      ]
+    },
+    {
+      "fichier": "contact-10.webp",
+      "nom": "contact-10",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 13194,
+      "transparence": false,
+      "sujet": {
+        "x": 1.5,
+        "y": 1.5,
+        "l": 95.6,
+        "h": 69.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        32
+      ],
+      "cadrage_css": "49% 32%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.88,
+          "ton": "clair",
+          "recouvre_sujet": 0.15
+        },
+        {
+          "cote": "droite",
+          "score": 0.69,
+          "ton": "clair",
+          "recouvre_sujet": 0.64
+        },
+        {
+          "cote": "gauche",
+          "score": 0.62,
+          "ton": "clair",
+          "recouvre_sujet": 0.67
+        },
+        {
+          "cote": "haut",
+          "score": 0.49,
+          "ton": "clair",
+          "recouvre_sujet": 0.92
+        }
+      ],
+      "qualite": {
+        "nettete": 13.1,
+        "bruit": 0.21,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "- Chau",
+        "blocs": 1,
+        "surface": 0.5,
+        "details": [
+          {
+            "texte": "- Chau",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "60d0a06042219924",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme bas/droite"
+      ]
+    },
+    {
+      "fichier": "contact-11.webp",
+      "nom": "contact-11",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 14482,
+      "transparence": false,
+      "sujet": {
+        "x": 52.9,
+        "y": 32.4,
+        "l": 17.6,
+        "h": 51.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        62,
+        59
+      ],
+      "cadrage_css": "62% 59%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.95,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.89,
+          "ton": "clair",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "bas",
+          "score": 0.82,
+          "ton": "clair",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "droite",
+          "score": 0.76,
+          "ton": "clair",
+          "recouvre_sujet": 0.14
+        }
+      ],
+      "qualite": {
+        "nettete": 17.7,
+        "bruit": 0.26,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "5030a1220c09070c",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme gauche/haut/bas/droite"
+      ]
+    },
+    {
+      "fichier": "contact-12.webp",
+      "nom": "contact-12",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 8222,
+      "transparence": false,
+      "sujet": {
+        "x": 17.6,
+        "y": 32.4,
+        "l": 36.8,
+        "h": 63.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        35,
+        63
+      ],
+      "cadrage_css": "35% 63%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.95,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.86,
+          "ton": "clair",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "bas",
+          "score": 0.71,
+          "ton": "clair",
+          "recouvre_sujet": 0.32
+        },
+        {
+          "cote": "gauche",
+          "score": 0.62,
+          "ton": "clair",
+          "recouvre_sujet": 0.35
+        }
+      ],
+      "qualite": {
+        "nettete": 21,
+        "bruit": 0.27,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "1c28509034703c32",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme droite/haut/bas"
+      ]
+    },
+    {
+      "fichier": "contact-13.webp",
+      "nom": "contact-13",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 21476,
+      "transparence": false,
+      "sujet": {
+        "x": 14.7,
+        "y": 42.6,
+        "l": 44.1,
+        "h": 30.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        40,
+        59
+      ],
+      "cadrage_css": "40% 59%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.88,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.84,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.73,
+          "ton": "clair",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "gauche",
+          "score": 0.66,
+          "ton": "clair",
+          "recouvre_sujet": 0.2
+        }
+      ],
+      "qualite": {
+        "nettete": 36.7,
+        "bruit": 0.34,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "COUTHUIN · nuy neron · Rue-Dr Beaujean-",
+        "blocs": 3,
+        "surface": 9.3,
+        "details": [
+          {
+            "texte": "COUTHUIN",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "nuy neron",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue-Dr Beaujean-",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "2862a8c58a58f022",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme droite/haut/bas/gauche"
+      ]
+    },
+    {
+      "fichier": "contact-14.webp",
+      "nom": "contact-14",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 14472,
+      "transparence": false,
+      "sujet": {
+        "x": 16.2,
+        "y": 29.4,
+        "l": 69.1,
+        "h": 26.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        43
+      ],
+      "cadrage_css": "49% 43%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.94,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.88,
+          "ton": "clair",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "droite",
+          "score": 0.83,
+          "ton": "clair",
+          "recouvre_sujet": 0.17
+        },
+        {
+          "cote": "gauche",
+          "score": 0.74,
+          "ton": "clair",
+          "recouvre_sujet": 0.16
+        }
+      ],
+      "qualite": {
+        "nettete": 27.1,
+        "bruit": 0.22,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "WARET-L'EVEQUE · -Chau: de Wavr",
+        "blocs": 2,
+        "surface": 3.4,
+        "details": [
+          {
+            "texte": "WARET-L'EVEQUE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "-Chau: de Wavr",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "cc886018189492c2",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme bas/haut/droite/gauche"
+      ]
+    },
+    {
+      "fichier": "contact-15.webp",
+      "nom": "contact-15",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 7688,
+      "transparence": false,
+      "sujet": {
+        "x": 10.3,
+        "y": 27.9,
+        "l": 55.9,
+        "h": 66.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        41,
+        56
+      ],
+      "cadrage_css": "41% 56%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.84,
+          "ton": "clair",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "droite",
+          "score": 0.83,
+          "ton": "clair",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.62,
+          "ton": "clair",
+          "recouvre_sujet": 0.49
+        },
+        {
+          "cote": "bas",
+          "score": 0.61,
+          "ton": "clair",
+          "recouvre_sujet": 0.46
+        }
+      ],
+      "qualite": {
+        "nettete": 25.4,
+        "bruit": 0.24,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "N80 · BIERWART",
+        "blocs": 2,
+        "surface": 1.6,
+        "details": [
+          {
+            "texte": "N80",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "BIERWART",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "415216a4cb5a9470",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme haut/droite"
+      ]
+    },
+    {
+      "fichier": "contact-16.webp",
+      "nom": "contact-16",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 7272,
+      "transparence": false,
+      "sujet": {
+        "x": 17,
+        "y": 49.6,
+        "l": 22.4,
+        "h": 30.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        34,
+        69
+      ],
+      "cadrage_css": "34% 69%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.9,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.84,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.7,
+          "ton": "clair",
+          "recouvre_sujet": 0.17
+        },
+        {
+          "cote": "bas",
+          "score": 0.65,
+          "ton": "clair",
+          "recouvre_sujet": 0.1
+        }
+      ],
+      "qualite": {
+        "nettete": 22.9,
+        "bruit": 0.25,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "E42 · Andenne",
+        "blocs": 2,
+        "surface": 0.8,
+        "details": [
+          {
+            "texte": "E42",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Andenne",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "c4c2cc9003747521",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme haut/droite/gauche/bas"
+      ]
+    },
+    {
+      "fichier": "contact-17.webp",
+      "nom": "contact-17",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 14120,
+      "transparence": false,
+      "sujet": {
+        "x": 32.8,
+        "y": 54.2,
+        "l": 33.3,
+        "h": 22.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        64
+      ],
+      "cadrage_css": "49% 64%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.9,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.87,
+          "ton": "clair",
+          "recouvre_sujet": 0.04
+        },
+        {
+          "cote": "droite",
+          "score": 0.82,
+          "ton": "clair",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "bas",
+          "score": 0.79,
+          "ton": "clair",
+          "recouvre_sujet": 0.11
+        }
+      ],
+      "qualite": {
+        "nettete": 20,
+        "bruit": 0.25,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "41083011871c7844",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme haut/gauche/droite/bas"
+      ]
+    },
+    {
+      "fichier": "contact-18.webp",
+      "nom": "contact-18",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 15058,
+      "transparence": false,
+      "sujet": {
+        "x": 32.4,
+        "y": 11.8,
+        "l": 25,
+        "h": 77.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        55
+      ],
+      "cadrage_css": "44% 55%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.89,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.8,
+          "ton": "clair",
+          "recouvre_sujet": 0.17
+        },
+        {
+          "cote": "gauche",
+          "score": 0.76,
+          "ton": "clair",
+          "recouvre_sujet": 0.15
+        },
+        {
+          "cote": "bas",
+          "score": 0.73,
+          "ton": "clair",
+          "recouvre_sujet": 0.18
+        }
+      ],
+      "qualite": {
+        "nettete": 15.8,
+        "bruit": 0.28,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "95d652aaa1419810",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme droite/haut/gauche/bas"
+      ]
+    },
+    {
+      "fichier": "contact-19.webp",
+      "nom": "contact-19",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 21390,
+      "transparence": false,
+      "sujet": {
+        "x": 4.4,
+        "y": 27.9,
+        "l": 66.2,
+        "h": 58.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        57
+      ],
+      "cadrage_css": "43% 57%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.9,
+          "ton": "clair",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "droite",
+          "score": 0.73,
+          "ton": "clair",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "gauche",
+          "score": 0.66,
+          "ton": "clair",
+          "recouvre_sujet": 0.52
+        },
+        {
+          "cote": "bas",
+          "score": 0.56,
+          "ton": "clair",
+          "recouvre_sujet": 0.41
+        }
+      ],
+      "qualite": {
+        "nettete": 26.9,
+        "bruit": 0.37,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "8808e2ac01430e1c",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme haut/droite/gauche"
+      ]
+    },
+    {
+      "fichier": "formations.jpg",
+      "nom": "formations",
+      "drapeau": "lieu",
+      "largeur": 1500,
+      "hauteur": 2000,
+      "ratio": "3:4",
+      "ratio_valeur": 0.75,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 662625,
+      "transparence": false,
+      "sujet": {
+        "x": 23.5,
+        "y": 36.8,
+        "l": 64.7,
+        "h": 25,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        50
+      ],
+      "cadrage_css": "54% 50%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.46,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.34,
+          "ton": "sombre",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "haut",
+          "score": 0.34,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.27,
+          "ton": "sombre",
+          "recouvre_sujet": 0.1
+        }
+      ],
+      "qualite": {
+        "nettete": 62,
+        "bruit": 1.54,
+        "compression": 0.99,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "3177cdd5b0b270f0",
+      "drapeaux": [
+        "lieu"
+      ]
+    },
+    {
+      "fichier": "comment-se-deroule-constellation.jpg",
+      "nom": "comment-se-deroule-constellation",
+      "drapeau": "autre",
+      "largeur": 1500,
+      "hauteur": 2000,
+      "ratio": "3:4",
+      "ratio_valeur": 0.75,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 619867,
+      "transparence": false,
+      "sujet": {
+        "x": 22.1,
+        "y": 29.4,
+        "l": 48.5,
+        "h": 36.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        46
+      ],
+      "cadrage_css": "47% 46%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.36,
+          "ton": "moyen",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "haut",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "droite",
+          "score": 0.19,
+          "ton": "moyen",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 0.16
+        }
+      ],
+      "qualite": {
+        "nettete": 63.4,
+        "bruit": 1.46,
+        "compression": 0.96,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "c8c561de5ec65432",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "aide-scolaire.jpg",
+      "nom": "aide-scolaire",
+      "drapeau": "portrait",
+      "largeur": 2000,
+      "hauteur": 1335,
+      "ratio": "3:2",
+      "ratio_valeur": 1.498,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 298414,
+      "transparence": false,
+      "sujet": {
+        "x": 1.3,
+        "y": 6.5,
+        "l": 96.5,
+        "h": 93.5,
+        "source": "corps"
+      },
+      "visages": 2,
+      "cadrage": [
+        51,
+        38
+      ],
+      "cadrage_css": "51% 38%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.12,
+          "ton": "clair",
+          "recouvre_sujet": 0.79
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.9
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        }
+      ],
+      "qualite": {
+        "nettete": 26.5,
+        "bruit": 0.56,
+        "compression": 1.26,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "e39312aa8a8bc961",
+      "drapeaux": [
+        "portrait",
+        "2 visages"
+      ]
+    },
+    {
+      "fichier": "coaching-scolaire.jpg",
+      "nom": "coaching-scolaire",
+      "drapeau": "portrait",
+      "largeur": 2000,
+      "hauteur": 1824,
+      "ratio": "1.1",
+      "ratio_valeur": 1.096,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 1048024,
+      "transparence": false,
+      "sujet": {
+        "x": 30.6,
+        "y": 40.3,
+        "l": 34.4,
+        "h": 23.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        46
+      ],
+      "cadrage_css": "49% 46%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.21,
+          "ton": "moyen",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "haut",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 0.06
+        }
+      ],
+      "qualite": {
+        "nettete": 88,
+        "bruit": 1.53,
+        "compression": 1.09,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "c663991af6e6ef6f",
+      "drapeaux": [
+        "portrait"
+      ]
+    },
+    {
+      "fichier": "coaching-scolaire-2.jpg",
+      "nom": "coaching-scolaire-2",
+      "drapeau": "portrait",
+      "largeur": 1500,
+      "hauteur": 2000,
+      "ratio": "3:4",
+      "ratio_valeur": 0.75,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 540248,
+      "transparence": false,
+      "sujet": {
+        "x": 18,
+        "y": 3.2,
+        "l": 79.9,
+        "h": 96.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        53
+      ],
+      "cadrage_css": "51% 53%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.08,
+          "ton": "moyen",
+          "recouvre_sujet": 0.53
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.92
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.73
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.8
+        }
+      ],
+      "qualite": {
+        "nettete": 48.1,
+        "bruit": 1.03,
+        "compression": 0.96,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "MERC\" DE ME · CLASSER · DES · MOTS DOUX",
+        "blocs": 4,
+        "surface": 2.2,
+        "details": [
+          {
+            "texte": "MERC\" DE ME",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "CLASSER",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "DES",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "MOTS DOUX",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "944fddc870273319",
+      "drapeaux": [
+        "portrait",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "coaching-scolaire-3.jpg",
+      "nom": "coaching-scolaire-3",
+      "drapeau": "portrait",
+      "largeur": 1501,
+      "hauteur": 2000,
+      "ratio": "3:4",
+      "ratio_valeur": 0.751,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 754622,
+      "transparence": false,
+      "sujet": {
+        "x": 24.4,
+        "y": 17.8,
+        "l": 20.7,
+        "h": 20.3,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        35,
+        27
+      ],
+      "cadrage_css": "35% 27%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.42,
+          "ton": "clair",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "droite",
+          "score": 0.21,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.08
+        }
+      ],
+      "qualite": {
+        "nettete": 103.6,
+        "bruit": 1.78,
+        "compression": 0.96,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Gestion des · émotions",
+        "blocs": 2,
+        "surface": 1.7,
+        "details": [
+          {
+            "texte": "Gestion des",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "émotions",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "901146d3c92c3c1b",
+      "drapeaux": [
+        "portrait",
+        "visage",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "coaching-scolaire-4.jpg",
+      "nom": "coaching-scolaire-4",
+      "drapeau": "portrait",
+      "largeur": 1196,
+      "hauteur": 1954,
+      "ratio": "10:16",
+      "ratio_valeur": 0.612,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 183335,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 23.1,
+        "l": 98.4,
+        "h": 61.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        38
+      ],
+      "cadrage_css": "46% 38%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.16,
+          "ton": "clair",
+          "recouvre_sujet": 0.33
+        },
+        {
+          "cote": "bas",
+          "score": 0.09,
+          "ton": "clair",
+          "recouvre_sujet": 0.54
+        },
+        {
+          "cote": "gauche",
+          "score": 0.08,
+          "ton": "clair",
+          "recouvre_sujet": 0.61
+        },
+        {
+          "cote": "droite",
+          "score": 0.07,
+          "ton": "clair",
+          "recouvre_sujet": 0.59
+        }
+      ],
+      "qualite": {
+        "nettete": 68.6,
+        "bruit": 0.53,
+        "compression": 0.95,
+        "faible": true,
+        "raisons": [
+          "1196 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "9 HABITUDES POUR AMÉLIORER LES · PERFORMANCES DE VOTRE CERVEAU · 1) Sommeil · suffisant · 7 à 8 h par nuit : · testez ce qui · vous convient le · mieux. (1) · 2",
+        "blocs": 58,
+        "surface": 20.4,
+        "details": [
+          {
+            "texte": "9 HABITUDES POUR AMÉLIORER LES",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "PERFORMANCES DE VOTRE CERVEAU",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "1) Sommeil",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "suffisant",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "7 à 8 h par nuit :",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "testez ce qui",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "vous convient le",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "mieux. (1)",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "2) Alimentation",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "saine",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Plus de lipides de",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "qualité, moins de",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "354b5b5a5bdb5b48",
+      "drapeaux": [
+        "portrait",
+        "petite",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "coaching-scolaire-5.jpg",
+      "nom": "coaching-scolaire-5",
+      "drapeau": "portrait",
+      "largeur": 1170,
+      "hauteur": 1558,
+      "ratio": "3:4",
+      "ratio_valeur": 0.751,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 515440,
+      "transparence": false,
+      "sujet": {
+        "x": 22.6,
+        "y": 46,
+        "l": 41.3,
+        "h": 45.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        57
+      ],
+      "cadrage_css": "45% 57%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.37,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.23,
+          "ton": "moyen",
+          "recouvre_sujet": 0.04
+        },
+        {
+          "cote": "gauche",
+          "score": 0.15,
+          "ton": "moyen",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "bas",
+          "score": 0.09,
+          "ton": "moyen",
+          "recouvre_sujet": 0.32
+        }
+      ],
+      "qualite": {
+        "nettete": 51.2,
+        "bruit": 1.04,
+        "compression": 0.93,
+        "faible": true,
+        "raisons": [
+          "1170 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "Séance de gestion · mentale en P6 · Stance de · methode cn-P6 · 370D= · 27 ounl = · = Tance de te in · METHG DE DE · TRAVAIL",
+        "blocs": 9,
+        "surface": 5.5,
+        "details": [
+          {
+            "texte": "Séance de gestion",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "mentale en P6",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Stance de",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "methode cn-P6",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "370D=",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "27 ounl =",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "= Tance de te in",
+            "niveau": "marque"
+          },
+          {
+            "texte": "METHG DE DE",
+            "niveau": "marque"
+          },
+          {
+            "texte": "TRAVAIL",
+            "niveau": "marque"
+          }
+        ]
+      },
+      "empreinte": "0604d6dc4c9e9c1c",
+      "drapeaux": [
+        "portrait",
+        "petite",
+        "filigrane ou marque"
+      ]
+    },
+    {
+      "fichier": "coaching-scolaire-6.jpg",
+      "nom": "coaching-scolaire-6",
+      "drapeau": "portrait",
+      "largeur": 752,
+      "hauteur": 539,
+      "ratio": "1.4",
+      "ratio_valeur": 1.395,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 75763,
+      "transparence": false,
+      "sujet": {
+        "x": 28.4,
+        "y": 19.5,
+        "l": 70.3,
+        "h": 71,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        56,
+        50
+      ],
+      "cadrage_css": "56% 50%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.38,
+          "ton": "clair",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "gauche",
+          "score": 0.28,
+          "ton": "clair",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "droite",
+          "score": 0.12,
+          "ton": "clair",
+          "recouvre_sujet": 0.69
+        },
+        {
+          "cote": "bas",
+          "score": 0.11,
+          "ton": "clair",
+          "recouvre_sujet": 0.51
+        }
+      ],
+      "qualite": {
+        "nettete": 87,
+        "bruit": 1.08,
+        "compression": 0.96,
+        "faible": true,
+        "raisons": [
+          "752 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "CERVEAU GAUCHE · traitement · linéaire · 1+1+1... · attention · aux détails · traitement · analytique · résolution · par la logique · séquentiel · 07110 · 29001",
+        "blocs": 24,
+        "surface": 9.8,
+        "details": [
+          {
+            "texte": "CERVEAU GAUCHE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "traitement",
+            "niveau": "marque"
+          },
+          {
+            "texte": "linéaire",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "1+1+1...",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "attention",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "aux détails",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "traitement",
+            "niveau": "marque"
+          },
+          {
+            "texte": "analytique",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "résolution",
+            "niveau": "marque"
+          },
+          {
+            "texte": "par la logique",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "séquentiel",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "07110",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "6169494d4d4d6969",
+      "drapeaux": [
+        "portrait",
+        "petite",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "femme-zen.jpg",
+      "nom": "femme-zen",
+      "drapeau": "portrait",
+      "largeur": 2000,
+      "hauteur": 1334,
+      "ratio": "3:2",
+      "ratio_valeur": 1.499,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 366145,
+      "transparence": false,
+      "sujet": {
+        "x": 3.9,
+        "y": 25,
+        "l": 77.8,
+        "h": 75,
+        "source": "corps"
+      },
+      "visages": 1,
+      "cadrage": [
+        26,
+        46
+      ],
+      "cadrage_css": "26% 46%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.45,
+          "ton": "clair",
+          "recouvre_sujet": 0.22
+        },
+        {
+          "cote": "droite",
+          "score": 0.19,
+          "ton": "clair",
+          "recouvre_sujet": 0.41
+        },
+        {
+          "cote": "gauche",
+          "score": 0.04,
+          "ton": "clair",
+          "recouvre_sujet": 0.68
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.78
+        }
+      ],
+      "qualite": {
+        "nettete": 24.8,
+        "bruit": 0.35,
+        "compression": 1.3,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "c3c362606878655e",
+      "drapeaux": [
+        "portrait",
+        "visage"
+      ]
+    },
+    {
+      "fichier": "guida-2.jpg",
+      "nom": "guida-2",
+      "drapeau": "portrait",
+      "largeur": 1500,
+      "hauteur": 2000,
+      "ratio": "3:4",
+      "ratio_valeur": 0.75,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 864028,
+      "transparence": false,
+      "sujet": {
+        "x": 8.8,
+        "y": 14.7,
+        "l": 64.7,
+        "h": 47.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        39
+      ],
+      "cadrage_css": "45% 39%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.19,
+          "ton": "moyen",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "haut",
+          "score": 0.19,
+          "ton": "moyen",
+          "recouvre_sujet": 0.38
+        },
+        {
+          "cote": "gauche",
+          "score": 0.07,
+          "ton": "moyen",
+          "recouvre_sujet": 0.37
+        }
+      ],
+      "qualite": {
+        "nettete": 106.9,
+        "bruit": 1.46,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "chaque · ses Rayons!",
+        "blocs": 2,
+        "surface": 0.4,
+        "details": [
+          {
+            "texte": "chaque",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ses Rayons!",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "00454527b7e6ae28",
+      "drapeaux": [
+        "portrait",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "bureau-range.jpg",
+      "nom": "bureau-range",
+      "drapeau": "portrait",
+      "largeur": 2000,
+      "hauteur": 880,
+      "ratio": "2.27",
+      "ratio_valeur": 2.273,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 188980,
+      "transparence": false,
+      "sujet": {
+        "x": 8.4,
+        "y": 22.1,
+        "l": 85,
+        "h": 77.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        53
+      ],
+      "cadrage_css": "44% 53%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.09,
+          "ton": "moyen",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "droite",
+          "score": 0.05,
+          "ton": "sombre",
+          "recouvre_sujet": 0.65
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.61
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.84
+        }
+      ],
+      "qualite": {
+        "nettete": 27.6,
+        "bruit": 0.55,
+        "compression": 1.34,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "c48823a183c1d9c5",
+      "drapeaux": [
+        "portrait"
+      ]
+    },
+    {
+      "fichier": "entreprise.jpg",
+      "nom": "entreprise",
+      "drapeau": "portrait",
+      "largeur": 1500,
+      "hauteur": 2000,
+      "ratio": "3:4",
+      "ratio_valeur": 0.75,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 558613,
+      "transparence": false,
+      "sujet": {
+        "x": 29.4,
+        "y": 35.3,
+        "l": 57.4,
+        "h": 23.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        59,
+        47
+      ],
+      "cadrage_css": "59% 47%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.78,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.5,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.45,
+          "ton": "moyen",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "droite",
+          "score": 0.29,
+          "ton": "moyen",
+          "recouvre_sujet": 0.16
+        }
+      ],
+      "qualite": {
+        "nettete": 55.5,
+        "bruit": 1.1,
+        "compression": 0.97,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "7b33f0f0b7363131",
+      "drapeaux": [
+        "portrait",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "vous-recherchez-emploi-voulez.png",
+      "nom": "vous-recherchez-emploi-voulez",
+      "drapeau": "portrait",
+      "largeur": 500,
+      "hauteur": 500,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 88484,
+      "transparence": true,
+      "sujet": {
+        "x": 30.9,
+        "y": 23.5,
+        "l": 36.8,
+        "h": 32.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        39
+      ],
+      "cadrage_css": "49% 39%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.24,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.22,
+          "ton": "clair",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "droite",
+          "score": 0.22,
+          "ton": "clair",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "haut",
+          "score": 0.2,
+          "ton": "clair",
+          "recouvre_sujet": 0.12
+        }
+      ],
+      "qualite": {
+        "nettete": 55.7,
+        "bruit": 1.23,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "500 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "516a6855514a6856",
+      "drapeaux": [
+        "portrait",
+        "petite"
+      ]
+    }
+  ]
+}

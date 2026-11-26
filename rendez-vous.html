@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Prendre rendez-vous : Coaching Guida, Héron</title>
+<meta name="description" content="Appelez Mariève Gérard au 0479 21 53 83 ou laissez votre demande en trois étapes. Rue de Hérédia 5, 4217 Héron.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://guida-maquette.vercel.app/rendez-vous">
+<style>:root{--fond:#F5F7F9;--texte:#15233A;--voile-fond:#163A63;--ouverture-fond:#163A63;--menu-fond:#F5F7F9}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/young-serif-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/albert-sans-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/modules.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#F5F7F9">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Coaching Guida">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Prendre rendez-vous : Coaching Guida, Héron">
+<meta property="og:description" content="Appelez Mariève Gérard au 0479 21 53 83 ou laissez votre demande en trois étapes. Rue de Hérédia 5, 4217 Héron.">
+<meta property="og:url" content="https://guida-maquette.vercel.app/rendez-vous">
+<meta property="og:image" content="https://guida-maquette.vercel.app/assets/partage/rendez-vous-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Prendre rendez-vous avec Mariève Gérard">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"Coaching Guida","url":"https://guida-maquette.vercel.app/","telephone":"+32479215383","email":"info@guida.be","vatID":"BE0830350385","founder":{"@type":"Person","name":"Mariève Gérard","jobTitle":"Coach"},"address":{"@type":"PostalAddress","streetAddress":"Rue de Hérédia 5","postalCode":"4217","addressLocality":"Héron","addressCountry":"BE"},"areaServed":"Belgique","sameAs":["https://www.facebook.com/coaching.guida/","https://www.instagram.com/marievegerard/","https://www.tiktok.com/@marievegerardcoaching"],"description":"Coaching professionnel, coaching de vie, coaching scolaire, constellations familiales et systémiques, formations et ateliers, par Mariève Gérard à Héron."}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><span class="disque-logo"><img src="/assets/images/logo-240.webp" alt="" width="240" height="143"></span><span data-voile-libelle>Rendez-vous</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <span class="ouverture-disque disque-logo" data-ouverture-objet><img src="/assets/images/logo-480.webp" alt="" width="480" height="286"><svg class="ouverture-fleche" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="48" /></svg></span>
+  <p class="ouverture-ligne">by Mariève Gérard</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil" aria-label="Coaching Guida, accueil">
+      <img src="/assets/images/logo-240.webp" srcset="/assets/images/logo-240.webp 240w, /assets/images/logo-480.webp 480w" sizes="120px" alt="" width="240" height="143">
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/coaching" data-libelle="Coaching">Coaching</a></li><li><a href="/constellations" data-libelle="Constellations">Constellations</a></li><li><a href="/formations" data-libelle="Formations">Formations</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/rendez-vous" data-libelle="Rendez-vous">Prendre rendez-vous</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/coaching" class="menu-lien" data-libelle="Coaching">Coaching</a></li><li style="--i:2"><a href="/constellations" class="menu-lien" data-libelle="Constellations">Constellations</a></li><li style="--i:3"><a href="/formations" class="menu-lien" data-libelle="Formations">Formations</a></li><li style="--i:4"><a href="/rendez-vous" class="menu-lien" data-libelle="Rendez-vous" aria-current="page">Rendez-vous</a></li></ul>
+  <p><a class="bouton" href="tel:+32479215383">Appeler 0479 21 53 83</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="rdv-tete" id="debut">
+  <div class="rdv-intro">
+    <div class="rdv-portrait">
+      <figure class="media " data-iris-centre="disque" style="--cadrage:50% 22%">
+  <picture>
+    <img src="/assets/images/marieve-noir-585.webp" srcset="/assets/images/marieve-noir-400.webp 400w, /assets/images/marieve-noir-585.webp 585w" sizes="132px" alt="Mariève Gérard en veste claire, les mains dans les poches, en noir et blanc sur fond noir" width="585" height="780" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+      <svg viewBox="0 0 132 132" aria-hidden="true" data-effet="cercle-rdv"><circle cx="66" cy="66" r="65" /></svg>
+    </div>
+    <p class="surtitre" data-apparait>Prendre rendez-vous</p>
+    <h1 class="page-titre" data-anime="gsap"><span class="hl"><span class="hl-in">Parlons‑en.</span></span></h1>
+    <p class="page-intro" data-apparait>Un premier échange de quelques minutes suffit souvent pour savoir quel accompagnement vous convient. Appelez, ou laissez votre demande en trois étapes.</p>
+    <p class="info" data-info-cle data-apparait><a class="rdv-tel" href="tel:+32479215383">0479 21 53 83</a></p>
+    <p class="actions" data-apparait><a class="bouton" href="tel:+32479215383" data-action-principale>Appeler Mariève</a></p>
+  </div>
+  <div class="fpe" data-module="formulaire-par-etapes" id="demande">
+    <div class="fpe__carton" data-apparait>
+      <h2 class="visuellement-cache">Votre demande</h2>
+      <form class="fpe__form" action="#" method="post" novalidate>
+        <div class="fpe__progression">
+          <ol class="fpe__reperes" aria-label="Progression"></ol>
+          <div class="fpe__barre" aria-hidden="true"><span></span></div>
+          <p class="fpe__etat" aria-live="polite"></p>
+        </div>
+        <fieldset class="fpe__etape" data-etape="Pour qui ?">
+          <legend class="fpe__legende"><h3 class="fpe__titre">Pour qui est l&#39;accompagnement ?</h3></legend>
+          <div class="fpe__groupe fpe__cartes" data-libelle="Pour qui ?">
+            <label class="fpe__carte"><input type="radio" name="pour" value="moi" required><svg class="fpe__icone" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="11" r="5"/><path d="M7 27c1-6 5-9 9-9s8 3 9 9"/></svg><span class="fpe__carte-titre">Pour moi</span><span class="fpe__carte-texte">Au travail, dans ma vie, dans ma famille</span></label><label class="fpe__carte"><input type="radio" name="pour" value="enfant"><svg class="fpe__icone" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 9l11-5 11 5-11 5z"/><path d="M10 12v6c3 3 9 3 12 0v-6"/></svg><span class="fpe__carte-titre">Pour mon enfant</span><span class="fpe__carte-texte">École, méthode, motivation, orientation</span></label><label class="fpe__carte"><input type="radio" name="pour" value="equipe"><svg class="fpe__icone" viewBox="0 0 32 32" aria-hidden="true"><circle cx="10" cy="12" r="4"/><circle cx="22" cy="12" r="4"/><path d="M3 26c1-5 4-7 7-7s6 2 7 7M15 26c1-5 4-7 7-7s6 2 7 7"/></svg><span class="fpe__carte-titre">Pour mon équipe</span><span class="fpe__carte-texte">Entreprise, atelier, formation</span></label><label class="fpe__carte"><input type="radio" name="pour" value="ecole"><svg class="fpe__icone" viewBox="0 0 32 32" aria-hidden="true"><path d="M4 27V13l12-7 12 7v14"/><path d="M12 27v-7h8v7"/></svg><span class="fpe__carte-titre">Pour une école</span><span class="fpe__carte-texte">Équipe éducative, aménagements, ateliers</span></label>
+          </div>
+        </fieldset>
+        <fieldset class="fpe__etape" data-etape="Le sujet">
+          <legend class="fpe__legende"><h3 class="fpe__titre">Quel accompagnement vous intéresse ?</h3></legend>
+          <div class="fpe__groupe fpe__puces" data-libelle="Le sujet">
+            <label class="fpe__puce"><input type="radio" name="sujet" value="professionnel" required><span class="fpe__choix-texte">Coaching professionnel</span></label><label class="fpe__puce"><input type="radio" name="sujet" value="vie"><span class="fpe__choix-texte">Coaching de vie</span></label><label class="fpe__puce"><input type="radio" name="sujet" value="scolaire"><span class="fpe__choix-texte">Coaching scolaire</span></label><label class="fpe__puce"><input type="radio" name="sujet" value="constellations"><span class="fpe__choix-texte">Constellation familiale</span></label><label class="fpe__puce"><input type="radio" name="sujet" value="formation"><span class="fpe__choix-texte">Atelier ou formation</span></label><label class="fpe__puce"><input type="radio" name="sujet" value="autre"><span class="fpe__choix-texte">Je ne sais pas encore</span></label>
+          </div>
+        </fieldset>
+        <fieldset class="fpe__etape" data-etape="Coordonnées">
+          <legend class="fpe__legende"><h3 class="fpe__titre">Comment vous joindre ?</h3></legend>
+          <div class="fpe__grille">
+            <div class="fpe__champ"><label for="rdv-prenom">Prénom <i aria-hidden="true">*</i></label><input id="rdv-prenom" name="prenom" autocomplete="given-name" required></div>
+            <div class="fpe__champ"><label for="rdv-nom">Nom <i aria-hidden="true">*</i></label><input id="rdv-nom" name="nom" autocomplete="family-name" required></div>
+            <div class="fpe__champ"><label for="rdv-tel">Téléphone <i aria-hidden="true">*</i></label><input id="rdv-tel" name="tel" type="tel" inputmode="tel" autocomplete="tel" pattern="[0-9 +().\-]{8,20}" required></div>
+            <div class="fpe__champ"><label for="rdv-email">E-mail</label><input id="rdv-email" name="email" type="email" autocomplete="email"></div>
+          </div>
+          <div class="fpe__champ"><label for="rdv-message">Votre message (facultatif)</label><textarea id="rdv-message" name="message" rows="4" placeholder="Quelques mots sur votre situation, vos disponibilités…"></textarea></div>
+          <label class="fpe__case"><input type="checkbox" name="accord" value="oui" required data-libelle="Accord" data-hors-recap><span class="fpe__choix-texte">J&#39;accepte que mes coordonnées servent uniquement à répondre à ma demande. <i aria-hidden="true">*</i></span></label>
+          <p class="fpe__aide mention-donnees">Vos données servent seulement à vous répondre. Politique de confidentialité : à compléter.</p>
+        </fieldset>
+        <fieldset class="fpe__etape" data-etape="Récapitulatif" data-recap>
+          <legend class="fpe__legende"><h3 class="fpe__titre">Tout est juste ?</h3></legend>
+          <div class="fpe__recap"><p>…</p></div>
+        </fieldset>
+        <div class="fpe__nav">
+          <button class="fpe__bouton fpe__bouton--ligne" type="button" data-precedent>Retour</button>
+          <button class="fpe__bouton" type="button" data-suivant>Continuer</button>
+          <button class="fpe__bouton" type="submit">Envoyer la demande</button>
+        </div>
+      </form>
+      <div class="fpe__fin" hidden>
+        <svg class="fpe__coche" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="28"/><path d="M20 33l8 8 16-17"/></svg>
+        <h3>Merci, c&#39;est noté.</h3>
+        <p data-resume></p>
+        <p>Maquette : demande simulée, rien n&#39;a été envoyé. Sur le site final, elle arrivera chez Mariève.</p>
+        <div class="fpe__fin-actions"><button class="fpe__bouton fpe__bouton--ligne" type="button" data-recommencer>Nouvelle demande</button></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section section--ciel" id="coordonnees">
+  <div class="conteneur coord-grille">
+    <div>
+      <p class="surtitre">Coordonnées</p>
+      <h2 data-anime="lignes">À Héron, entre Namur et Liège</h2>
+      <dl class="coord-liste" data-anime="cascade">
+        <div><dt>Téléphone</dt><dd><a href="tel:+32479215383">0479 21 53 83</a></dd></div>
+        <div><dt>E-mail</dt><dd class="selectionnable">info@guida.be</dd></div>
+        <div><dt>Adresse</dt><dd>Rue de Hérédia 5, 4217 Héron (Belgique)</dd></div>
+        <div><dt>Suivre Mariève</dt><dd><a href="https://www.facebook.com/coaching.guida/" target="_blank" rel="noopener">Facebook</a> · <a href="https://www.instagram.com/marievegerard/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.tiktok.com/@marievegerardcoaching" target="_blank" rel="noopener">TikTok</a></dd></div>
+      </dl>
+      <p class="texte-doux" style="margin-top:22px" data-anime>Horaires et tarifs précisés au premier échange.</p>
+    </div>
+    <figure class="plan" data-visuel>
+      <svg viewBox="0 0 600 400" role="img" aria-label="Plan schématique : Héron entre Namur, Andenne, Huy et Liège, au nord de la Meuse et près de l&#39;autoroute E42." data-fx="trace">
+  <path class="meuse" d="M40 318 C 110 305 160 296 214 290 S 290 268 309 258 S 350 224 363 214 S 420 178 448 166 S 500 136 560 100" data-fx-trait />
+  <path class="route" d="M40 296 L 132 200 L 204 192 L 316 164 L 448 127 L 560 96" data-fx-trait />
+  <g class="villes">
+    <circle class="ville" cx="64" cy="313" r="5" /><text x="74" y="340">Namur</text>
+    <circle class="ville" cx="214" cy="288" r="5" /><text x="190" y="318">Andenne</text>
+    <circle class="ville" cx="309" cy="256" r="5" /><text x="320" y="282">Huy</text>
+    <circle class="ville" cx="527" cy="111" r="6" /><text x="500" y="146">Liège</text>
+    <circle class="ville" cx="204" cy="65" r="5" /><text x="216" y="70">Hannut</text>
+    <text class="petit" x="96" y="186">E42</text>
+    <text class="petit" x="398" y="214">Meuse</text>
+  </g>
+  <circle class="onde-heron" cx="216" cy="222" r="14" data-boucle-css />
+  <circle class="heron" cx="216" cy="222" r="8" />
+  <text x="234" y="236" style="font-weight:600">Héron</text>
+</svg>
+      <figcaption class="visuellement-cache">Rue de Hérédia 5, 4217 Héron (province de Liège), au nord de la Meuse, près de l&#39;E42.</figcaption>
+    </figure>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-240.webp" alt="Coaching Guida" width="240" height="143" loading="lazy">
+      <p>by Mariève Gérard</p>
+    </div>
+    <div>
+      <p class="pied-titre">Coordonnées</p>
+      <p>Rue de Hérédia 5, 4217 Héron (Belgique)<br><a href="tel:+32479215383">0479 21 53 83</a><br><span class="selectionnable">info@guida.be</span></p>
+      <p class="pied-petit">TVA BE0830350385</p>
+    </div>
+    <nav aria-label="Pages">
+      <p class="pied-titre">Pages</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/coaching" data-libelle="Coaching">Coaching</a></li><li><a href="/constellations" data-libelle="Constellations">Constellations</a></li><li><a href="/formations" data-libelle="Formations">Formations</a></li><li><a href="/rendez-vous" data-libelle="Rendez-vous" aria-current="page">Rendez-vous</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Suivre Mariève</p>
+      <ul class="pied-reseaux">
+        <li><a href="https://www.facebook.com/coaching.guida/" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a href="https://www.instagram.com/marievegerard/" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://www.tiktok.com/@marievegerardcoaching" target="_blank" rel="noopener">TikTok</a></li>
+      </ul>
+      <p><a href="#haut" data-sans-transition>Retour en haut</a></p>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Mentions légales et politique de confidentialité : à compléter</p><p>Maquette de présentation : formulaires simulés, rien n&#39;est envoyé.</p><p>© Coaching Guida</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+32479215383">Appeler</a>
+  <a class="bouton" href="/rendez-vous" data-libelle="Rendez-vous">Prendre rendez-vous</a>
+</div>
+</body>
+</html>
