@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,15 +35,15 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/young-serif-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/albert-sans-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/modules.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/modules.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#F5F7F9">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -61,16 +61,16 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"Coaching Guida","url":"https://guida-maquette.vercel.app/","telephone":"+32479215383","email":"info@guida.be","vatID":"BE0830350385","founder":{"@type":"Person","name":"Mariève Gérard","jobTitle":"Coach"},"address":{"@type":"PostalAddress","streetAddress":"Rue de Hérédia 5","postalCode":"4217","addressLocality":"Héron","addressCountry":"BE"},"areaServed":"Belgique","sameAs":["https://www.facebook.com/coaching.guida/","https://www.instagram.com/marievegerard/","https://www.tiktok.com/@marievegerardcoaching"],"description":"Coaching professionnel, coaching de vie, coaching scolaire, constellations familiales et systémiques, formations et ateliers, par Mariève Gérard à Héron."}</script>
 </head>
 <body id="haut">
-<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><span class="disque-logo"><img src="/assets/images/logo-240.webp" alt="" width="240" height="143"></span><span data-voile-libelle>Accueil</span></div></div>
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><span class="disque-logo"><img src="/assets/images/logo-guida.svg" alt="" width="108" height="64"></span><span data-voile-libelle>Accueil</span></div></div>
 <div class="ouverture-panneau" data-ouverture aria-hidden="true">
-  <span class="ouverture-disque disque-logo" data-ouverture-objet><img src="/assets/images/logo-480.webp" alt="" width="480" height="286"><svg class="ouverture-fleche" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="48" /></svg></span>
+  <span class="ouverture-disque disque-logo" data-ouverture-objet><img src="/assets/images/logo-guida.svg" alt="" width="108" height="64"><svg class="ouverture-fleche" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="48" /></svg></span>
   <p class="ouverture-ligne">by Mariève Gérard</p>
 </div>
 <a class="evitement" href="#contenu">Aller au contenu</a>
 <header data-entete>
   <div class="entete-rangee">
     <a class="entete-logo" href="/" data-libelle="Accueil" aria-label="Coaching Guida, accueil" aria-current="page">
-      <img src="/assets/images/logo-240.webp" srcset="/assets/images/logo-240.webp 240w, /assets/images/logo-480.webp 480w" sizes="120px" alt="" width="240" height="143">
+      <img src="/assets/images/logo-guida.svg" alt="" width="108" height="64"><span class="entete-signature" aria-hidden="true"><strong>Mariève Gérard</strong><span>Coach à Héron</span></span>
     </a>
     <nav data-nav aria-label="Navigation principale">
       <ul><li><a href="/coaching" data-libelle="Coaching">Coaching</a></li><li><a href="/constellations" data-libelle="Constellations">Constellations</a></li><li><a href="/formations" data-libelle="Formations">Formations</a></li></ul>
@@ -126,44 +126,59 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   </div>
 </section>
 <section class="section" id="besoin">
-  <div class="conteneur besoin-grille">
+  <div class="conteneur boussole-grille">
     <div class="besoin-tete">
       <p class="surtitre">Par où commencer</p>
       <h2 data-anime="lignes">De quoi avez-vous besoin aujourd&#39;hui ?</h2>
-      <p class="intro-section" data-anime>Choisissez ce qui vous ressemble : le cercle se pose sur l&#39;accompagnement qui y répond.</p>
-      <svg class="besoin-deco" viewBox="0 0 180 180" aria-hidden="true" data-visuel data-fx="trace"><circle class="plein" cx="90" cy="90" r="62" /><circle cx="90" cy="90" r="86" /><circle cx="90" cy="90" r="62" /><path d="M66 114 L114 66 M84 66 H114 V96" /></svg>
+      <p class="intro-section" data-anime>Choisissez ce qui vous ressemble : la flèche de Guida se tourne vers l&#39;accompagnement qui y répond.</p>
+      <p class="besoin-aide" data-anime><span data-souris-txt>Cliquez sur une situation autour du cercle : la flèche s&#39;oriente vers elle.</span><span data-tactile>Touchez une situation : la flèche s&#39;oriente et la réponse s&#39;affiche juste en dessous.</span></p>
     </div>
-    <div class="besoin-outil">
-      <ul class="besoin-liste" data-anime="cascade">
-        <li><button type="button" class="besoin-choix" data-cle="doute" aria-pressed="true" aria-controls="reponse-doute"><span class="pastille" aria-hidden="true"></span><span>Vous doutez de ce qui est juste pour vous</span></button></li><li><button type="button" class="besoin-choix" data-cle="travail" aria-pressed="false" aria-controls="reponse-travail"><span class="pastille" aria-hidden="true"></span><span>Votre travail vous pose question</span></button></li><li><button type="button" class="besoin-choix" data-cle="ecole" aria-pressed="false" aria-controls="reponse-ecole"><span class="pastille" aria-hidden="true"></span><span>Votre enfant a des difficultés à l&#39;école</span></button></li><li><button type="button" class="besoin-choix" data-cle="changement" aria-pressed="false" aria-controls="reponse-changement"><span class="pastille" aria-hidden="true"></span><span>Vous avez besoin de changement</span></button></li><li><button type="button" class="besoin-choix" data-cle="rond" aria-pressed="false" aria-controls="reponse-rond"><span class="pastille" aria-hidden="true"></span><span>Vous avez l&#39;impression de tourner en rond</span></button></li><li><button type="button" class="besoin-choix" data-cle="equipe" aria-pressed="false" aria-controls="reponse-equipe"><span class="pastille" aria-hidden="true"></span><span>Vous cherchez un atelier pour votre équipe ou votre école</span></button></li>
+    <div class="boussole" data-boussole role="group" aria-label="Boussole des situations">
+      <div class="boussole-cadran" aria-hidden="true">
+        <span class="boussole-anneau" data-effet="rond-qui-se-pose"></span>
+        <svg class="boussole-svg" viewBox="0 0 400 400">
+          <circle class="cadran-fond" cx="200" cy="200" r="150" />
+          <circle class="cadran-trait" cx="200" cy="200" r="150" />
+          <g class="cadran-repere" data-cle="doute"><circle cx="200" cy="50" r="13" /><text x="200" y="55" text-anchor="middle">1</text></g><g class="cadran-repere" data-cle="travail"><circle cx="330" cy="125" r="13" /><text x="330" y="130" text-anchor="middle">2</text></g><g class="cadran-repere" data-cle="ecole"><circle cx="330" cy="275" r="13" /><text x="330" y="280" text-anchor="middle">3</text></g><g class="cadran-repere" data-cle="changement"><circle cx="200" cy="350" r="13" /><text x="200" y="355" text-anchor="middle">4</text></g><g class="cadran-repere" data-cle="rond"><circle cx="70" cy="275" r="13" /><text x="70" y="280" text-anchor="middle">5</text></g><g class="cadran-repere" data-cle="equipe"><circle cx="70" cy="125" r="13" /><text x="70" y="130" text-anchor="middle">6</text></g>
+        </svg>
+        <span class="boussole-rayon"></span>
+        <span class="boussole-centre disque-logo"><svg class="aiguille" viewBox="0 0 100 100"><path class="aiguille-tige" d="M50 58 V16" /><path class="aiguille-tete" d="M38 28 L50 13 L62 28" /><circle class="aiguille-axe" cx="50" cy="50" r="7" /></svg></span>
+      </div>
+      <ul class="boussole-choix">
+        <li style="--a:-90deg"><button type="button" class="boussole-btn" data-cle="doute" data-angle="-90" aria-pressed="true" aria-controls="reponse-doute"><span class="boussole-n" aria-hidden="true">1</span><span class="boussole-libelle">Ce qui est juste pour moi</span></button></li><li style="--a:-30deg"><button type="button" class="boussole-btn" data-cle="travail" data-angle="-30" aria-pressed="false" aria-controls="reponse-travail"><span class="boussole-n" aria-hidden="true">2</span><span class="boussole-libelle">Mon travail</span></button></li><li style="--a:30deg"><button type="button" class="boussole-btn" data-cle="ecole" data-angle="30" aria-pressed="false" aria-controls="reponse-ecole"><span class="boussole-n" aria-hidden="true">3</span><span class="boussole-libelle">Mon enfant à l&#39;école</span></button></li><li style="--a:90deg"><button type="button" class="boussole-btn" data-cle="changement" data-angle="90" aria-pressed="false" aria-controls="reponse-changement"><span class="boussole-n" aria-hidden="true">4</span><span class="boussole-libelle">Besoin de changement</span></button></li><li style="--a:150deg"><button type="button" class="boussole-btn" data-cle="rond" data-angle="150" aria-pressed="false" aria-controls="reponse-rond"><span class="boussole-n" aria-hidden="true">5</span><span class="boussole-libelle">Je tourne en rond</span></button></li><li style="--a:210deg"><button type="button" class="boussole-btn" data-cle="equipe" data-angle="210" aria-pressed="false" aria-controls="reponse-equipe"><span class="boussole-n" aria-hidden="true">6</span><span class="boussole-libelle">Mon équipe, mon école</span></button></li>
       </ul>
-      <span class="besoin-anneau" aria-hidden="true" data-superpose data-effet="rond-qui-se-pose"></span>
-      <div class="besoin-reponses" aria-live="polite">
-        <div class="besoin-r est-active" id="reponse-doute" data-cle="doute" role="region" aria-label="Coaching de vie">
-          <h3>Coaching de vie</h3>
-          <p>Prendre du recul, clarifier vos envies et retrouver votre capacité d&#39;agir, pendant une transition ou avant une décision importante.</p>
-          <p class="actions"><a href="/coaching#vie" class="bouton" data-libelle="Coaching">Découvrir</a><a href="/rendez-vous?sujet=vie" class="lien-fleche" data-libelle="Rendez-vous">En parler</a></p>
-        </div><div class="besoin-r" id="reponse-travail" data-cle="travail" role="region" aria-label="Coaching professionnel">
-          <h3>Coaching professionnel</h3>
-          <p>Sérénité, énergie, motivation : un accompagnement concret pour avancer avec plus de confiance, de l&#39;organisation du temps au bilan de compétences.</p>
-          <p class="actions"><a href="/coaching#professionnel" class="bouton" data-libelle="Coaching">Découvrir</a><a href="/rendez-vous?sujet=professionnel" class="lien-fleche" data-libelle="Rendez-vous">En parler</a></p>
-        </div><div class="besoin-r" id="reponse-ecole" data-cle="ecole" role="region" aria-label="Coaching scolaire">
-          <h3>Coaching scolaire</h3>
-          <p>Une analyse faite ensemble, avec le double regard d&#39;une coach et d&#39;une logopède : motivation, méthode de travail, organisation, confiance.</p>
-          <p class="actions"><a href="/coaching#scolaire" class="bouton" data-libelle="Coaching">Découvrir</a><a href="/rendez-vous?sujet=scolaire" class="lien-fleche" data-libelle="Rendez-vous">En parler</a></p>
-        </div><div class="besoin-r" id="reponse-changement" data-cle="changement" role="region" aria-label="Ateliers pour faire le point">
-          <h3>Ateliers pour faire le point</h3>
-          <p>Ikigaï, moteurs de motivation, bilan d&#39;orientation ou de compétences : des séances courtes pour faire le point et choisir une direction.</p>
-          <p class="actions"><a href="/formations#ateliers" class="bouton" data-libelle="Formations">Découvrir</a><a href="/rendez-vous?sujet=formation" class="lien-fleche" data-libelle="Rendez-vous">En parler</a></p>
-        </div><div class="besoin-r" id="reponse-rond" data-cle="rond" role="region" aria-label="Constellations familiales">
-          <h3>Constellations familiales</h3>
-          <p>Quand des situations se répètent, la constellation aide à regarder autrement les liens et les loyautés qui pèsent, sans chercher de coupable.</p>
-          <p class="actions"><a href="/constellations" class="bouton" data-libelle="Constellations">Découvrir</a><a href="/rendez-vous?sujet=constellations" class="lien-fleche" data-libelle="Rendez-vous">En parler</a></p>
-        </div><div class="besoin-r" id="reponse-equipe" data-cle="equipe" role="region" aria-label="Formations et ateliers">
-          <h3>Formations et ateliers</h3>
-          <p>En entreprise ou en école : motivation, gestion de réunion, gestion de conflits, méthodes de travail, aménagements raisonnables.</p>
-          <p class="actions"><a href="/formations" class="bouton" data-libelle="Formations">Découvrir</a><a href="/rendez-vous?sujet=formation" class="lien-fleche" data-libelle="Rendez-vous">En parler</a></p>
-        </div>
+    </div>
+    <div class="besoin-reponses" aria-live="polite">
+      <div class="besoin-r est-active" id="reponse-doute" data-cle="doute" role="region" aria-label="Coaching de vie">
+        <p class="besoin-q">« Vous doutez de ce qui est juste pour vous »</p>
+        <h3>Coaching de vie</h3>
+        <p>Prendre du recul, clarifier vos envies et retrouver votre capacité d&#39;agir, pendant une transition ou avant une décision importante.</p>
+        <p class="actions"><a href="/coaching#vie" class="bouton" data-libelle="Coaching">Découvrir</a><a href="/rendez-vous?sujet=vie" class="lien-fleche" data-libelle="Rendez-vous">En parler</a></p>
+      </div><div class="besoin-r" id="reponse-travail" data-cle="travail" role="region" aria-label="Coaching professionnel">
+        <p class="besoin-q">« Votre travail vous pose question »</p>
+        <h3>Coaching professionnel</h3>
+        <p>Sérénité, énergie, motivation : un accompagnement concret pour avancer avec plus de confiance, de l&#39;organisation du temps au bilan de compétences.</p>
+        <p class="actions"><a href="/coaching#professionnel" class="bouton" data-libelle="Coaching">Découvrir</a><a href="/rendez-vous?sujet=professionnel" class="lien-fleche" data-libelle="Rendez-vous">En parler</a></p>
+      </div><div class="besoin-r" id="reponse-ecole" data-cle="ecole" role="region" aria-label="Coaching scolaire">
+        <p class="besoin-q">« Votre enfant a des difficultés à l&#39;école »</p>
+        <h3>Coaching scolaire</h3>
+        <p>Une analyse faite ensemble, avec le double regard d&#39;une coach et d&#39;une logopède : motivation, méthode de travail, organisation, confiance.</p>
+        <p class="actions"><a href="/coaching#scolaire" class="bouton" data-libelle="Coaching">Découvrir</a><a href="/rendez-vous?sujet=scolaire" class="lien-fleche" data-libelle="Rendez-vous">En parler</a></p>
+      </div><div class="besoin-r" id="reponse-changement" data-cle="changement" role="region" aria-label="Ateliers pour faire le point">
+        <p class="besoin-q">« Vous avez besoin de changement »</p>
+        <h3>Ateliers pour faire le point</h3>
+        <p>Ikigaï, moteurs de motivation, bilan d&#39;orientation ou de compétences : des séances courtes pour faire le point et choisir une direction.</p>
+        <p class="actions"><a href="/formations#ateliers" class="bouton" data-libelle="Formations">Découvrir</a><a href="/rendez-vous?sujet=formation" class="lien-fleche" data-libelle="Rendez-vous">En parler</a></p>
+      </div><div class="besoin-r" id="reponse-rond" data-cle="rond" role="region" aria-label="Constellations familiales">
+        <p class="besoin-q">« Vous avez l&#39;impression de tourner en rond »</p>
+        <h3>Constellations familiales</h3>
+        <p>Quand des situations se répètent, la constellation aide à regarder autrement les liens et les loyautés qui pèsent, sans chercher de coupable.</p>
+        <p class="actions"><a href="/constellations" class="bouton" data-libelle="Constellations">Découvrir</a><a href="/rendez-vous?sujet=constellations" class="lien-fleche" data-libelle="Rendez-vous">En parler</a></p>
+      </div><div class="besoin-r" id="reponse-equipe" data-cle="equipe" role="region" aria-label="Formations et ateliers">
+        <p class="besoin-q">« Vous cherchez un atelier pour votre équipe ou votre école »</p>
+        <h3>Formations et ateliers</h3>
+        <p>En entreprise ou en école : motivation, gestion de réunion, gestion de conflits, méthodes de travail, aménagements raisonnables.</p>
+        <p class="actions"><a href="/formations" class="bouton" data-libelle="Formations">Découvrir</a><a href="/rendez-vous?sujet=formation" class="lien-fleche" data-libelle="Rendez-vous">En parler</a></p>
       </div>
     </div>
   </div>
@@ -174,42 +189,52 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <div><p class="surtitre">Les accompagnements</p><h2 data-anime="lignes">Au travail, dans la vie, à l&#39;école, en famille.</h2></div>
       <p data-anime>Chaque accompagnement est personnalisé : les outils changent d&#39;une personne à l&#39;autre, l&#39;écoute reste la même.</p>
     </div>
-    <ul class="acc-grille" data-anime="cascade">
-      <li><a href="/coaching#professionnel" class="acc-carte" data-libelle="Coaching"><span class="acc-pastille" aria-hidden="true">01</span><figure class="media " data-grok style="--cadrage:50% 45%">
+    <ul class="acc-trois" data-anime="cascade">
+      <li><a href="/coaching#professionnel" class="acc-rond" data-libelle="Coaching"><span class="acc-pastille" aria-hidden="true">01</span><figure class="media acc-cercle" data-grok style="--cadrage:50% 45%">
   <picture>
-    <img src="/assets/images/grok/pro-bureau-1100.webp" srcset="/assets/images/grok/pro-bureau-480.webp 480w, /assets/images/grok/pro-bureau-800.webp 800w, /assets/images/grok/pro-bureau-1100.webp 1100w" sizes="(max-width: 600px) 100vw, (max-width: 960px) 50vw, 400px" alt="" width="1100" height="1467" loading="lazy" decoding="async">
+    <img src="/assets/images/grok/pro-bureau-1100.webp" srcset="/assets/images/grok/pro-bureau-480.webp 480w, /assets/images/grok/pro-bureau-800.webp 800w, /assets/images/grok/pro-bureau-1100.webp 1100w" sizes="220px" alt="" width="1100" height="1467" loading="lazy" decoding="async">
   </picture><figcaption class="mention-ia">Illustration générée</figcaption>
-</figure><div class="acc-corps"><h3>Coaching professionnel</h3><p>Temps, stress, motivation, confiance, projet ou réorientation : avancer au travail avec des outils concrets.</p><span class="lien-fleche">Découvrir</span></div></a></li><li><a href="/coaching#vie" class="acc-carte" data-libelle="Coaching"><span class="acc-pastille" aria-hidden="true">02</span><figure class="media " data-grok style="--cadrage:50% 55%">
+</figure><div class="acc-corps"><h3>Coaching professionnel</h3><p>Temps, stress, motivation, confiance, projet ou réorientation : avancer au travail avec des outils concrets.</p><span class="lien-fleche">Découvrir</span></div></a></li><li><a href="/coaching#vie" class="acc-rond" data-libelle="Coaching"><span class="acc-pastille" aria-hidden="true">02</span><figure class="media acc-cercle" data-grok style="--cadrage:50% 55%">
   <picture>
-    <img src="/assets/images/grok/vie-chemin-1100.webp" srcset="/assets/images/grok/vie-chemin-480.webp 480w, /assets/images/grok/vie-chemin-800.webp 800w, /assets/images/grok/vie-chemin-1100.webp 1100w" sizes="(max-width: 600px) 100vw, (max-width: 960px) 50vw, 400px" alt="" width="1100" height="1467" loading="lazy" decoding="async">
+    <img src="/assets/images/grok/vie-chemin-1100.webp" srcset="/assets/images/grok/vie-chemin-480.webp 480w, /assets/images/grok/vie-chemin-800.webp 800w, /assets/images/grok/vie-chemin-1100.webp 1100w" sizes="220px" alt="" width="1100" height="1467" loading="lazy" decoding="async">
   </picture><figcaption class="mention-ia">Illustration générée</figcaption>
-</figure><div class="acc-corps"><h3>Coaching de vie</h3><p>Une transition, une décision, une perte de repères : retrouver ce qui compte et l&#39;élan pour agir.</p><span class="lien-fleche">Découvrir</span></div></a></li><li><a href="/coaching#scolaire" class="acc-carte" data-libelle="Coaching"><span class="acc-pastille" aria-hidden="true">03</span><figure class="media " data-grok style="--cadrage:50% 50%">
+</figure><div class="acc-corps"><h3>Coaching de vie</h3><p>Une transition, une décision, une perte de repères : retrouver ce qui compte et l&#39;élan pour agir.</p><span class="lien-fleche">Découvrir</span></div></a></li><li><a href="/coaching#scolaire" class="acc-rond" data-libelle="Coaching"><span class="acc-pastille" aria-hidden="true">03</span><figure class="media acc-cercle" data-grok style="--cadrage:50% 50%">
   <picture>
-    <img src="/assets/images/grok/scolaire-devoirs-1100.webp" srcset="/assets/images/grok/scolaire-devoirs-480.webp 480w, /assets/images/grok/scolaire-devoirs-800.webp 800w, /assets/images/grok/scolaire-devoirs-1100.webp 1100w" sizes="(max-width: 600px) 100vw, (max-width: 960px) 50vw, 400px" alt="" width="1100" height="1467" loading="lazy" decoding="async">
+    <img src="/assets/images/grok/scolaire-devoirs-1100.webp" srcset="/assets/images/grok/scolaire-devoirs-480.webp 480w, /assets/images/grok/scolaire-devoirs-800.webp 800w, /assets/images/grok/scolaire-devoirs-1100.webp 1100w" sizes="220px" alt="" width="1100" height="1467" loading="lazy" decoding="async">
   </picture><figcaption class="mention-ia">Illustration générée</figcaption>
-</figure><div class="acc-corps"><h3>Coaching scolaire</h3><p>Motivation, méthode, organisation, orientation : aider l&#39;élève à trouver sa façon d&#39;apprendre.</p><span class="lien-fleche">Découvrir</span></div></a></li><li><a href="/constellations" class="acc-carte" data-libelle="Constellations"><span class="acc-pastille" aria-hidden="true">04</span><figure class="media " style="--cadrage:50% 60%">
+</figure><div class="acc-corps"><h3>Coaching scolaire</h3><p>Motivation, méthode, organisation, orientation : aider l&#39;élève à trouver sa façon d&#39;apprendre.</p><span class="lien-fleche">Découvrir</span></div></a></li>
+    </ul>
+    <ul class="acc-deux" data-anime="cascade">
+      <li><a href="/constellations" class="acc-large" data-libelle="Constellations"><span class="acc-pastille" aria-hidden="true">04</span><figure class="media " style="--cadrage:50% 60%">
   <picture>
-    <img src="/assets/images/salle-constellations-1200.webp" srcset="/assets/images/salle-constellations-480.webp 480w, /assets/images/salle-constellations-800.webp 800w, /assets/images/salle-constellations-1200.webp 1200w" sizes="(max-width: 600px) 100vw, (max-width: 960px) 50vw, 400px" alt="" width="1200" height="1600" loading="lazy" decoding="async">
+    <img src="/assets/images/salle-constellations-1200.webp" srcset="/assets/images/salle-constellations-480.webp 480w, /assets/images/salle-constellations-800.webp 800w, /assets/images/salle-constellations-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 300px" alt="" width="1200" height="1600" loading="lazy" decoding="async">
   </picture>
-</figure><div class="acc-corps"><h3>Constellations familiales</h3><p>Regarder autrement sa place dans sa famille et les liens qui la traversent.</p><span class="lien-fleche">Découvrir</span></div></a></li><li><a href="/formations" class="acc-carte" data-libelle="Formations"><span class="acc-pastille" aria-hidden="true">05</span><figure class="media " style="--cadrage:54% 50%">
+</figure><div class="acc-corps"><h3>Constellations familiales</h3><p>Regarder autrement sa place dans sa famille et les liens qui la traversent.</p><span class="lien-fleche">Découvrir</span></div></a></li><li><a href="/formations" class="acc-large" data-libelle="Formations"><span class="acc-pastille" aria-hidden="true">05</span><figure class="media " style="--cadrage:54% 50%">
   <picture>
-    <img src="/assets/images/grange-1200.webp" srcset="/assets/images/grange-480.webp 480w, /assets/images/grange-800.webp 800w, /assets/images/grange-1200.webp 1200w" sizes="(max-width: 600px) 100vw, (max-width: 960px) 50vw, 400px" alt="" width="1200" height="1600" loading="lazy" decoding="async">
+    <img src="/assets/images/grange-1200.webp" srcset="/assets/images/grange-480.webp 480w, /assets/images/grange-800.webp 800w, /assets/images/grange-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 300px" alt="" width="1200" height="1600" loading="lazy" decoding="async">
   </picture>
 </figure><div class="acc-corps"><h3>Formations et ateliers</h3><p>Ikigaï, Ennéagramme, motivation, gestion de réunion : en séance individuelle, en entreprise ou en école.</p><span class="lien-fleche">Découvrir</span></div></a></li>
-      <li class="acc-mot"><p>Personnel · Professionnel · Familial · Scolaire</p><a href="/rendez-vous" class="lien-fleche" data-libelle="Rendez-vous">En parler</a></li>
     </ul>
+    <p class="acc-hesiter" data-anime><strong>Vous hésitez entre deux accompagnements ?</strong> Un premier échange de quelques minutes suffit pour choisir ensemble. <a href="/rendez-vous" class="lien-fleche" data-libelle="Rendez-vous">En parler</a></p>
   </div>
 </section>
-<section class="section" id="qui">
+<section class="section section--lin" id="qui">
   <div class="conteneur qui-grille">
-    <figure class="qui-photo">
-      <figure class="media " data-anime="rideau" style="--cadrage:44% 50%">
+    <div class="qui-photo">
+      <figure class="media qui-portrait" data-anime="rideau" style="--cadrage:50% 30%">
   <picture>
-    <img src="/assets/images/marieve-porte-1200.webp" srcset="/assets/images/marieve-porte-480.webp 480w, /assets/images/marieve-porte-800.webp 800w, /assets/images/marieve-porte-1200.webp 1200w" sizes="(max-width: 900px) 90vw, 460px" alt="Mariève, devant une porte turquoise" width="1200" height="1500" loading="lazy" decoding="async">
+    <img src="/assets/images/marieve-noir-585.webp" srcset="/assets/images/marieve-noir-400.webp 400w, /assets/images/marieve-noir-585.webp 585w" sizes="(max-width: 900px) 260px, 400px" alt="Mariève Gérard en veste claire, en noir et blanc sur fond noir" width="585" height="780" loading="lazy" decoding="async">
   </picture>
 </figure>
-      <figcaption class="qui-legende">Mariève, devant une porte turquoise</figcaption>
-    </figure>
+      <figure class="qui-vignette">
+        <figure class="media " style="--cadrage:46% 24%">
+  <picture>
+    <img src="/assets/images/marieve-porte-1200.webp" srcset="/assets/images/marieve-porte-480.webp 480w, /assets/images/marieve-porte-800.webp 800w, /assets/images/marieve-porte-1200.webp 1200w" sizes="180px" alt="Mariève, devant une porte turquoise" width="1200" height="1500" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <figcaption class="qui-legende">Mariève, devant une porte turquoise</figcaption>
+      </figure>
+    </div>
     <div class="qui-texte">
       <p class="surtitre">Qui suis-je ?</p>
       <h2 data-anime="lignes">Je suis Mariève.</h2>
@@ -230,7 +255,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <div class="mmm" data-module="manifeste-mot-a-mot">
       <div class="mmm__cadre">
         <p class="surtitre">Mon approche</p>
-        <h2 class="mmm__texte">Un accompagnement personnalisé et humaniste : comprendre votre situation, mobiliser vos ressources, retrouver votre capacité d&#39;agir.</h2>
+        <h2 class="mmm__texte">Un accompagnement personnalisé et humaniste, pour comprendre votre situation, mobiliser vos ressources et retrouver votre capacité d&#39;agir.</h2>
         <p class="mmm__signature">Personnel · Professionnel · Familial · Scolaire</p>
       </div>
     </div>
@@ -244,7 +269,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     </figure>
   </div>
 </section>
-<section class="citation" id="citation" style="--fx-longueur: 200svh" data-fx="plein-ecran" data-fx-depart="inset(16% 20% 16% 20% round 999px)">
+<section class="citation" id="citation" style="--fx-longueur: 170svh" data-fx="plein-ecran" data-fx-depart="inset(16% 20% 16% 20% round 999px)">
   <div data-collant>
     <figure class="media " data-grok style="--cadrage:62% 50%">
   <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/bureau-matin-mobile-640.webp 640w, /assets/images/grok/bureau-matin-mobile-1080.webp 1080w" sizes="100vw">
@@ -271,22 +296,18 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       </p>
     </div>
     <div class="pros-photo">
-      <figure class="media " data-anime="rideau" style="--cadrage:50% 55%">
+      <figure class="media " data-grok data-anime="rideau" style="--cadrage:50% 50%">
   <picture>
-    <img src="/assets/images/salle-reunion-1200.webp" srcset="/assets/images/salle-reunion-480.webp 480w, /assets/images/salle-reunion-800.webp 800w, /assets/images/salle-reunion-1200.webp 1200w" sizes="(max-width: 900px) 80vw, 420px" alt="Une formation en entreprise" width="1200" height="1500" loading="lazy" decoding="async">
-  </picture>
+    <img src="/assets/images/grok/pro-equipe-1200.webp" srcset="/assets/images/grok/pro-equipe-640.webp 640w, /assets/images/grok/pro-equipe-960.webp 960w, /assets/images/grok/pro-equipe-1200.webp 1200w" sizes="(max-width: 900px) 80vw, 520px" alt="Une table de réunion après un atelier, couverte de notes colorées et d&#39;un grand schéma dessiné" width="1200" height="900" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
 </figure>
     </div>
   </div>
 </section>
-<section class="section section--ciel" id="fin">
+<section class="section section--lin" id="fin">
   <div class="conteneur fin-bloc">
     <div class="fin-portrait">
-      <figure class="media fin-media" style="--cadrage:50% 22%">
-  <picture>
-    <img src="/assets/images/marieve-noir-585.webp" srcset="/assets/images/marieve-noir-400.webp 400w, /assets/images/marieve-noir-585.webp 585w" sizes="210px" alt="Je suis Mariève." width="585" height="780" loading="lazy" decoding="async">
-  </picture>
-</figure>
+      <span class="disque-logo fin-disque"><img src="/assets/images/logo-guida.svg" alt="" width="108" height="64" loading="lazy"></span>
       <svg viewBox="0 0 200 200" aria-hidden="true" data-fx="trace"><circle cx="100" cy="100" r="98" /></svg>
     </div>
     <div class="fin-texte">
@@ -301,7 +322,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <div class="fin-coord" data-anime>
       <span>Rue de Hérédia 5, 4217 Héron (Belgique)</span>
       <a href="tel:+32479215383">0479 21 53 83</a>
-      <span class="selectionnable">info@guida.be</span>
+      <span class="email-ligne"><span class="selectionnable">info@guida.be</span><button type="button" class="copier" data-copier="info@guida.be" data-copie="Adresse copiée"><span data-libelle-bouton>Copier l&#39;adresse</span></button></span>
     </div>
   </div>
 </section>
@@ -309,7 +330,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <footer class="pied" id="pied">
   <div class="conteneur pied-grille">
     <div class="pied-marque">
-      <img src="/assets/images/logo-240.webp" alt="Coaching Guida" width="240" height="143" loading="lazy">
+      <span class="disque-logo pied-disque"><img src="/assets/images/logo-guida.svg" alt="Coaching Guida" width="108" height="64" loading="lazy"></span>
       <p>by Mariève Gérard</p>
     </div>
     <div>
@@ -335,7 +356,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 </footer>
 <div data-barre-fixe>
   <a class="bouton bouton--contour" href="tel:+32479215383">Appeler</a>
-  <a class="bouton" href="/rendez-vous" data-libelle="Rendez-vous">Prendre rendez-vous</a>
+  <a class="bouton" href="/rendez-vous" data-libelle="Rendez-vous">Rendez-vous</a>
 </div>
 </body>
 </html>

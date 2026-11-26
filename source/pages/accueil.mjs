@@ -30,25 +30,35 @@ export default (c) => {
 </section>
 
 <section class="section" id="besoin">
-  <div class="conteneur besoin-grille">
+  <div class="conteneur boussole-grille">
     <div class="besoin-tete">
       <p class="surtitre">${c.t('accueil.besoin.surtitre')}</p>
       <h2 data-anime="lignes">${c.t('accueil.besoin.titre')}</h2>
       <p class="intro-section" data-anime>${c.t('accueil.besoin.texte')}</p>
-      <svg class="besoin-deco" viewBox="0 0 180 180" aria-hidden="true" data-visuel data-fx="trace"><circle class="plein" cx="90" cy="90" r="62" /><circle cx="90" cy="90" r="86" /><circle cx="90" cy="90" r="62" /><path d="M66 114 L114 66 M84 66 H114 V96" /></svg>
+      <p class="besoin-aide" data-anime><span data-souris-txt>${c.t('accueil.besoin.aideSouris')}</span><span data-tactile>${c.t('accueil.besoin.aide')}</span></p>
     </div>
-    <div class="besoin-outil">
-      <ul class="besoin-liste" data-anime="cascade">
-        ${sit.map((s, i) => html`<li><button type="button" class="besoin-choix" data-cle="${s.cle}" aria-pressed="${i === 0 ? 'true' : 'false'}" aria-controls="reponse-${s.cle}"><span class="pastille" aria-hidden="true"></span><span>${s.question}</span></button></li>`)}
-      </ul>
-      <span class="besoin-anneau" aria-hidden="true" data-superpose data-effet="rond-qui-se-pose"></span>
-      <div class="besoin-reponses" aria-live="polite">
-        ${sit.map((s, i) => html`<div class="besoin-r${i === 0 ? ' est-active' : ''}" id="reponse-${s.cle}" data-cle="${s.cle}" role="region" aria-label="${s.titre}">
-          <h3>${s.titre}</h3>
-          <p>${s.reponse}</p>
-          <p class="actions">${c.lien(s.page, { ancre: s.ancre, classe: 'bouton', texte: c.t('commun.decouvrir') })}${c.lien('rendez-vous', { params: `sujet=${s.sujet}`, classe: 'lien-fleche', texte: c.t('commun.enParler') })}</p>
-        </div>`)}
+    <div class="boussole" data-boussole role="group" aria-label="${c.s('accueil.besoin.boussole')}">
+      <div class="boussole-cadran" aria-hidden="true">
+        <span class="boussole-anneau" data-effet="rond-qui-se-pose"></span>
+        <svg class="boussole-svg" viewBox="0 0 400 400">
+          <circle class="cadran-fond" cx="200" cy="200" r="150" />
+          <circle class="cadran-trait" cx="200" cy="200" r="150" />
+          ${sit.map((s, i) => { const a = (-90 + i * 60) * Math.PI / 180; return html`<g class="cadran-repere" data-cle="${s.cle}"><circle cx="${Math.round(200 + Math.cos(a) * 150)}" cy="${Math.round(200 + Math.sin(a) * 150)}" r="13" /><text x="${Math.round(200 + Math.cos(a) * 150)}" y="${Math.round(200 + Math.sin(a) * 150) + 5}" text-anchor="middle">${i + 1}</text></g>`; })}
+        </svg>
+        <span class="boussole-rayon"></span>
+        <span class="boussole-centre disque-logo"><svg class="aiguille" viewBox="0 0 100 100"><path class="aiguille-tige" d="M50 58 V16" /><path class="aiguille-tete" d="M38 28 L50 13 L62 28" /><circle class="aiguille-axe" cx="50" cy="50" r="7" /></svg></span>
       </div>
+      <ul class="boussole-choix">
+        ${sit.map((s, i) => html`<li style="--a:${-90 + i * 60}deg"><button type="button" class="boussole-btn" data-cle="${s.cle}" data-angle="${-90 + i * 60}" aria-pressed="${i === 0 ? 'true' : 'false'}" aria-controls="reponse-${s.cle}"><span class="boussole-n" aria-hidden="true">${i + 1}</span><span class="boussole-libelle">${s.court}</span></button></li>`)}
+      </ul>
+    </div>
+    <div class="besoin-reponses" aria-live="polite">
+      ${sit.map((s, i) => html`<div class="besoin-r${i === 0 ? ' est-active' : ''}" id="reponse-${s.cle}" data-cle="${s.cle}" role="region" aria-label="${s.titre}">
+        <p class="besoin-q">« ${s.question} »</p>
+        <h3>${s.titre}</h3>
+        <p>${s.reponse}</p>
+        <p class="actions">${c.lien(s.page, { ancre: s.ancre, classe: 'bouton', texte: c.t('commun.decouvrir') })}${c.lien('rendez-vous', { params: `sujet=${s.sujet}`, classe: 'lien-fleche', texte: c.t('commun.enParler') })}</p>
+      </div>`)}
     </div>
   </div>
 </section>
@@ -59,19 +69,25 @@ export default (c) => {
       <div><p class="surtitre">${c.t('accueil.accompagnements.surtitre')}</p><h2 data-anime="lignes">${c.t('accueil.accompagnements.titre')}</h2></div>
       <p data-anime>${c.t('accueil.accompagnements.texte')}</p>
     </div>
-    <ul class="acc-grille" data-anime="cascade">
-      ${c.donnees.accompagnements.map((a, i) => html`<li>${c.lien(a.page, { ancre: a.ancre, classe: 'acc-carte', texte: html`<span class="acc-pastille" aria-hidden="true">${String(i + 1).padStart(2, '0')}</span>${c.media({ nom: a.image, alt: '', cadrage: a.cadrage, sizes: '(max-width: 600px) 100vw, (max-width: 960px) 50vw, 400px' })}<div class="acc-corps"><h3>${a.titre}</h3><p>${a.texte}</p><span class="lien-fleche">${c.t('commun.decouvrir')}</span></div>` })}</li>`)}
-      <li class="acc-mot"><p>${c.t('accueil.approche.domaines')}</p>${c.lien('rendez-vous', { classe: 'lien-fleche', texte: c.t('commun.enParler') })}</li>
+    <ul class="acc-trois" data-anime="cascade">
+      ${c.donnees.accompagnements.slice(0, 3).map((a, i) => html`<li>${c.lien(a.page, { ancre: a.ancre, classe: 'acc-rond', texte: html`<span class="acc-pastille" aria-hidden="true">${String(i + 1).padStart(2, '0')}</span>${c.media({ nom: a.image, alt: '', cadrage: a.cadrage, classe: 'acc-cercle', sizes: '220px' })}<div class="acc-corps"><h3>${a.titre}</h3><p>${a.texte}</p><span class="lien-fleche">${c.t('commun.decouvrir')}</span></div>` })}</li>`)}
     </ul>
+    <ul class="acc-deux" data-anime="cascade">
+      ${c.donnees.accompagnements.slice(3).map((a, i) => html`<li>${c.lien(a.page, { ancre: a.ancre, classe: 'acc-large', texte: html`<span class="acc-pastille" aria-hidden="true">${String(i + 4).padStart(2, '0')}</span>${c.media({ nom: a.image, alt: '', cadrage: a.cadrage, sizes: '(max-width: 760px) 100vw, 300px' })}<div class="acc-corps"><h3>${a.titre}</h3><p>${a.texte}</p><span class="lien-fleche">${c.t('commun.decouvrir')}</span></div>` })}</li>`)}
+    </ul>
+    <p class="acc-hesiter" data-anime><strong>${c.t('accueil.accompagnements.hesiter')}</strong> ${c.t('accueil.accompagnements.hesiterTexte')} ${c.lien('rendez-vous', { classe: 'lien-fleche', texte: c.t('commun.enParler') })}</p>
   </div>
 </section>
 
-<section class="section" id="qui">
+<section class="section section--lin" id="qui">
   <div class="conteneur qui-grille">
-    <figure class="qui-photo">
-      ${c.media({ nom: 'marieve-porte', alt: c.s('accueil.qui.legende'), cadrage: '44% 50%', sizes: '(max-width: 900px) 90vw, 460px', attrs: 'data-anime="rideau"' })}
-      <figcaption class="qui-legende">${c.t('accueil.qui.legende')}</figcaption>
-    </figure>
+    <div class="qui-photo">
+      ${c.media({ nom: 'marieve-noir', alt: c.s('accueil.qui.alt'), cadrage: '50% 30%', classe: 'qui-portrait', sizes: '(max-width: 900px) 260px, 400px', attrs: 'data-anime="rideau"' })}
+      <figure class="qui-vignette">
+        ${c.media({ nom: 'marieve-porte', alt: c.s('accueil.qui.legende'), cadrage: '46% 24%', sizes: '180px' })}
+        <figcaption class="qui-legende">${c.t('accueil.qui.legende')}</figcaption>
+      </figure>
+    </div>
     <div class="qui-texte">
       <p class="surtitre">${c.t('accueil.qui.surtitre')}</p>
       <h2 data-anime="lignes">${c.t('accueil.qui.titre')}</h2>
@@ -104,7 +120,7 @@ export default (c) => {
   </div>
 </section>
 
-<section class="citation" id="citation" style="--fx-longueur: 200svh" data-fx="plein-ecran" data-fx-depart="inset(16% 20% 16% 20% round 999px)">
+<section class="citation" id="citation" style="--fx-longueur: 170svh" data-fx="plein-ecran" data-fx-depart="inset(16% 20% 16% 20% round 999px)">
   <div data-collant>
     ${c.media({ nom: 'grok/bureau-matin', alt: '', cadrage: '62% 50%', sizes: '100vw' })}
     <p class="citation-mots" aria-hidden="true" data-audit-ignorer><span data-fx-ecarte="g">${c.t('accueil.citation.gauche')}</span><span data-fx-ecarte="d">${c.t('accueil.citation.droite')}</span></p>
@@ -128,11 +144,11 @@ export default (c) => {
       </p>
     </div>
     <div class="pros-photo">
-      ${c.media({ nom: 'salle-reunion', alt: c.s('formations.legendeSalle'), cadrage: '50% 55%', sizes: '(max-width: 900px) 80vw, 420px', attrs: 'data-anime="rideau"' })}
+      ${c.media({ nom: 'grok/pro-equipe', alt: c.donnees.images?.['grok/pro-equipe']?.alt || '', sizes: '(max-width: 900px) 80vw, 520px', attrs: 'data-anime="rideau"' })}
     </div>
   </div>
 </section>
 
-${fin(c)}
+${fin(c, { logo: true })}
 `;
 };

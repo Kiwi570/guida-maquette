@@ -3,7 +3,7 @@
    Effets du plan (data-effet) : cercle-portrait, rond-qui-se-pose, frise-parcours, trois-cercles, arche,
    points-en-cercle, bandeau-grange, cercle-rdv. Les modules de la bibliothèque (manifeste, schéma en étapes,
    formulaire par étapes) sont repris tels quels depuis assets/js/modules/. */
-import { demarrer, boucle, versObjet, rafraichir } from './socle/index.js?v=1';
+import { demarrer, boucle, versObjet, rafraichir, aller } from './socle/index.js?v=2';
 
 const gsap = window.gsap;
 const $ = (s, r = document) => r.querySelector(s);
@@ -73,38 +73,62 @@ function cerclePortrait() {
   gsap.fromTo('.hero-halo', { rotate: 0 }, { rotate: 60, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true } });
 }
 
-function rondQuiSePose() {
-  const outil = $('.besoin-outil');
-  if (!outil) return;
-  const anneau = $('.besoin-anneau', outil);
-  const choix = $$('.besoin-choix', outil);
-  const reponses = $$('.besoin-r', outil);
-  let courant = choix.findIndex((b) => b.getAttribute('aria-pressed') === 'true');
-  if (courant < 0) courant = 0;
-  const position = (i) => {
-    const p = $('.pastille', choix[i]);
-    let x = 0, y = 0, el = p;
-    while (el && el !== outil) { x += el.offsetLeft; y += el.offsetTop; el = el.offsetParent; }
-    return { x: x - 0, y: y - 0 };
+/* Boussole Guida : la flèche du logo s'oriente vers la situation choisie, le rayon la relie au cercle,
+   la réponse change ; sur téléphone, la page vient montrer la réponse si elle est hors de l'écran. */
+function boussole() {
+  const b = $('[data-boussole]');
+  if (!b) return;
+  const section = b.closest('section');
+  const aiguille = $('.aiguille', b), rayon = $('.boussole-rayon', b), anneau = $('.boussole-anneau', b);
+  const boutons = $$('.boussole-btn', b);
+  const reponses = $$('.besoin-r', section);
+  const reperes = $$('.cadran-repere', b);
+  let courant = Math.max(0, boutons.findIndex((x) => x.getAttribute('aria-pressed') === 'true'));
+  const orienter = (i, duree = 0.9) => {
+    const a = +boutons[i].dataset.angle;
+    gsap.to(aiguille, { rotation: `${a + 90}_short`, duration: duree, ease: 'back.out(1.6)', overwrite: 'auto' });
+    gsap.to(rayon, { rotation: `${a}_short`, duration: duree, ease: 'power3.inOut', overwrite: 'auto' });
+    reperes.forEach((r, k) => r.classList.toggle('est-actif', k === i));
   };
-  const placer = (i, anime) => {
-    const { x, y } = position(i);
-    gsap.to(anneau, { x, y, duration: anime ? 0.55 : 0, ease: 'power3.inOut', overwrite: 'auto' });
-  };
-  choix.forEach((b, i) => b.addEventListener('click', () => {
+  const telephone = window.matchMedia('(max-width: 899px)');
+  boutons.forEach((btn, i) => btn.addEventListener('click', () => {
     if (i === courant) return;
-    choix[courant].setAttribute('aria-pressed', 'false');
-    b.setAttribute('aria-pressed', 'true');
+    boutons[courant].setAttribute('aria-pressed', 'false');
+    btn.setAttribute('aria-pressed', 'true');
     reponses[courant].classList.remove('est-active');
     reponses[i].classList.add('est-active');
-    gsap.fromTo(reponses[i], { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.45, ease: 'power2.out' });
+    gsap.fromTo(reponses[i], { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.45, ease: 'power2.out' });
     courant = i;
-    placer(i, true);
+    orienter(i);
+    if (telephone.matches) {
+      requestAnimationFrame(() => {
+        const r = reponses[i].getBoundingClientRect();
+        const bas = window.innerHeight - (parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--barres-h')) || 0);
+        if (r.bottom > bas - 8) aller(window.scrollY + r.bottom - bas + 24);
+      });
+    }
   }));
-  placer(courant, false);
-  new ResizeObserver(() => placer(courant, false)).observe(outil);
-  /* Au défilement, l'anneau pointillé tourne sur lui-même. */
-  gsap.fromTo(anneau, { rotate: 0 }, { rotate: 240, ease: 'none', scrollTrigger: { trigger: outil, start: 'top bottom', end: 'bottom top', scrub: true } });
+  gsap.set(aiguille, { rotation: +boutons[courant].dataset.angle + 90, transformOrigin: '50% 50%' });
+  gsap.set(rayon, { rotation: +boutons[courant].dataset.angle });
+  reperes.forEach((r, k) => r.classList.toggle('est-actif', k === courant));
+  /* À la première entrée dans l'écran, la flèche cherche son nord avant de se poser. */
+  window.ScrollTrigger.create({
+    trigger: b, start: 'top 75%', once: true,
+    onEnter: () => gsap.fromTo(aiguille, { rotation: -250 }, { rotation: +boutons[courant].dataset.angle + 90, duration: 1.6, ease: 'elastic.out(1, 0.55)' }),
+  });
+  /* Au défilement, l'anneau pointillé tourne. */
+  gsap.fromTo(anneau, { rotate: 0 }, { rotate: 200, ease: 'none', scrollTrigger: { trigger: b, start: 'top bottom', end: 'bottom top', scrub: true } });
+}
+
+/* Copier l'adresse e-mail (l'adresse reste aussi sélectionnable). */
+function copier() {
+  $$('[data-copier]').forEach((btn) => btn.addEventListener('click', async () => {
+    const lib = $('[data-libelle-bouton]', btn) || btn;
+    const avant = lib.textContent;
+    try { await navigator.clipboard.writeText(btn.dataset.copier); } catch (e) { /* la sélection reste possible */ }
+    lib.textContent = btn.dataset.copie; btn.classList.add('est-copie');
+    setTimeout(() => { lib.textContent = avant; btn.classList.remove('est-copie'); }, 2200);
+  }));
 }
 
 /* Citation : les deux mots s'effacent quand la carte arrive sur l'image ouverte. */
@@ -192,6 +216,8 @@ function filtresAteliers() {
       if (garde) gsap.fromTo(c, { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.4, ease: 'power2.out', clearProps: 'transform,opacity' });
     });
     compte.textContent = n;
+    const mot = $('[data-compte-mot]', zone);
+    if (mot) mot.textContent = n > 1 ? mot.dataset.plusieurs : mot.dataset.un;
     if (maj) {
       const u = new URL(location.href);
       if (p === 'tous') u.searchParams.delete('public'); else u.searchParams.set('public', p);
@@ -207,12 +233,12 @@ function filtresAteliers() {
 /* ---------- Modules de la bibliothèque ---------- */
 async function modules() {
   const mmm = $('[data-module="manifeste-mot-a-mot"]');
-  if (mmm) { const { init } = await import('./modules/manifeste-mot-a-mot/module.js?v=1'); init(mmm, { opacite: 1, parallaxe: 0, debut: 'top 75%', fin: 'bottom 55%' }); }
+  if (mmm) { const { init } = await import('./modules/manifeste-mot-a-mot/module.js?v=2'); init(mmm, { opacite: 1, parallaxe: 0, debut: 'top 75%', fin: 'bottom 55%' }); }
   const see = $('[data-module="schema-epingle-etapes"]');
-  if (see) { const { init } = await import('./modules/schema-epingle-etapes/module.js?v=1'); init(see, { telephone: 'compact', pas: 60 }); }
+  if (see) { const { init } = await import('./modules/schema-epingle-etapes/module.js?v=2'); init(see, { telephone: 'compact', pas: 60 }); }
   const fpe = $('[data-module="formulaire-par-etapes"]');
   if (fpe) {
-    const { init } = await import('./modules/formulaire-par-etapes/module.js?v=1');
+    const { init } = await import('./modules/formulaire-par-etapes/module.js?v=2');
     /* Préremplissage d'après le bouton d'où l'on vient (?sujet=…&pour=…&atelier=…). */
     const p = new URLSearchParams(location.search);
     ['sujet', 'pour'].forEach((n) => {
@@ -238,7 +264,8 @@ demarrer({
   preparer() {
     if (!gsap) return;
     cerclePortrait();
-    rondQuiSePose();
+    boussole();
+    copier();
     friseParcours();
     citationMots();
     troisCercles();

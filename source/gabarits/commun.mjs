@@ -53,7 +53,7 @@ function entete(c) {
   return html`<header data-entete>
   <div class="entete-rangee">
     <a class="entete-logo" href="${c.url('accueil')}" data-libelle="${c.libelle('accueil')}" aria-label="${c.s('commun.logo')}"${c.page.cle === 'accueil' ? brut(' aria-current="page"') : ''}>
-      <img src="/assets/images/logo-240.webp" srcset="/assets/images/logo-240.webp 240w, /assets/images/logo-480.webp 480w" sizes="120px" alt="" width="240" height="143">
+      <img src="/assets/images/logo-guida.svg" alt="" width="108" height="64"><span class="entete-signature" aria-hidden="true"><strong>Mariève Gérard</strong><span>Coach à Héron</span></span>
     </a>
     <nav data-nav aria-label="${c.s('commun.navigation')}">
       <ul>${navigation(c).filter((k) => k !== 'accueil' && k !== (c.site.actionEntete && c.site.actionEntete.page)).map((k) => html`<li>${c.lien(k)}</li>`)}</ul>
@@ -95,7 +95,7 @@ function pied(c) {
   return html`<footer class="pied" id="pied">
   <div class="conteneur pied-grille">
     <div class="pied-marque">
-      <img src="/assets/images/logo-240.webp" alt="${c.site.nom}" width="240" height="143" loading="lazy">
+      <span class="disque-logo pied-disque"><img src="/assets/images/logo-guida.svg" alt="${c.site.nom}" width="108" height="64" loading="lazy"></span>
       <p>${c.t('commun.introLigne')}</p>
     </div>
     <div>
@@ -125,7 +125,7 @@ function barre(c) {
   const a = c.site.actionEntete;
   return html`<div data-barre-fixe>
   <a class="bouton bouton--contour" href="tel:${c.site.contact.telephoneLien}">${c.t('commun.appeler')}</a>
-  ${a ? html`<a class="bouton" href="${c.url(a.page, a.ancre || '')}" data-libelle="${c.libelle(a.page)}">${c.t('commun.actionEntete')}</a>` : ''}
+  ${a ? html`<a class="bouton" href="${c.url(a.page, a.ancre || '')}" data-libelle="${c.libelle(a.page)}">${c.t('commun.actionCourte')}</a>` : ''}
 </div>`;
 }
 
@@ -136,7 +136,7 @@ function voile(c) {
   const vagues = forme === 'vague'
     ? html`<svg class="voile-vague voile-vague--haut" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 120 C 240 20 480 20 720 70 S 1200 130 1440 40 V 120 H 0 Z"/></svg><svg class="voile-vague voile-vague--bas" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 C 240 100 480 100 720 50 S 1200 -10 1440 80 V 0 H 0 Z"/></svg>`
     : '';
-  return html`<div data-voile data-forme="${forme}" aria-hidden="true">${vagues}<div class="voile-contenu"><span class="disque-logo"><img src="/assets/images/logo-240.webp" alt="" width="240" height="143"></span><span data-voile-libelle>${c.libelle(c.page.cle)}</span></div></div>`;
+  return html`<div data-voile data-forme="${forme}" aria-hidden="true">${vagues}<div class="voile-contenu"><span class="disque-logo"><img src="/assets/images/logo-guida.svg" alt="" width="108" height="64"></span><span data-voile-libelle>${c.libelle(c.page.cle)}</span></div></div>`;
 }
 
 export function page(c, contenu) {
@@ -146,7 +146,7 @@ ${tete(c)}
 <body id="haut">
 ${voile(c)}
 <div class="ouverture-panneau" data-ouverture aria-hidden="true">
-  <span class="ouverture-disque disque-logo" data-ouverture-objet><img src="/assets/images/logo-480.webp" alt="" width="480" height="286"><svg class="ouverture-fleche" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="48" /></svg></span>
+  <span class="ouverture-disque disque-logo" data-ouverture-objet><img src="/assets/images/logo-guida.svg" alt="" width="108" height="64"><svg class="ouverture-fleche" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="48" /></svg></span>
   <p class="ouverture-ligne">${c.t('commun.introLigne')}</p>
 </div>
 <a class="evitement" href="#contenu">${c.t('commun.evitement')}</a>

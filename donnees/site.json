@@ -2,7 +2,7 @@
   "nom": "Coaching Guida",
   "adresse": "https://guida-maquette.vercel.app",
   "siteActuel": "www.guida.be",
-  "version": 1,
+  "version": 2,
   "langues": ["fr"],
   "navigation": ["accueil", "coaching", "constellations", "formations", "rendez-vous"],
   "actionEntete": { "page": "rendez-vous" },

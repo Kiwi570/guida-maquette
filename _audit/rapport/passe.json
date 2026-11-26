@@ -1,16 +1,15 @@
 {
- "id": "20261126-111150-complet-cible-partiel",
- "date": "2026-11-26T11:16:10.040Z",
+ "id": "20261126-131147-complet-partiel",
+ "date": "2026-11-26T13:18:43.639Z",
  "niveau": "complet",
- "pages": "/,/404,/coaching,/rendez-vous",
+ "pages": "toutes",
  "etapes": [
-  "fichiers",
   "mesures",
   "ecran"
  ],
- "version": "1",
+ "version": "2",
  "echecs": 0,
- "aRegarder": 4,
+ "aRegarder": 3,
  "nonLances": 0,
  "manquants": 0,
  "statut": "complet"

@@ -1,6 +1,6 @@
 /* Pont entre les modules de la bibliothèque et le socle du projet : les modules demandent pret([...]) ;
    ici GSAP, ScrollTrigger et SplitText sont déjà chargés par la page, le défilement et les mesures sont ceux du socle. */
-import { rafraichir, aller } from '../socle/index.js?v=1';
+import { rafraichir, aller } from '../socle/index.js?v=2';
 
 export async function pret() {
   const gsap = window.gsap || null;

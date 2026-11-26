@@ -1,29 +1,46 @@
 {
   "professionnel": {
-    "themes": [
-      "Organisation et gestion du temps",
-      "Mise en valeur de vos talents",
-      "Estime et confiance en soi",
-      "Équilibre entre vie professionnelle et vie privée",
-      "Prévention ou gestion du burn-out",
-      "Bilan de compétences ou d'orientation",
-      "Clarifier votre projet professionnel",
-      "Motivation",
-      "Gestion du stress"
-    ],
     "encadres": [
       {
         "titre": "Chefs d'entreprise",
-        "texte": "Un accompagnement individuel ou pour votre équipe, et des ateliers : gestion des conflits, des réunions, du temps et du stress, cohésion d'équipe."
+        "texte": "Un accompagnement individuel ou pour votre équipe, et des ateliers : gestion des conflits, des réunions, du temps et du stress, cohésion d'équipe.",
+        "icone": "equipe"
       },
       {
         "titre": "Emploi et réorientation",
-        "texte": "Un regard extérieur sur votre CV, un projet clarifié et une préparation à l'entretien d'embauche."
+        "texte": "Un regard extérieur sur votre CV, un projet clarifié et une préparation à l'entretien d'embauche.",
+        "icone": "fleche"
       },
       {
         "titre": "Office organising",
         "texte": "Trier, ranger, désencombrer : repenser votre espace de rangement et votre organisation pour gagner du temps, si votre bureau déborde ou manque de place.",
-        "image": "grok/bureau-range"
+        "icone": "boites"
+      }
+    ],
+    "familles": [
+      {
+        "titre": "S'organiser",
+        "themes": [
+          "Organisation et gestion du temps",
+          "Équilibre entre vie professionnelle et vie privée",
+          "Gestion du stress"
+        ]
+      },
+      {
+        "titre": "Prendre confiance",
+        "themes": [
+          "Mise en valeur de vos talents",
+          "Estime et confiance en soi",
+          "Motivation",
+          "Prévention ou gestion du burn-out"
+        ]
+      },
+      {
+        "titre": "Choisir sa voie",
+        "themes": [
+          "Bilan de compétences ou d'orientation",
+          "Clarifier votre projet professionnel"
+        ]
       }
     ]
   },
@@ -36,47 +53,81 @@
       "Du mal à lâcher prise",
       "Un manque de confiance"
     ],
-    "themes": [
-      "S'organiser et gérer son temps",
-      "Relativiser",
-      "Estime et confiance en soi",
-      "Équilibre entre vie professionnelle et vie privée",
-      "Prévenir ou gérer le burn-out",
-      "Clarifier un projet",
-      "Mieux vivre son rôle de parent",
-      "Retrouver du temps et de la sérénité"
-    ],
     "encadres": [
       {
         "titre": "Guidance parentale",
-        "texte": "Poser un cadre et des limites, gérer les conflits, et recevoir des outils pour accompagner les émotions et les besoins de vos enfants."
+        "texte": "Poser un cadre et des limites, gérer les conflits, et recevoir des outils pour accompagner les émotions et les besoins de vos enfants.",
+        "icone": "famille"
       },
       {
         "titre": "Constellation familiale individuelle",
         "texte": "Explorer les schémas familiaux qui influencent votre vie et regarder autrement ce qui bloque.",
-        "page": "constellations"
+        "page": "constellations",
+        "icone": "points"
+      }
+    ],
+    "familles": [
+      {
+        "titre": "Retrouver l'équilibre",
+        "themes": [
+          "S'organiser et gérer son temps",
+          "Équilibre entre vie professionnelle et vie privée",
+          "Prévenir ou gérer le burn-out",
+          "Retrouver du temps et de la sérénité"
+        ]
+      },
+      {
+        "titre": "Avancer",
+        "themes": [
+          "Relativiser",
+          "Estime et confiance en soi",
+          "Clarifier un projet"
+        ]
+      },
+      {
+        "titre": "En famille",
+        "themes": [
+          "Mieux vivre son rôle de parent"
+        ]
       }
     ]
   },
   "scolaire": {
-    "themes": [
-      "Orientation scolaire",
-      "Motivation",
-      "Gestion du temps et organisation",
-      "Méthodes de travail, dont la gestion mentale",
-      "Estime et confiance en soi",
-      "Gestion du stress",
-      "Repérage et accompagnement des hauts potentiels",
-      "Aménagements raisonnables en classe"
-    ],
     "encadres": [
       {
         "titre": "Pour les parents",
-        "texte": "Des outils et des conseils pour mieux accompagner la scolarité de votre enfant."
+        "texte": "Des outils et des conseils pour mieux accompagner la scolarité de votre enfant.",
+        "icone": "famille"
       },
       {
         "titre": "Pour les écoles",
-        "texte": "Aménagements raisonnables, ateliers de méthode de travail, accompagnement des équipes éducatives et formations."
+        "texte": "Aménagements raisonnables, ateliers de méthode de travail, accompagnement des équipes éducatives et formations.",
+        "icone": "ecole"
+      }
+    ],
+    "familles": [
+      {
+        "titre": "Apprendre",
+        "themes": [
+          "Méthodes de travail, dont la gestion mentale",
+          "Gestion du temps et organisation",
+          "Orientation scolaire"
+        ]
+      },
+      {
+        "titre": "Avoir confiance",
+        "themes": [
+          "Motivation",
+          "Estime et confiance en soi",
+          "Gestion du stress"
+        ]
+      },
+      {
+        "titre": "Besoins particuliers",
+        "themes": [
+          "Repérage et accompagnement des hauts potentiels",
+          "Aménagements raisonnables en classe"
+        ]
       }
     ]
   }

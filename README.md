@@ -7,7 +7,7 @@ En ligne : https://guida-maquette.vercel.app (adresse à mettre dans le module W
 
 | Page | Adresse | Contenu |
 |---|---|---|
-| Accueil | `/` | Portrait dans le cercle du logo, « De quoi avez-vous besoin aujourd'hui ? », accompagnements, qui suis-je et parcours, approche, citation en plein écran, écoles et entreprises, appel final |
+| Accueil | `/` | Portrait dans le cercle du logo, boussole Guida (« De quoi avez-vous besoin aujourd'hui ? »), accompagnements, qui suis-je et parcours, approche, citation en plein écran, écoles et entreprises, appel final |
 | Coaching | `/coaching` | Trois cercles (professionnel, de vie, scolaire), un volet par coaching avec thèmes et encadrés |
 | Constellations familiales | `/constellations` | La salle dans une arche, de quoi il s'agit, situations, les quatre étapes en schéma épinglé |
 | Formations et ateliers | `/formations` | Bandeau de la grange, six ateliers filtrables, onze formations, IFAPME, devis |
@@ -27,12 +27,15 @@ En ligne : https://guida-maquette.vercel.app (adresse à mettre dans le module W
 - **Politique de confidentialité** en français (le site actuel n'en a qu'une en anglais), liée depuis le formulaire et le pied de page.
 - **Tarifs et durée des séances** : absents du site actuel ; la maquette affiche « Tarif et durée précisés au premier échange ».
 - **Horaires** : absents ; la maquette affiche « Horaires et tarifs précisés au premier échange ».
-- **Témoignages** : aucun sur le site actuel, aucun n'a été ajouté.
+- **Témoignages** : aucun sur le site actuel, aucun n'a été ajouté. Trois témoignages réels (prénom ou initiales, type d'accompagnement) renforceraient beaucoup la confiance.
+- **Déroulé d'un premier rendez-vous, séances à distance ou non, délai de réponse** : à préciser.
+- **Accès au cabinet** (parking, transports) : à préciser.
 - **Dates des ateliers** : annoncées sur les réseaux sociaux ; un agenda peut être ajouté si la cliente les fournit.
 - **Diplômes** : la description d'une page du site actuel parle de « coachs diplômés de l'Université de Mons » ; non repris, à confirmer.
 - **Photos** : quelques vraies photos d'accompagnement (sans visage d'élève) remplaceraient avantageusement les illustrations générées.
 - **Constellations familiales** : le site actuel parle de « thérapie brève » et d'« approche thérapeutique ». En Belgique, l'exercice de la psychothérapie (y compris d'orientation systémique et familiale) est réservé aux professionnels agréés (loi du 10 juillet 2016). La maquette parle d'« accompagnement » et précise qu'il ne remplace pas un suivi médical ou psychologique : à faire valider par la cliente.
-- **Crédits des illustrations générées** : 10 illustrations créées avec Grok (marquées « Illustration générée » sur le site) : bureau devant la campagne, chemin dans les champs, mains d'élève qui surlignent, table d'atelier, bottes sur un seuil, bureau d'étude, bureau au lever du soleil, figurines en bois, bureau rangé, poteau indicateur.
+- **Crédits des illustrations générées** : 9 illustrations créées avec Grok (marquées « Illustration générée » sur le site) : bureau devant la campagne, chemin dans les champs, mains d'élève qui surlignent, table d'atelier, bottes sur un seuil, bureau d'étude, bureau au lever du soleil, figurines en bois, poteau indicateur.
+- **Logo** : redessiné en vectoriel (`assets/images/logo-guida.svg`) d'après le logo du site actuel ; le bleu du mot « uida » a été très légèrement foncé (#2F7DC0) pour rester lisible sur fond clair. À faire valider.
 
 ## Retiré ou remplacé faute d'information
 

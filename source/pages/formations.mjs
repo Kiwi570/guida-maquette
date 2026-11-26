@@ -46,7 +46,7 @@ export default (c) => {
       <p>${c.t('formations.ateliers.filtre')}</p>
       <button type="button" class="filtre" data-filtre="tous" aria-pressed="true">${c.t('formations.ateliers.tous')}</button>
       ${PUBLICS.map((p) => html`<button type="button" class="filtre" data-filtre="${p}" aria-pressed="false">${c.t(`formations.ateliers.${p}`)}</button>`)}
-      <p class="filtres-compte" aria-live="polite"><span data-compte>${ateliers.length}</span> ${c.t('formations.ateliers.compte')}</p>
+      <p class="filtres-compte" aria-live="polite"><span data-compte>${ateliers.length}</span> <span data-compte-mot data-un="${c.s('formations.ateliers.compteUn')}" data-plusieurs="${c.s('formations.ateliers.compte')}">${c.t('formations.ateliers.compte')}</span></p>
     </div>
     <ul class="ateliers" data-anime="cascade">
       ${ateliers.map((a) => html`<li class="atelier" id="atelier-${a.cle}" data-publics="${a.publics.join(' ')}">
@@ -70,7 +70,9 @@ export default (c) => {
       </div>
       <p class="fo-ifapme" data-anime>${c.t('formations.liste.ifapme')} <a href="https://www.ifapme.be" target="_blank" rel="noopener">${c.t('formations.liste.ifapmeLien')}</a></p>
     </div>
-    ${c.media({ nom: 'salle-reunion', alt: c.s('formations.legendeSalle'), cadrage: '50% 55%', sizes: '(max-width: 900px) 80vw, 420px', attrs: 'data-fx="parallaxe"' })}
+    <div class="fo-figure" aria-hidden="true" data-visuel>
+      <svg viewBox="0 0 240 240" data-fx="trace"><circle cx="120" cy="120" r="108" /><circle cx="120" cy="120" r="72" /><circle cx="120" cy="120" r="36" /><path d="M84 156 L156 84 M120 84 H156 V120" /></svg>
+    </div>
   </div>
 </section>
 

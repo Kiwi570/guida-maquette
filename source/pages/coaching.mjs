@@ -10,11 +10,23 @@ const VOLETS = [
   { cle: 'scolaire', image: 'grok/scolaire-devoirs', cadrage: '50% 50%' },
 ];
 
+/* Icônes des encadrés : un seul gabarit (rond, titre, deux lignes, lien). */
+const ICONES = {
+  equipe: html`<circle cx="15" cy="17" r="5" /><circle cx="29" cy="17" r="5" /><path d="M6 33c1-6 5-9 9-9s8 3 9 9M20 33c1-6 5-9 9-9s8 3 9 9" />`,
+  fleche: html`<path d="M12 32 L32 12 M20 12 H32 V24" />`,
+  boites: html`<rect x="9" y="11" width="11" height="9" rx="2" /><rect x="24" y="11" width="11" height="9" rx="2" /><rect x="9" y="24" width="26" height="10" rx="2" />`,
+  famille: html`<circle cx="15" cy="14" r="5" /><circle cx="30" cy="20" r="3.5" /><path d="M6 34c1-7 5-10 9-10s8 3 9 10M24 34c.5-4 3-7 6-7s5.5 3 6 7" />`,
+  points: html`<circle cx="22" cy="10" r="3.5" /><circle cx="34" cy="22" r="3.5" /><circle cx="22" cy="34" r="3.5" /><circle cx="10" cy="22" r="3.5" /><circle cx="22" cy="22" r="12" />`,
+  ecole: html`<path d="M7 34V19l15-9 15 9v15" /><path d="M17 34v-8h10v8" />`,
+};
 const encadres = (c, liste) => html`<ul class="encadres" data-anime="cascade">${liste.map((e) => html`<li class="encadre">
-  ${e.image ? c.media({ nom: e.image, alt: '', sizes: '(max-width: 760px) 90vw, 380px' }) : ''}
+  <span class="encadre-icone" aria-hidden="true"><svg viewBox="0 0 44 44">${ICONES[e.icone] || ''}</svg></span>
   <h3>${e.titre}</h3><p>${e.texte}</p>
   ${e.page ? c.lien(e.page, { classe: 'lien-fleche', texte: c.t('commun.decouvrir') }) : ''}
 </li>`)}</ul>`;
+
+/* Thèmes regroupés en trois familles. */
+const familles = (liste) => html`<div class="familles" data-anime="cascade">${liste.map((f) => html`<div class="famille"><h4>${f.titre}</h4><ul>${f.themes.map((t) => html`<li>${t}</li>`)}</ul></div>`)}</div>`;
 
 export default (c) => {
   const d = c.donnees.coaching;
@@ -43,7 +55,7 @@ export default (c) => {
       <h2 data-anime="lignes">${c.t('coaching.professionnel.titre')}</h2>
       <p class="intro-section" data-anime>${c.t('coaching.professionnel.texte')}</p>
       <h3 class="sous">${c.t('coaching.professionnel.themes')}</h3>
-      <ul class="puces" data-anime="cascade">${d.professionnel.themes.map((x) => html`<li>${x}</li>`)}</ul>
+      ${familles(d.professionnel.familles)}
       <p class="actions" style="margin-top:28px" data-anime>${c.lien('rendez-vous', { params: 'sujet=professionnel', classe: 'bouton', texte: c.t('commun.enParler') })}</p>
     </div>
     <div class="volet-visuel">
@@ -62,7 +74,7 @@ export default (c) => {
       <h3 class="sous">${c.t('coaching.vie.situations')}</h3>
       <ul class="puces" data-anime="cascade">${d.vie.situations.map((x) => html`<li>${x}</li>`)}</ul>
       <h3 class="sous">${c.t('coaching.vie.themes')}</h3>
-      <ul class="puces" data-anime="cascade">${d.vie.themes.map((x) => html`<li>${x}</li>`)}</ul>
+      ${familles(d.vie.familles)}
       <p class="actions" style="margin-top:28px" data-anime>${c.lien('rendez-vous', { params: 'sujet=vie', classe: 'bouton', texte: c.t('commun.enParler') })}</p>
     </div>
     <div class="volet-visuel">
@@ -79,7 +91,7 @@ export default (c) => {
       <h2 data-anime="lignes">${c.t('coaching.scolaire.titre')}</h2>
       <p class="intro-section" data-anime>${c.t('coaching.scolaire.texte')}</p>
       <h3 class="sous">${c.t('coaching.scolaire.themes')}</h3>
-      <ul class="puces" data-anime="cascade">${d.scolaire.themes.map((x) => html`<li>${x}</li>`)}</ul>
+      ${familles(d.scolaire.familles)}
       <blockquote class="volet-citation" data-anime>${c.t('coaching.scolaire.citation')}</blockquote>
       <p class="actions" style="margin-top:28px" data-anime>${c.lien('rendez-vous', { params: 'sujet=scolaire&pour=enfant', classe: 'bouton', texte: c.t('commun.enParler') })}</p>
     </div>

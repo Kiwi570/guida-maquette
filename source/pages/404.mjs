@@ -11,6 +11,7 @@ export default (c) => html`
     <p class="page-intro" data-apparait>${c.t('introuvable.texte')}</p>
     <p class="actions" data-apparait>${c.lien('accueil', { classe: 'bouton', texte: c.t('introuvable.retour'), attrs: 'data-action-principale' })} ${c.lien('rendez-vous', { classe: 'lien-fleche', texte: c.t('commun.actionEntete') })}</p>
     <p class="texte-doux" data-info-cle data-apparait><a href="tel:${c.site.contact.telephoneLien}">${c.site.contact.telephone}</a></p>
+    <p class="introuvable-liens" data-apparait>${c.t('introuvable.ailleurs')} ${c.lien('coaching', { classe: 'lien-fleche' })} ${c.lien('constellations', { classe: 'lien-fleche' })} ${c.lien('formations', { classe: 'lien-fleche' })}</p>
   </div>
   ${c.media({ nom: 'grok/carrefour-404', alt: c.donnees.images?.['grok/carrefour-404']?.alt || '', priorite: true, sizes: '(max-width: 760px) 92vw, 640px', attrs: 'data-iris-centre data-fx="zoom"' })}
 </section>

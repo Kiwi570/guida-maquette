@@ -1,6 +1,7 @@
 /* Prendre rendez-vous : l'outil d'abord. Appel direct et formulaire en étapes (module formulaire-par-etapes),
    puis coordonnées et plan schématique de Héron. */
 import { html } from '../../outils/gabarit.mjs';
+import { copierEmail } from '../gabarits/fin.mjs';
 
 export const page = { cle: 'rendez-vous', fichier: 'rendez-vous', imagePartage: 'marieve-noir-585.webp' };
 
@@ -114,7 +115,7 @@ export default (c) => {
       <h2 data-anime="lignes">${c.t('rendezvous.carte.titre')}</h2>
       <dl class="coord-liste" data-anime="cascade">
         <div><dt>${c.t('rendezvous.coord.telephone')}</dt><dd><a href="tel:${k.telephoneLien}">${k.telephone}</a></dd></div>
-        <div><dt>${c.t('rendezvous.coord.email')}</dt><dd class="selectionnable">${k.email}</dd></div>
+        <div><dt>${c.t('rendezvous.coord.email')}</dt><dd>${copierEmail(c)}</dd></div>
         <div><dt>${c.t('rendezvous.coord.adresse')}</dt><dd>${k.adresse}</dd></div>
         <div><dt>${c.t('commun.reseaux')}</dt><dd><a href="https://www.facebook.com/coaching.guida/" target="_blank" rel="noopener">Facebook</a> · <a href="https://www.instagram.com/marievegerard/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.tiktok.com/@marievegerardcoaching" target="_blank" rel="noopener">TikTok</a></dd></div>
       </dl>
